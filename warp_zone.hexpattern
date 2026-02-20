@@ -1,3 +1,113 @@
+//Initializer
+{
+    Consideration: {
+        Gemini Decomposition
+        Auditor's Purification
+        {
+            Chronicler's Purification
+        }
+        {
+            Bookkeeper's Gambit: v
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    Consideration: }
+    //Pedestal holding [Focal wall corner 1, focal wall corner 2]
+    Flock's Disintegration
+    Cubic Exaltation
+    Gemini Decomposition
+    //Pedestal holding [Speck list frame, Dest list frame, Rotation frame, Index frame]
+    Flock's Disintegration
+    Numerical Reflection: 0
+    Undertaker's Gambit
+    //Stack: Dest list, Dest list, Speck frame, Dest frame, Rot frame, 0, Index frame, 0
+    Chronicler's Gambit
+    Chronicler's Gambit
+    //Stack: Dest list, Dest list, Speck frame, Dest frame
+    Rotation Gambit
+    Chronicler's Gambit
+    //Stack: Dest list, Speck frame
+    Undertaker's Gambit
+    Chronicler's Purification
+    Dioscuri Gambit
+    //Stack: Speck frame, Dest list, Spek list, Dest List, Spek list
+    Length Purification
+    Jester's Gambit
+    Length Purification
+    //Stack: Speck frame, Dest list, Spek list, Spek list length, Dest list length
+    Dioscuri Gambit
+    Equality Distillation
+    // -- Shepard Directrix --
+    {//If equal, no additional operation required
+        Bookkeeper's Gambit: v--vv
+    }
+    { //If not equal
+        Dioscuri Gambit
+        Minimus Distillation
+        // -- Shepard Directrix --
+        { //If # speck < # dest, create enough specks to fill
+            Jester's Gambit
+            Subtractive Distillation
+            Vacant Reflection
+            {
+                Hermes' Gambit
+                Vacant Reflection
+                Waystone Reflection
+                Vector Reflection Zero
+                Conjure Speck
+                Integration Distillation
+            }
+            Rotation Gambit
+            Gemini Gambit
+            Hermes' Gambit
+            Gemini Decomposition
+            Numerical Reflection: 8 //cbda
+            Swindler's Gambit
+            Chronicler's Gambit
+        }
+        { //If # speck > # dest, hide excess specks and move them elsewhere
+            Dioscuri Gambit
+            //Stack: Speck frame, Dest list, Spek list, Dest list length, Spek list, Dest list length
+            Prospector's Gambit
+            Length Purification
+            Selection Exaltation
+            { //Move to under impetus, input short placeholder display, set size to really small
+                Gemini Decomposition
+                Gemini Decomposition
+                Waystone Reflection
+                Vector Reflection -Y
+                Numerical Reflection: 10
+                Multiplicative Distillation
+                Additive Distillation
+                Move Speck
+                Vacant Reflection
+                Alter Speck
+                Numerical Reflection: 0.25
+                Resize Speck
+            }
+            Jester's Gambit
+            Nehmetawy's Gambit
+            Bookkeeper's Gambit: v
+            Numerical Reflection: 0
+            Selection Exaltation
+            Bookkeeper's Gambit: v--
+        }
+    }
+    //Stack: Dest list, Speck list (trimmed)
+    Jester's Gambit
+    Multiplicative Distillation //Convert to [Speck, dest] pairs list
+    { // Set text and reset size
+        Flock's Disintegration
+        Numerical Reflection: 0
+        Selection Distillation
+        Prospector's Gambit
+        Numerical Reflection: 0
+        Resize Speck
+        Alter Speck
+    }
+    Thoth's Gambit
+}
+
 // Left Selection
 {
     //Pedestal holding [destinations list focal frame coords, selection number focal frame coords]
