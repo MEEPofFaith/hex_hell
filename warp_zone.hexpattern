@@ -4,7 +4,14 @@
         Gemini Decomposition
         Auditor's Purification
         {
+            Gemini Decomposition
+            Chest Purification
+            Flock's Disintegration // Focal frame should only ever have 1 item in it
+            Appellation Purification
+            Jester's Gambit
             Chronicler's Purification
+            Numerical Reflection: 2
+            Flock's Gambit
         }
         {
             Bookkeeper's Gambit: v
@@ -150,4 +157,14 @@
     Rotation Gambit II
     Chronicler's Purification
     
+}
+
+//Speck mover
+{
+    {
+        Chronicler's Purification
+    }
+    //Pedestal holding [Speck list frame, Rotation frame, Index frame]
+    Nehmetawy's Gambit
+    Flock's Disintegration
 }
