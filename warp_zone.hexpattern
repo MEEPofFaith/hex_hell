@@ -1,0 +1,43 @@
+// Left Selection
+{
+    //Pedestal holding [destinations list focal frame coords, selection number focal frame coords]
+    Flock's Disintegration
+    //Stack: dest list coords, curr num coords
+    Gemini Decomposition
+    Chronicler's Purification
+    Numerical Reflection: 1
+    Subtractive Distillation
+    //Stack: dest list coords, curr num coords, new num
+    Rotation Gambit
+    Chronicler's Purification
+    Length Purification
+    Modulus Distillation II
+    Chronicler's Gambit
+}
+
+// Right Selection
+{
+    //Pedestal holding [destinations list focal frame coords, selection number focal frame coords]
+    Flock's Disintegration
+    //Stack: dest list coords, curr num coords
+    Gemini Decomposition
+    Chronicler's Purification
+    Numerical Reflection: 1
+    Additive Distillation
+    //Stack: dest list coords, curr num coords, new num
+    Rotation Gambit
+    Chronicler's Purification
+    Length Purification
+    Modulus Distillation II
+    Chronicler's Gambit
+}
+
+// Librarian Selection
+{
+    // Starting stack: string
+    //Pedestal holding [dest list focal frame coords, selection number focal frame coords]
+    Flock's Disintegration
+    Rotation Gambit II
+    Chronicler's Purification
+    
+}
