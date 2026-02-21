@@ -207,28 +207,20 @@
     Subtractive Distillation
     //Stack: speck list, angular spacing, angle frame, (from > to), fwd dist, back dist
     Dioscuri Gambit //I can't believe there's no pattern for this
+    Dioscuri Gambit
     Minimus Distillation
-    {
-        Prospector's Gambit
-    }
-    {
-        Gemini Decomposition
-    }
+    Rotation Gambit II
     Augur's Exaltation
-    Hermes' Gambit
-    Numerical Reflection: 2
+    Numerical Reflection: 8
     Division Distillation
     Nut's Gambit: 3
     //Stack: speck list, angular spacing, angle frame, shorter dist / 2, (from > to), fwd dist, back dist
     Minimus Distillation //Forwards dist < Backwards dist
     Equality Distillation //(from > to == backwards > forwards)
-    {
-        Numerical Reflection: -1
-        Multiplicative Distillation
-    }
-    Vacant Reflection
+    Numerical Reflection: -1
+    Numerical Reflection: 1
     Augur's Exaltation
-    Hermes' Gambit
+    Multiplicative Distillation
     //Stack: speck list, angular spacing, angle frame, (+/-)shorter dist / 2
     Prospector's Gambit
     Chronicler's Purification
@@ -251,6 +243,30 @@
         Arc's Reflection
         Multiplicative Distillation
         //Stack: Speck, angle in radians
+        Dioscuri Gambit
+        //Inv. Hyp. Cosine Prfn. (Broken, manually implement) 2 / (e^x + e^-x)
+        Euler's Reflection
+        Jester's Gambit
+        Dioscuri Gambit
+        Power Distillation
+        Rotation Gambit II
+        Numerical Reflection: -1
+        Multiplicative Distillation
+        Power Distillation
+        Additive Distillation
+        Numerical Reflection: 2
+        Jester's Gambit
+        Division Distillation
+        //End Inv. Hyp. Cosine Prfn.
+        //Stack: Speck, angle in radians, speck, scale
+        Undertaker's Gambit
+        Numerical Reflection: 2.5
+        Multiplicative Distillation
+        Numerical Reflection: 1
+        Additive Distillation
+        Resize Speck
+        Jester's Gambit
+        //Stack: Speck, scale, angle in radians
         Gemini Decomposition
         Sine Purification //x offset.
         Numerical Reflection: 12
@@ -259,7 +275,11 @@
         Cosine Purification //z offset. 0 rad = -z
         Numerical Reflection: -12
         Multiplicative Distillation
-        Numerical Reflection: 6
+        Rotation Gambit
+        Numerical Reflection: 3
+        Multiplicative Distillation
+        Numerical Reflection: 3
+        Additive Distillation
         Jester's Gambit
         Vector Exaltation
         //Coordintes of center
