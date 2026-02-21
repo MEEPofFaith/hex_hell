@@ -21,6 +21,7 @@
     Consideration: }
     //Pedestal holding [Focal wall corner 1, focal wall corner 2]
     Flock's Disintegration
+    False Reflection
     Cubic Exaltation
     Gemini Decomposition
     //Pedestal holding [Speck list frame, Dest list frame, Rotation frame, Index frame]
@@ -73,6 +74,7 @@
             Chronicler's Gambit
         }
         { //If # speck > # dest, hide excess specks and move them elsewhere
+            Bookkeeper's Gambit: v-
             Dioscuri Gambit
             //Stack: Speck frame, Dest list, Spek list, Dest list length, Spek list, Dest list length
             Prospector's Gambit
@@ -112,6 +114,7 @@
         Resize Speck
         Alter Speck
     }
+    Jester's Gambit
     Thoth's Gambit
 }
 
@@ -161,7 +164,7 @@
 
 //Speck mover (Idealy the entire thing is shoved in a macro for maximum time fedelity.)
 {
-    //Pedestal holding [Rotation frame, Index Frame, Speck list frame]
+    //Pedestal holding [Angle frame, Index Frame, Speck list frame]
     Flock's Disintegration
     Chronicler's Purification
     Gemini Decomposition
@@ -169,17 +172,17 @@
     Numerical Reflection: 360
     Jester's Gambit
     Division Distillation
-    //Stack: Rotation frame, index frame, speck list, angular spacing
+    //Stack: Angle frame, index frame, speck list, angular spacing
     Rotation Gambit
     Chronicler's Purification
     Prospector's Gambit
     Multiplicative Distillation
-    //Stack: Rotation frame, speck list, angular spacing, target angle
-    Geb's Gambit: 4
+    //Stack: Angle frame, speck list, angular spacing, target angle
+    Geb's Gambit: 3
     Gemini Decomposition
     Rotation Gambit II
     Chronicler's Purification
-    //Stack: speck list, angular spacing, Rotation frame, target angle, current angle
+    //Stack: speck list, angular spacing, Angle frame, target angle, current angle
 
     //Update angle (See Angles.moveToward in Arc)
     Numerical Reflection: 360
@@ -187,20 +190,22 @@
     Modulus Distillation II
     Rotation Gambit II
     Modulus Distillation II
-    //Stack: speck list, angular spacing, Rotation frame, current % 360, target % 360
+    //Stack: speck list, angular spacing, angle frame, current % 360, target % 360
     Dioscuri Gambit
-    Dioscuri Gambit
+    //Stack: speck list, angular spacing, angle frame, current % 360, target % 360, current % 360, target % 360
     Maximus Distillation //from > to
     Rotation Gambit II
+    //Stack: speck list, angular spacing, angle frame, (from > to), current % 360, target % 360
     //Forwards distance: (|from - to|)
     Subtractive Distillation
     Length Purification
+    //Stack: speck list, angular spacing, angle frame, (from > to), fwd dist
     //Backwards distance: (360 - |from - to|)
     Gemini Decomposition
     Numerical Reflection: 360
     Jester's Gambit
     Subtractive Distillation
-    //Stack: speck list, angular spacing, rotation frame, (from > to), fwd dist, back dist
+    //Stack: speck list, angular spacing, angle frame, (from > to), fwd dist, back dist
     Dioscuri Gambit //I can't believe there's no pattern for this
     Minimus Distillation
     {
@@ -213,17 +218,18 @@
     Hermes' Gambit
     Numerical Reflection: 2
     Division Distillation
-    Nut's Gambit: 4
-    //Stack: speck list, angular spacing, rotation frame, shorter dist / 2, (from > to), fwd dist, back dist
+    Nut's Gambit: 3
+    //Stack: speck list, angular spacing, angle frame, shorter dist / 2, (from > to), fwd dist, back dist
     Minimus Distillation //Forwards dist < Backwards dist
     Equality Distillation //(from > to == backwards > forwards)
-    Vacant Reflection
     {
         Numerical Reflection: -1
         Multiplicative Distillation
     }
+    Vacant Reflection
     Augur's Exaltation
     Hermes' Gambit
+    //Stack: speck list, angular spacing, angle frame, (+/-)shorter dist / 2
     Prospector's Gambit
     Chronicler's Purification
     Additive Distillation
@@ -258,9 +264,12 @@
         Vector Exaltation
         //Coordintes of center
         //Stack: Speck, Offset, Center coords
-        Numerical Reflection: 3
-        Dioscuri Gambit II
+        Undertaker's Gambit
         Additive Distillation
+        //Stack: Speck, Center, Position
+        Numerical Reflection: 3
+        Fisherman's Gambit II
+        Prospector's Gambit
         Move Speck
         Subtractive Distillation
         Rotate Speck
@@ -268,4 +277,5 @@
     Numerical Reflection: 15 //bcad
     Swindler's Gambit
     Thoth's Gambit
+    Bookkeeper's Gambit: vvv
 }
