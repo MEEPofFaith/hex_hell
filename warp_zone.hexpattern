@@ -260,13 +260,15 @@
         Rotation Gambit II
         Soroban Reflection
         Multiplicative Distillation
-        Additive Distillation
+        Subtractive Distillation
         //Stack: Speck, angle
         Numerical Reflection: 180
         Division Distillation
         Arc's Reflection
         Multiplicative Distillation
         //Stack: Speck, angle in radians
+        Dioscuri Gambit
+        //Constrain angle for the sech
         Arc's Reflection
         Subtractive Distillation
         Numerical Reflection: 2
@@ -275,7 +277,6 @@
         Modulus Distillation II
         Arc's Reflection
         Subtractive Distillation
-        Dioscuri Gambit
         //Inv. Hyp. Cosine Prfn. (Broken, manually implement) 2 / (e^x + e^-x)
         Euler's Reflection
         Jester's Gambit
