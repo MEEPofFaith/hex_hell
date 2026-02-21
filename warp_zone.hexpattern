@@ -120,35 +120,59 @@
 
 // Left Selection
 {
-    //Pedestal holding [destinations list focal frame coords, selection number focal frame coords]
+    //Pedestal holding [dest focus item coords, destinations list focal frame coords, selection number focal frame coords]
     Flock's Disintegration
-    //Stack: dest list coords, curr num coords
+    //Stack: dest focus item coords, dest list coords, curr num coords
     Gemini Decomposition
     Chronicler's Purification
     Numerical Reflection: 1
     Subtractive Distillation
-    //Stack: dest list coords, curr num coords, new num
+    //Stack: dest focus item coords, dest list coords, curr num coords, new num
     Rotation Gambit
     Chronicler's Purification
+    Undertaker's Gambit
     Length Purification
     Modulus Distillation II
+    Undertaker's Gambit
+    //Stack: dest focus item coords, curr num coords, new num, dest list, new num
+    Numerical Reflection: 14 //bcda
+    Swindler's Gambit
+    Chronicler's Gambit
+    Selection Distillation
+    Numerical Reflection: 1
+    Selection Distillation
+    Jester's Gambit
+    Entity Purification: Item
+    Jester's Gambit
     Chronicler's Gambit
 }
 
 // Right Selection
 {
-    //Pedestal holding [destinations list focal frame coords, selection number focal frame coords]
+    //Pedestal holding [dest focus item coords, destinations list focal frame coords, selection number focal frame coords]
     Flock's Disintegration
-    //Stack: dest list coords, curr num coords
+    //Stack: dest focus item coords, dest list coords, curr num coords
     Gemini Decomposition
     Chronicler's Purification
     Numerical Reflection: 1
     Additive Distillation
-    //Stack: dest list coords, curr num coords, new num
+    //Stack: dest focus item coords, dest list coords, curr num coords, new num
     Rotation Gambit
     Chronicler's Purification
+    Undertaker's Gambit
     Length Purification
     Modulus Distillation II
+    Undertaker's Gambit
+    //Stack: dest focus item coords, curr num coords, new num, dest list, new num
+    Numerical Reflection: 14 //bcda
+    Swindler's Gambit
+    Chronicler's Gambit
+    Selection Distillation
+    Numerical Reflection: 1
+    Selection Distillation
+    Jester's Gambit
+    Entity Purification: Item
+    Jester's Gambit
     Chronicler's Gambit
 }
 
@@ -243,6 +267,14 @@
         Arc's Reflection
         Multiplicative Distillation
         //Stack: Speck, angle in radians
+        Arc's Reflection
+        Subtractive Distillation
+        Numerical Reflection: 2
+        Arc's Reflection
+        Multiplicative Distillation
+        Modulus Distillation II
+        Arc's Reflection
+        Subtractive Distillation
         Dioscuri Gambit
         //Inv. Hyp. Cosine Prfn. (Broken, manually implement) 2 / (e^x + e^-x)
         Euler's Reflection
