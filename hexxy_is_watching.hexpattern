@@ -1,0 +1,70 @@
+{
+    // <Center coords>
+    Numerical Reflection: 10
+    Zone Distillation: Player
+    Derivation Decomposition
+    Gemini Decomposition
+    Augur's Purification
+    {
+        Compass' Purification
+        Contemplation
+        // <[[Left Eye, Right Eye], Face]>
+        Flock's Disintegration
+        Gemini Decomposition
+        Compass' Purification
+        Undertaker's Gambit
+        Geb's Gambit: 4
+        Jester's Gambit
+        Subtractive Distillation
+        Gemini Decomposition
+        Length Purification
+        Division Distillation
+        Undertaker's Gambit
+        Rotate Speck
+        //Stack: [Left Eye, Right Eye], Face Coords, Facing direction
+        Soroban Gambit
+        {
+            //Stack: Face coords, facing direction, Eye
+            Dioscuri Gambit
+            Jester's Gambit
+            Rotate Speck
+            Rotation Gambit II
+            Gemini Decomposition
+            Numerical Reflection: 10
+            Division Distillation
+            Rotation Gambit II
+            Vector Disintegration
+            Bookkeeper's Gambit: v-
+            Inverse Tangent Distillation
+            Arc's Reflection
+            Soroban Reflection
+            Augur's Exaltation
+            Contemplation
+            Numerical Reflection: -4
+            Contemplation
+            Numerical Reflection: 4
+            Augur's Purification
+            Division Distillation
+            Additive Distillation
+            Numerical Reflection: 2.5
+            Jester's Gambit
+            Dioscuri Gambit
+            Cosine Purification
+            Multiplicative Distillation
+            Rotation Gambit II
+            Sine Purification
+            Multiplicative Distillation
+            Numerical Reflection: 0
+            Jester's Gambit
+            Vector Exaltation
+            Additive Distillation
+            Move Speck
+        }
+        Geb's Gambit: 3
+        Thoth's Gambit
+    }
+    Consideration: Charon's Gambit
+    Augur's Exaltation
+    Hermes' Gambit
+    Sekhmet' Gambit: 0
+}
