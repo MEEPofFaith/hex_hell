@@ -1,11 +1,18 @@
+//Load empty dict into property
+{<property>}
+Impasse Reflection
+Schrödinger's Gambit
+//Check if my face is in the world, because apparently that matters for the origin of a raycast
 Mind's Reflection
 Compass' Purification
 Ambit Purification
-Vacant Reflection
+Contemplation
+Tutu's Gambit
 Contemplation
 Janus' Gambit
 Augur's Exaltation
 Hermes' Gambit
+//Main loop
 {
     Gemini Decomposition
     Break Block
@@ -25,7 +32,8 @@ Hermes' Gambit
     Jester's Gambit
     Vector Reflection -1
     Additive Distillation
-    Muninn's Reflection
+    Contemplation
+    Patience // Type check here (Index: 19)
     Rotation Gambit II
     True Reflection
     Cubic Exaltation
@@ -33,7 +41,8 @@ Hermes' Gambit
     Length Purification
     Soroban Gambit II
     Flock's Disintegration
-    Vacant Reflection
+    Contemplation
+    Tutu's Gambit
     {
         Hermes' Gambit
         Pollux's Gambit
@@ -50,42 +59,77 @@ Alidade's Purification
 Archer's Distillation
 Gemini Decomposition
 Detective's Purification
-Bubbles' Purification
 {
     Sekhmet's Gambit: 1
+    //Check if already checked
+    Contemplation
+    {<property>}
+    Gemini Decomposition
+    Observation Purification
+    //Stack: pos, property, dict
+    Electric Fisherman: ^--
+    Locator's Distillation
+    Augur's Purification
+    {
+        Sekhmet' Gambit
+        Atalanta's Gambit
+    }
+    {
+        //Stack: pos, property, dict
+        Electric Fisherman: ^--
+        Contemplation
+        <{0}>
+        Surgeon's Exaltation
+        Schrödinger's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    //Check if pos is in the world
     Gemini Decomposition
     Ambit Purification
     {
+        //Check if pos is the same block
         Gemini Decomposition
         Detective's Purification
-        NoOp
+        Contemplation
+        Patience //Block identifier (Index: 27)
         Equality Distillation
         Contemplation
         Atalanta's Gambit
-        Vacant Reflection
+        Contemplation
+        Tutu's Gambit
         Augur's Exaltation
         Hermes' Gambit
     }
-    Vacant Reflection
+    Contemplation
+    Tutu's Gambit
     Augur's Exaltation
     Hermes' Gambit
     Sekhmet's Gambit: 0
 }
-Numerical Reflection: 6
+Numerical Reflection: 27
 Rotation Gambit
 Surgeon's Exaltation
-Huginn's Gambit
+Gemini Decomposition
+//Stack: main loop, pos, check, check
+Numerical Reflection: 8  //Swindle: c, b, d, a
+Swindler's Gambit
+//Stack: pos, check, main loop, check
+Numerical Reflection: 19
+Jester's Gambit
+Surgeon's Exaltation //Insert copy of check into main loop
+//Stack: pos, check, main loop
+Reflecting Gambit
 Gemini Decomposition
 Single's Purification
-Jester's Gambit
+//Stack: main loop, check, pos, [pos]
+Rotation Gambit II
 Gemini Decomposition
 Vector Reflection +1
 Additive Distillation
 Jester's Gambit
 Vector Reflection -1
 Additive Distillation
-Muninn's Reflection
-Rotation Gambit II
 True Reflection
 Cubic Exaltation
 Additive Distillation
