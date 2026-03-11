@@ -1,7 +1,3 @@
-//Load empty dict into property
-{<property>}
-Impasse Reflection
-Schrödinger's Gambit
 //Check if my face is in the world, because apparently that matters for the origin of a raycast
 Mind's Reflection
 Compass' Purification
@@ -12,6 +8,11 @@ Contemplation
 Janus' Gambit
 Augur's Exaltation
 Hermes' Gambit
+//Load empty list into property
+Contemplation
+<property>
+Vacant Reflection
+Schrödinger's Gambit
 //Main loop
 {
     Gemini Decomposition
@@ -50,7 +51,6 @@ Hermes' Gambit
     Soroban Reflection
     Gemini Gambit
     Hermes' Gambit
-    Sekhmet's Gambit: 0
 }
 Mind's Reflection
 Compass' Purification
@@ -63,23 +63,23 @@ Detective's Purification
     Sekhmet's Gambit: 1
     //Check if already checked
     Contemplation
-    {<property>}
+    <property>
     Gemini Decomposition
     Observation Purification
     //Stack: pos, property, dict
-    Electric Fisherman: ^--
+    Electric Fisherman: n--
     Locator's Distillation
-    Augur's Purification
+    Numerical Reflection: -1
+    Maximus Distillation
     {
-        Sekhmet' Gambit
+        Sekhmet's Gambit: 0
         Atalanta's Gambit
     }
     {
-        //Stack: pos, property, dict
-        Electric Fisherman: ^--
-        Contemplation
-        <{0}>
-        Surgeon's Exaltation
+        Gemini Decomposition
+        Observation Purification
+        Electric Fisherman: n--
+        Speaker's Distillation
         Schrödinger's Gambit
     }
     Augur's Exaltation
@@ -88,11 +88,10 @@ Detective's Purification
     Gemini Decomposition
     Ambit Purification
     {
-        //Check if pos is the same block
         Gemini Decomposition
         Detective's Purification
         Contemplation
-        Patience //Block identifier (Index: 27)
+        Patience // Block type here (Index: 28)
         Equality Distillation
         Contemplation
         Atalanta's Gambit
@@ -107,7 +106,7 @@ Detective's Purification
     Hermes' Gambit
     Sekhmet's Gambit: 0
 }
-Numerical Reflection: 27
+Numerical Reflection: 28
 Rotation Gambit
 Surgeon's Exaltation
 Gemini Decomposition
