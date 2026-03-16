@@ -1,0 +1,124 @@
+//Stack manip fuckery version
+Vacant Reflection //Already Checked List
+Mind's Reflection
+Compass' Purification
+//Check if I'm in the world. Archer's will mishap otherwise
+Gemini Decomposition
+Ambit Purification
+Contemplation
+Tutu's Gambit
+Contemplation
+Charon's Gambit
+Augur's Exaltation
+Hermes' Gambit
+Mind's Reflection
+Archer's Distillation
+Gemini Decomposition
+Detective's Purification
+Jester's Gambit
+Single's Purification
+Bubbling Gambit
+//Initial stack: block type, [checked list], [targets list]
+//Main loop
+{
+    Speaker's Decomposition
+    //Check if empty and terminate if so
+    Gemini Decomposition
+    Augur's Purification
+    Contemplation
+    Tutu's Gambit
+    Contemplation
+    Charon's Gambit
+    Augur's Exaltation
+    Hermes' Gambit
+    //Break and vaccuum
+    Gemini Decomposition
+    Break Block
+    Gemini Decomposition
+    Numerical Reflection: 1
+    Zone Distillation: Item
+    {
+        Mind's Reflection
+        Hopper
+    }
+    Jester's Gambit
+    Nehmetawy's Gambit
+    Bookkeeper's Gambit: v
+    //Get surrounding targets
+    Gemini Decomposition
+    Vector Reflection +1
+    Additive Distillation
+    Jester's Gambit
+    Vector Reflection -1
+    Additive Distillation
+    {
+        Nehmetawy's Gambit: 1
+    }
+    Rotation Gambit II
+    True Reflection
+    Cubic Exaltation
+    //Checking loop
+    {
+        //Stack: block type, [checked list], [targets list], [surrounding list]
+        Derivation Decomposition
+        //Check if empty and break
+        Gemini Decomposition
+        Augur's Purification
+        Contemplation
+        Tutu's Gambit
+        Contemplation
+        Charon's Gambit
+        Augur's Exaltation
+        Hermes' Gambit
+        //Check if already checked
+        Electric Fisherman: n---
+        Prospector's Gambit
+        Locator's Distillation
+        Numerical Reflection: -1
+        Equality Distillation
+        Contemplation
+        Tutu's Gambit
+        {
+            Bookkeeper's Gambit: v
+            Atalanta's Gambit
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+        //Not found, continue
+        //Add to checked list
+        Geb's Gambit: 3
+        Prospector's Gambit
+        Speaker's Distillation
+        Nut's Gambit: 3
+        //Stack: block type, [checked list], [targets list], [surrounding list], checking block
+        //Check if inside ambit
+        Gemini Decomposition
+        Ambit Purification
+        Contemplation
+        Tutu's Gambit
+        {
+            Bookkeeper's Gambit: v
+            Atalanta's Gambit
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+        //Check if same block type
+        Gemini Decomposition
+        Detective's Purification
+        Electric Fisherman: n-----
+        Equality Distillation
+        {
+            Bubbling Gambit
+            Integration Distillation
+            Jester's Gambit
+            Atalanta's Gambit
+        }
+        Contemplation
+        Bookkeeper's Gambit: v
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Sisyphus' Gambit
+    Bookkeeper's Gambit: vv
+}
+Sisyphus' Gambit //One must imagine sisyphus happy...
