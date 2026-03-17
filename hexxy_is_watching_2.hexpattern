@@ -1,0 +1,89 @@
+{
+    <Eye1>
+    <Eye2>
+}
+Contemplation
+<Face>
+Contemplation
+<Center>
+Numerical Reflection: 8
+Zone Distillation: Player
+//Check if there is a player
+Gemini Decomposition
+Augur's Purification
+Contemplation
+Tutu's Gambit
+{
+    Sekhmet' Gambit: 0
+    Numerical Reflection: 2
+    Erebus' Gambit
+}
+Augur's Exaltation
+Hermes' Gambit
+//Sort by distance to Hexxy, then pop the closest player.
+{
+    Sekhmet' Gambit: 2 //Face, Player
+    Compass' Purification
+    Jester's Gambit
+    Compass' Purification
+    Distance Distillation
+}
+Jester's Gambit
+Themis' Gambit
+Speaker's Decomposition
+Bookkeeper's Gambit: v-
+//Direction towards nearest player
+Gemini Decomposition
+Alidade's Purification
+Jester's Gambit
+Compass' Purification
+Additive Distillation
+Prospector's Gambit
+Compass' Purification
+Subtractive Distillation
+Norm Purification
+//Get target facing
+Prospector's Gambit
+Alidade's Purification
+Jester's Gambit
+Dioscuri Gambit
+Theta Distillation
+Numerical Reflection: 4
+Division Distillation
+Turning Exaltation
+//Stack: [Left Eye, Right Eye], Face, Direction
+//Rotations and shit
+Dioscuri Gambit
+Rotate Speck
+Jester's Gambit
+Compass' Purification
+Reflecting Gambit
+{
+    //Stack: Face pos, Direction, Eye Speck
+    Dioscuri Gambit
+    Jester's Gambit
+    Rotate Speck
+    Rotation Gambit II
+    Gemini Decomposition
+    Numerical Reflection: 20
+    Division Distillation
+    Jester's Gambit
+    Polar Decomposition
+    Bookkeeper's Gambit: v-
+    Arc's Reflection
+    Soroban Reflection
+    Augur's Purification
+    Numerical Reflection: 2
+    Numerical Reflection: -2
+    Augur's Exaltation
+    Division Distillation
+    Additive Distillation
+    Yaw Purification
+    Additive Distillation
+    Additive Distillation
+    Move Speck
+}
+Jester's Gambit
+Soroban Gambit
+Thoth's Gambit
+Sekhmet' Gambit: 0
