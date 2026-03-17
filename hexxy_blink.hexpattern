@@ -1,0 +1,63 @@
+//Closing + Delays
+{
+    {
+        <Left Eye>
+        <Right Eye>
+    }
+    Entropy Reflection
+    Numerical Reflection: 0.1
+    Maximus Distillation
+    { //90% chance to blink - Close for very short
+        {
+            Contemplation
+            //Closed Eye pattern
+            Alter Speck
+        }
+        Jester's Gambit
+        Nehmetawy's Gambit
+        Bookkeeper's Gambit: v
+        Numerical Reflection: 0
+        Numerical Reflection: 2
+    }
+    { //10% chance to wink - Close for 20-40 ticks
+        Derivation Decomposition
+        Bookkeeper's Gambit: v-
+        Contemplation
+        //Closed Eye pattern
+        Alter Speck
+        Numerical Reflection: 20
+        Numerical Reflection: 61
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    Entropy Distillation
+    Floor Purification
+    //Stay open for 25-100
+    Numerical Reflection: 25
+    Numerical Reflection: 101
+    Entropy Distilation
+    Floor Purification
+    Numerical Reflection: 0
+    Numerical Reflection: 0
+    //Stack: close time, open time, 0, 0
+    //Swindle: acbd -> 0, open time, 0, close time
+    Numerical Reflection: 21
+    Swindler's Gambit
+}
+
+//---------------------------------------------------------------------
+
+//Opening
+{
+    {
+        Contemplation
+        //Open Eye pattern
+        Alter Speck
+    }
+    {
+        <Left Eye>
+        <Right Eye>
+    }
+    Nehmetawy's Gambit
+    Bookkeeper's Gambit: v
+}
