@@ -1,0 +1,137 @@
+//Internal value validation
+Charmed Reflection
+Nullary Reflection
+Equality Distillation
+{
+    Numerical Reflection: 0
+    Charmed Gambit
+}
+Contemplation
+Tutu's Gambit
+Augur's Exaltation
+Hermes' Gambit
+//Action check
+Numerical Reflection: 3 //Button 4
+Equality Distillation
+{
+    //Cycle
+    Charmed Reflection
+    Stealthy Reflection
+    Numerical Reflection: -1
+    Equality Distillation
+    Contemplation
+    Incrementation Purification
+    Contemplation
+    Decrementation Purification
+    Augur's Exaltation
+    Hermes' Gambit
+    Numerical Reflection: 4
+    Modulus Distillation II
+    <["+X/-X","+Y/-Y", "+Z/-Z", "Face Me"]>
+    Prospector's Gambit
+    Selection Distillation
+    Send Thought
+    Charmed Gambit
+}
+{ //Otherwise, it's button 5
+    //Operate
+    { //Convert single to list. All ops start with this.
+        Gemini Decomposition
+        Classifier's Purification
+        Contemplation
+        <List Iota Type>
+        Inequality Distillation
+        Contemplation
+        Single's Purification
+        Contemplation
+        Tutu's Gambit
+        Augur's Exaltation
+        Hermes' Gambit
+        Contemplation
+        Introjection
+        Stealthy Reflection
+        Numerical Reflection: -1
+        Equality Distillation
+        Retrojection
+    }
+    { //Stack start: *anything*, speck list, not sneaking
+        { //+X/-X
+            Vector Reflection +X
+            Vector Reflection -X
+            Augur's Exaltation
+            Numerical Reflection: 20
+            Division Distillation
+            {
+                Sekhmet' Gambit: 2
+                Gemini Decomposition
+                Compass' Purification
+                Rotation Gambit
+                Additive Distillation
+                Move Speck
+            }
+        }
+        {
+            Vector Reflection +Y
+            Vector Reflection -Y
+            Augur's Exaltation
+            Numerical Reflection: 20
+            Division Distillation
+            {
+                Sekhmet' Gambit: 2
+                Gemini Decomposition
+                Compass' Purification
+                Rotation Gambit
+                Additive Distillation
+                Move Speck
+            }
+        }
+        {
+            Vector Reflection +Z
+            Vector Reflection -Z
+            Augur's Exaltation
+            Numerical Reflection: 20
+            Division Distillation
+            {
+                Sekhmet' Gambit: 2
+                Gemini Decomposition
+                Compass' Purification
+                Rotation Gambit
+                Additive Distillation
+                Move Speck
+            }
+        }
+        {
+            {
+                Sekhmet' Gambit: 2
+                Gemini Decomposition
+                Compass' Purification
+                Mind's Reflection
+                Compass' Purification
+                Geb's Gambit: 3
+                Contemplation
+                Jester's Gambit
+                Contemplation
+                Tutu's Gambit
+                Augur's Exaltation
+                Hermes' Gambit
+                Subtractive Distillation
+                Rotate Speck
+            }
+        }
+    }
+    Hermes' Gambit
+    Numerical Reflection: 4
+    Flock's Gambit
+    Charmed Reflection
+    Selection Distillation
+    Additive Distillation
+    {
+        Electric Fisherman: n--
+        Thoth's Gambit
+        Bookkeeper's Gambit: vv
+    }
+    Additive Distillation
+    Lani's Lesser Gambit
+}
+Augur's Exaltation
+Hermes' Gambit
