@@ -1,0 +1,58 @@
+//With damage hierophant trigger
+//Stack start: Amount of damage taken
+Mind's Reflection
+Compass' Purification II
+Ambit Purification
+Vacant Reflection
+Contemplation
+Charon's Gambit
+Augur's Exaltation
+Hermes' Gambit
+//Number of hex gummies:
+//Each gummy: 2 hunger + 2 sat
+//1: Needs to max out hunger to trigger fast regen
+//2: Amount of sat = missing hp < max sat
+
+//Missing Hunger
+Numerical Reflection: 20
+Mind's Reflection
+Hunger Purification
+Subtractive Distillation
+
+//Missing HP
+Mind's Reflection
+Fitness Purification
+Mind's Reflection
+Vitality Purification
+Subtractive Distillation
+
+//Whichever is greater of the two
+Maximum Distillation
+
+//Missing saturation
+Numerical Reflection: 20
+Mind's Reflection
+Stamina Purification
+Subtractive Distillation
+
+//(Lesser of the two - current sat) / 2
+Minimum Distillation
+Mind's Reflection
+Stamina Purification
+Subtractive Distillation
+Numerical Reflection: 2
+Division Distillation
+Ceiling Purification
+
+{
+    Mind's Reflection
+    Compass' Purification II
+    Gemini Decomposition
+    Hex Gummy
+    Entity Purification: Item
+    Mind's Reflection
+    Numerical Reflection: -1
+    Hopper
+    Mage Mouth
+}
+Kitkat's Gambit
