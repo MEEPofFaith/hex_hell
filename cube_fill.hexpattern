@@ -1,0 +1,75 @@
+//Use on a charm.
+//Stack start: Input number.
+//Left click: Corner 1
+//Right click: Corner 2
+//Middle click: Build/Clear
+Gemini Decomposition
+Numerical Reflection: 2
+Equality Distillation
+{ //Build/Clear
+    Bookkeeper's Gambit: v
+    Stealthy Reflection
+    Numerical Reflection: -1
+    Equality Distillation
+    { //Not Shifting -> Build
+        {
+            Gemini Decomposition
+            Detective's Purification
+            Contemplation
+            <minecraft:air>
+            Equality Distillation
+            Contemplation
+            Place Block
+            Contemplation
+            Bookkeeper's Gambit: v
+            Augur's Exaltation
+            Single's Purification
+            Lani's Greater Gambit
+        }
+        Charmed Reflection
+        Flock's Disintegration
+        False Reflection
+        Cubic Exaltation
+    }
+    Contemplation //Shifting -> Skip to clearing
+    Tutu's Gambit
+    Augur's Exaltation
+    Hermes' Gambit
+    Nullary Reflection
+    Charmed Gambit
+    Vacant Reflection
+    Deploy Sentinels
+}
+{ //Corner Select
+    //Stack start: 0 or 1
+    {
+        Mind's Reflection
+        Compass' Purification
+        Mind's Reflection
+        Alidade's Purification
+        Archer's Distillation
+    }
+    Lani's Greater Gambit
+    Charmed Reflection
+    Gemini Decomposition
+    Augur's Purification
+    { //Exists
+        //Stack: 0/1, Pos, [A, B]
+        Rotation Gambit II
+        Surgeon's Exaltation
+    }
+    { //No Active
+        //Stack: 0/1, Pos, Null
+        Bookkeeper's Gambit: v
+        Gemini Decomposition
+        Numerical Reflection: 2
+        Flock's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    Gemini Decomposition
+    Charmed Gambit
+    Deploy Sentinels
+}
+Augur's Exaltation
+Hermes' Gambit
