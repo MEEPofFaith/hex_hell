@@ -60,7 +60,7 @@ Equality Distillation
     }
     { //No Active
         //Stack: 0/1, Pos, Null
-        Bookkeeper's Gambit: v
+        Bookkeeper's Gambit: v-v
         Gemini Decomposition
         Numerical Reflection: 2
         Flock's Gambit
@@ -69,6 +69,30 @@ Equality Distillation
     Hermes' Gambit
     Gemini Decomposition
     Charmed Gambit
+    //Convert 2 opposite corners into the 8 corners
+    Flock's Disintegration
+    Prospector's Gambit
+    Subtractive Distillation
+    Numerical Reflection: 0
+    Numerical Reflection: 8
+    { //Stack: Start Pos, Offset, Index
+        Gemini Decomposition
+        Gemini Decomposition
+        Numerical Reflection: 1
+        Conjunction Distillation
+        Rotation Gambit II
+        Numerical Reflection: 2
+        Conjunction Distillation
+        Axial Purification
+        Rotation Gambit II
+        Numerical Reflection: 4
+        Conjunction Distillation
+        Axial Purification
+        Vector Exaltation
+        Hadamard Distillation
+        Additive Distillation
+    }
+    Mintiest Gambit
     Deploy Sentinels
 }
 Augur's Exaltation
