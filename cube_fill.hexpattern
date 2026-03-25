@@ -93,6 +93,38 @@ Equality Distillation
         Additive Distillation
     }
     Mintiest Gambit
+    //Stack: Start Pos, Offset, [Corners]
+    Bookkeeper's Gambit: v-
+    Jester's Gambit
+    Numerical Reflection: 0
+    Numerical Reflection: 8
+    { //Stack: [Corners], Start Pos, Index
+        Bookkeeper's Gambit: v--
+        Gemini Decomposition
+        Gemini Decomposition
+        Numerical Reflection: 1
+        Conjunction Distillation
+        Numerical Reflection: -0.5
+        Additive Distillation
+        Rotation Gambit II
+        Numerical Reflection: 2
+        Conjunction Distillation
+        Axial Purification
+        Numerical Reflection: -0.5
+        Additive Distillation
+        Rotation Gambit II
+        Numerical Reflection: 4
+        Conjunction Distillation
+        Axial Purification
+        Numerical Reflection: -0.5
+        Additive Distillation
+        Vector Exaltation
+        Additive Distillation
+    }
+    Mintiest Gambit
+    //Stack: [Corners], Start Pos, [Cluster]
+    Rotation Gambit
+    Additive Distillation
     Deploy Sentinels
 }
 Augur's Exaltation
