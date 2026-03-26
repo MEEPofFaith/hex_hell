@@ -44,18 +44,10 @@ Equality Distillation
         Division Distillation
         //Stack: Point 1, # of segments, 1 segment
         Numerical Reflection: 1
-        Soroban Gambit II
-        Vacant Reflection
-        Vacant Reflection
-        {
-            Hermes' Gambit
-            Soroban Reflection
-            Integration Distillation
-        }
-        //Stack: Point 1, # of segments, 1 segments, [], [], [Recursive]
-        Geb's Gambit: 4
-        Gemini Gambit
-        Hermes' Gambit
+        Rotation Gambit
+        Incrementation Purification
+        Numerical Reflection: 1
+        Ranger's Exaltation
         //Stack: Point 1, 1 segment, [1, ..., # of segments]
         {
             Multiplicative Distillation
