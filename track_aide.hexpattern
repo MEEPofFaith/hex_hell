@@ -1,0 +1,85 @@
+//Measuring tape + lesser sentinels.
+//Plan: Left/right click for end points. Middle Click to clear.
+Gemini Decomposition
+Numerical Reflection: 2
+Equality Distillation
+{ //Clear
+    Nullary Reflection
+    Charmed Gambit
+    Vacant Reflection
+    Deploy Sentinels
+}
+{
+    {
+        Mind's Reflection
+        Compass' Purification
+        Mind's Reflection
+        Alidade's Purification
+        Archer's Distillation
+    }
+    Lani's Greater Gambit
+    Charmed Reflection
+    Gemini Decomposition
+    Augur's Purification
+    { //Exists
+        //Stack: 0/1, Pos, [A, B]
+        Rotation Gambit II
+        Surgeon's Exaltation
+        Gemini Decomposition
+        Charmed Gambit
+        //Convert two end points to intervals
+        Flock's Disintegration
+        Prospector's Gambit
+        Subtractive Distillation
+        Reveal
+        Gemini Decomposition
+        //# of segments
+        Length Purification
+        Reveal
+        Numerical Reflection: 32
+        Division Distillation
+        Ceiling Purification
+        //1 segment
+        Undertaker's Gambit
+        Division Distillation
+        //Stack: Point 1, # of segments, 1 segment
+        Numerical Reflection: 1
+        Soroban Gambit II
+        Vacant Reflection
+        Vacant Reflection
+        {
+            Hermes' Gambit
+            Soroban Reflection
+            Integration Distillation
+        }
+        //Stack: Point 1, # of segments, 1 segments, [], [], [Recursive]
+        Geb's Gambit: 4
+        Gemini Gambit
+        Hermes' Gambit
+        //Stack: Point 1, 1 segment, [1, ..., # of segments]
+        {
+            Multiplicative Distillation
+            Additive Distillation
+        }
+        Jester's Gambit
+        Thoth's Gambit
+        Bookkeeper's Gambit: v-
+        Jester's Gambit
+        Speaker's Distillation
+        Deploy Sentinels
+    }
+    { //No Active
+        //Stack: 0/1, Pos, Null
+        Bookkeeper's Gambit: v-v
+        Gemini Decomposition
+        Numerical Reflection: 2
+        Flock's Gambit
+        Gemini Decomposition
+        Charmed Gambit
+        Deploy Sentinels
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Augur's Exaltation
+Hermes' Gambit
