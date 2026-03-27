@@ -1,5 +1,5 @@
 //Stack manip fuckery version
-Vacant Reflection //Already Checked List
+Vacant Reflection: Vector Set //Already Checked set
 Mind's Reflection
 Compass' Purification
 //Check if I'm in the world. Archer's will mishap otherwise
@@ -18,7 +18,7 @@ Detective's Purification
 Jester's Gambit
 Single's Purification
 Bubbling Gambit
-//Initial stack: block type, [checked list], [targets list]
+//Initial stack: block type, [checked set], [targets list]
 //Main loop
 {
     Speaker's Decomposition
@@ -59,49 +59,31 @@ Bubbling Gambit
     Cubic Exaltation
     //Checking loop
     {
-        //Stack: block type, [checked list], [targets list], [surrounding list]
         Derivation Decomposition
+        //Stack: block type, [checked set], [targets list], [surrounding list], Position
         //Check if empty and break
         Gemini Decomposition
         Augur's Purification
-        Contemplation
-        Tutu's Gambit
-        Contemplation
-        Charon's Gambit
-        Augur's Exaltation
-        Hermes' Gambit
+        Styx's Gambit
         //Check if already checked
-        Electric Fisherman: n---
+        Geb's Gambit: 3
         Prospector's Gambit
-        Locator's Distillation
-        Numerical Reflection: -1
-        Equality Distillation
-        Contemplation
-        Tutu's Gambit
+        Insertion Gambit
         {
             Bookkeeper's Gambit: v
             Atalanta's Gambit
         }
-        Augur's Exaltation
-        Hermes' Gambit
-        //Not found, continue
-        //Add to checked list
-        Geb's Gambit: 3
-        Prospector's Gambit
-        Speaker's Distillation
+        Selene's Gambit
         Nut's Gambit: 3
         //Stack: block type, [checked list], [targets list], [surrounding list], checking block
         //Check if inside ambit
         Gemini Decomposition
         Ambit Purification
-        Contemplation
-        Tutu's Gambit
         {
             Bookkeeper's Gambit: v
             Atalanta's Gambit
         }
-        Augur's Exaltation
-        Hermes' Gambit
+        Selene's Gambit
         //Check if same block type
         Gemini Decomposition
         Detective's Purification
