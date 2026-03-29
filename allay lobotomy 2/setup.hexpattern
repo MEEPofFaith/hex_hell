@@ -1,0 +1,58 @@
+Contemplation
+<(-127.50, 109.50, 674.50)> //Focal frame coords
+Contemplation
+<Allay Type>
+Contemplation
+<(-126.50, 110.50, 682.50)> //Allay cage center coords
+Numerical Reflection: 4
+Zone Exaltation: Type
+Undertaker's Gambit
+Chronicler's Gambit
+//Target this # of blocks and shards
+Length Purification
+Contemplation
+<(-135.50, 109.50, 677.50)> //Block crafter coords
+Prospector's Gambit
+Set Craft Count
+//Max possible needed: 5x # of allays (4 to craft into block, 1 for allay dupe.)
+Numerical Reflection: 5
+Multiplicative Distillation
+//Get amount currently in vessel:
+{
+    Sekhmet' Gambit: 1
+    Gemini Decomposition
+    Sorter's Purification
+    Contemplation
+    <amethyst shard type>
+    Equality Distillation
+    {
+        Length Purification
+        Soroban Gambit II
+        True Reflection
+    }
+    {
+        Bookkeeper's Gambit: v
+        False Reflection
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Check Item
+Bookkeeper's Gambit: v
+Soroban Reflection
+//Buffer of shards, just in case
+Numerical Reflection: 500
+Subtractive Distillation
+//Target - current = Total to craft
+Subtractive Distillation
+//Get 6 per craft
+Numerical Reflection: 6
+Division Distillation
+Ceiling Purification
+//Just in case
+Numerical Reflection: 1
+Maximum Distillation
+Contemplation
+<Shard crafter coords>
+Jester's Gambit
+Set Craft Count
