@@ -1,0 +1,75 @@
+Contemplation
+<Allay Type>
+//Chamber position
+Wave Location Rfln.
+Numerical Reflection: -1
+Numerical Reflection: 1
+Numerical Reflection: 0
+Vector Exaltation
+Additive Distillation
+Numerical Reflection: 0.75
+Zone Exaltation: Type //Expected: Either 0 or 2 allays. Will be 0 on first loop due to not having teleported in yet.
+Gemini Decomposition
+Augur's Purification
+{ // Stack: [Allay 1, Allay 2]
+    Flock's Disintegration
+    Contemplation
+    <Chamber Pos>
+    Displace //Send one back, flay the other.
+    Wave Location Rfln.
+    Vector Reflection +X
+    Additive Distillation
+    Gemini Decomposition
+    Place Block
+    //Stack: Allay, flay pos
+    Dioscuri Gambit
+    Flay Mind
+    Gemini Decomposition
+    {
+        Gemini Decomposition
+        Sorter's Purification
+        Contemplation
+        <Quenched Shard Type>
+        Equality Distillation
+        {
+            Length Purification
+            Soroban Gambit II
+            True Reflection
+        }
+        {
+            Bookkeeper's Gambit: v
+            False Reflection
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Check Item
+    Bookkeeper's Gambit: v
+    Soroban Reflection
+    Numerical Reflection: 1024
+    Maximus Distillation
+    Contemplation // >1024 shards, silk break
+    Collect Block
+    { // fortune break
+        Numerical Reflection: 2
+        Extract Block
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    //Succ the items
+    Numerical Reflection: 1
+    Zone Distillation: Item
+    {
+        Lay Item
+    }
+    Jester's Gambit
+    Nehmetawy's Gambit
+    Bookkeeper's Gambit: v
+    //Kill off the allay in the worst way possible :3
+    Contemplation
+    <c r u s h i n g   w h e e l s>
+    Displace
+}
+Helios' Gambit
+Sekhmet's Gambit: 0
+Wave Location Rfln. //Pass to the summon hex

@@ -1,0 +1,41 @@
+//Setup for next cycle. Stack starts with previous slate pos
+Contemplation
+<(-127.50, 109.50, 674.50)> //Focal Frame Pos
+Chronicler's Purification //Focus is rigged to just return the next allay.
+Gemini Decomposition
+Augur's Purification
+{ //Allay found. Teleport in for next cycle and grab one shard from the vessel.
+    //Stack: Prev Slate Pos, Allay
+    Jester's Gambit
+    //Chamber position
+    Numerical Reflection: -1
+    Numerical Reflection: 1
+    Numerical Reflection: 0
+    Vector Exaltation
+    Additive Distillation
+    Displace
+    //Send exactly 1 amethyst shard to the pocket sim.
+    Contemplation
+    <Vessel -> Pocket Sim Conduit>
+    Gemini Decomposition
+    Source Data
+    {
+        View Purification: Name
+        Contemplation
+        <"amethyst_shard">
+        Equality Distillation
+        Length Purification
+    }
+    Jester's Gambit
+    Nehmetawy's Gambit
+    Retrograde Purification //For some reason metered send uses the reversed index
+    Metered Send
+    Sekhmet's Gambit: 0
+    True Reflection
+}
+{ //No allay found; List is empty. Send false so shepard breaks loop.
+    Sekhmet's Gambit: 0
+    False Reflection
+}
+Augur's Exaltation
+Hermes' Gambit
