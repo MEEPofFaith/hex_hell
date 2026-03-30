@@ -1,0 +1,65 @@
+Bookkeeper's Gambit: v
+Charmed Reflection II
+Gemini Decomposition
+Augur's Purification
+{ //Structure is valid, try to place it down and save position data internally.
+    Mind's Reflection
+    Compass' Purification
+    Gemini Decomposition
+    Ambit Purification
+    Contemplation
+    <"You are outside the world!">
+    Ma'at's Gambit
+    Mind's Reflection
+    Alidade's Purification
+    Dioscuri Gambit
+    Archer's Distillation
+    Rotation Gambit II
+    Architect's Distillation
+    Additive Distillation
+    Gemini Decomposition
+    Ambit Purification
+    Contemplation
+    <"Target position is outside the world!">
+    Ma'at's Gambit
+    Gemini Decomposition
+    Rotation Gambit
+    Actualize Structure
+    Spatial Reflection
+    Numerical Reflection: 2
+    Flock's Gambit
+    Charmed Gambit
+}
+{ //Structure is empty, try to pick up.
+    Bookkeeper's Gambit: v
+    Charmed Reflection
+    Flock's Disintegration
+    //Dimension Check
+    Gemini Decomposition
+    Spatial Reflection
+    Equality Distillation
+    Contemplation
+    <"Your splicing table is in -!">
+    Numerical Reflection: 26
+    Geb's Gambit: 3
+    Reading Purification (text)
+    Surgeon's Exaltation
+    Ma'at's Gambit
+    //Location check
+    Gemini Decomposition
+    Ambit Purification
+    Contemplation
+    <"Outside ambit! Your splicing table is at -!">
+    Numerical Reflection: 41
+    Numerical Reflection: 3
+    Fisherman's Gambit II
+    Reading Purification (text)
+    Surgeon's Exaltation
+    Ma'at's Gambit
+    Gemini Decomposition
+    Devour Structure
+    Charmed Gambit II
+}
+Augur's Exaltation
+Hermes' Gambit
+Hallucinate Pling
