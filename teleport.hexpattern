@@ -21,11 +21,8 @@ Transformation Purification //Offset from Me to Pos
         Vector Exaltation
         Hadamard Distillation
         Norm Purification
-        Arc's Reflection
-        Numerical Reflection: 2
+        Vector Reflection +Y
         Division Distillation
-        Yaw Distillation
-        Reveal
         Mind's Reflection
         Theodolite's Purification
         Mind's Reflection
@@ -33,6 +30,7 @@ Transformation Purification //Offset from Me to Pos
     Retrojection
 }
 Transformation Purification
+Inverse Purification
 Jester's Gambit
 Multiplicative Distillation //I LOVE CHANGE OF BASIS
 Restoration Purification
