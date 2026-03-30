@@ -1,0 +1,45 @@
+//Transfer All Quenched Blocks
+Contemplation
+<Blocks Conduit>
+Gemini Decomposition
+Source Data
+{
+    Gemini Decomposition
+    View Purification: Name
+    Contemplation
+    <"quenched_allay">
+    Equality Distillation
+    Jester's Gambit
+    View Purification: Amount
+    Numerical Reflection: 0
+    Augur's Exaltation
+}
+Jester's Gambit
+Nehmetawy's Gambit
+Retrograde Purification //Why are you like this
+Metered Send
+
+//Transfer Quenched Shards, leave 512 in the vessel.
+Contemplation
+<Shards Conduit>
+Gemini Decomposition
+Source Data
+{
+    Gemini Decomposition
+    View Purification: Name
+    Contemplation
+    <"quenched_allay">
+    Equality Distillation
+    Jester's Gambit
+    View Purification: Amount
+    Numerical Reflection: 512
+    Subtractive Distillation
+    Numerical Reflection: 0
+    Maximum Distillation
+    Numerical Reflection: 0
+    Augur's Exaltation
+}
+Jester's Gambit
+Nehmetawy's Gambit
+Retrograde Purification //Why are you like this
+Metered Send
