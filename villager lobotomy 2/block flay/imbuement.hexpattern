@@ -1,0 +1,19 @@
+//Stack: [Villagers], Villager, Bed Pos
+Contemplation
+<Gate>
+{
+    Sekhmet' Gambit: 3
+    //Stack: Bed Pos, Gate, Villager to flay
+    Numerical Reflection: -2
+    Fisherman's Gambit II
+    Gate's Opening
+    Flay Mind
+}
+//Stack: [Villagers], Villager, Bed Pos, Gate, [Flay]
+//Swindle: edcba -> dcbae
+Numerical Reflection: 33
+Swindler's Gambit
+//Stack: Villager, Bed Pos, Gate, [Flay], [Villagers]
+Thoth's Gambit
+Bookkeeper's Gambit: v-v
+Gate's Closing

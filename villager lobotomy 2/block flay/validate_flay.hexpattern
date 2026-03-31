@@ -1,0 +1,32 @@
+//Stack: [Cell Positions], [Villagers]
+Gemini Decomposition
+Deduction Purification
+False Reflection
+Locator's Distillation
+Numerical Reflection: -1
+Equality Distillation //All villagers must be non-null
+Contemplation
+<"Not enough villagers!">
+Ma'at's Gambit
+//Validated, set up
+Gemini Decomposition
+Length Purification
+Numerical Reflection: 1
+Equality Distillation
+{ //Novice. No other villagers. Skip imbuement.
+    Bookkeeper's Gambit: v-
+    Numerical Reflection: 0
+    Selection Distillation
+    True Reflection
+}
+{ //Set up for imbuement.
+    Speaker's Decomposition
+    Gemini Decomposition
+    Induce Exhaustion
+    Rotation Gambit
+    Numerical Reflection: 0
+    Selection Distillation
+    False Reflection
+}
+Augur's Exaltation
+Hermes' Gambit

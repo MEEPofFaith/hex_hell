@@ -1,0 +1,25 @@
+Contemplation
+<Villager Type>
+Contemplation
+<[Cell Positions]>
+Contemplation
+<Redstone pos>
+Retention Distillation
+Undertaker's Gambit
+{
+    Sekhmet' Gambit: 3 //Cut out the duplicated list
+    Augur's Purification
+    Contemplation //Not first. Small cell.
+    Entity Distillation: Type
+    { //Index was 0 -> First. Use zone exault due to larger cell.
+        Numerical Reflection: 1.5
+        Zone Exaltation: Type
+        Speaker's Decomposition
+        Bookkeeper's Gambit: v-
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Jester's Gambit
+Djehuty's Gambit
+Bookkeeper's Gambit: v-
