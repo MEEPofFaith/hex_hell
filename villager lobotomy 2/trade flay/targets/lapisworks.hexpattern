@@ -1,0 +1,50 @@
+//Stack: [Bed Pos, Villager], Flay Villager
+Offering Purification
+{
+    Flock's Disintegration
+    Dioscuri Gambit
+    //Check for lapis -> emerald
+    Numerical Reflection: 0
+    Selection Distillation
+    Contemplation
+    <Emerald>
+    Equality Distillation
+    Jester's Gambit
+    Numerical Reflection: 0
+    Selection Distillation
+    Numerical Reflection: 0
+    Selection Distillation
+    Contemplation
+    <Lapis>
+    Equality Distillation
+    Conjunction Distillation
+    Rotation Gambit II
+    //Check for emerald -> lapis
+    Numerical Reflection: 0
+    Selection Distillation
+    Contemplation
+    <Emerald>
+    Equality Distillation
+    Jester's Gambit
+    Numerical Reflection: 0
+    Selection Distillation
+    Numerical Reflection: 0
+    Selection Distillation
+    Contemplation
+    <Lapis>
+    Equality Distillation
+    Conjunction Distillation
+    Disjunction Distillation
+    {
+        True Reflection
+        Numerical Reflection: 2
+        Erebus' Gambit
+    }
+    Contemplation
+    Sekhmet' Gambit: 0
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Jester's Gambit
+Nehmetawy's Gambit
+Augur's Purification
