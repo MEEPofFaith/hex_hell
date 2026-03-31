@@ -1,0 +1,15 @@
+//This is a thoth loop
+//Stack: Phase block Pos, #, Villager, [[Bed pos, Villager], Condition]
+Sekhmet' Gambit: 2
+Flock's Disintegration
+Bubbling Gambit
+Hermes' Gambit //Assume Condition turns the villager reference to a single boolean
+{ //True: Return this target bed and villager
+    Flock's Disintegration
+    Numerical Reflection: 2
+    Erebus' Gambit
+}
+Contemplation //False: Clear and continue
+Sekhmet' Gambit: 0
+Augur's Exaltation
+Hermes' Gambit
