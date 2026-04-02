@@ -131,6 +131,7 @@ Huginn's Gambit
             Contemplation
             Patience //Embed point count - Index 35
             Multiplicative Distillation //# of points to draw.
+            Incrementation Purification
             //Stack: Counter, [[Mesh, [Points]]], Total # of points
             {
                 Jester's Gambit
@@ -141,8 +142,9 @@ Huginn's Gambit
                 Geb's Gambit: 4
                 Undertaker's Gambit
                 //Stack: Counter, [[Mesh, [Points]]], Mesh, Points, Total # of points, Mesh # of points, Total # of points
-                Minimus Distillation II
-                { //Mesh # <= Total #; Directly draw
+                Minimus Distillation
+                { //Mesh # < Total #; Directly draw
+                    Incrementation Purification
                     Rotation Gambit II
                     Weave Mesh
                 }
@@ -150,7 +152,6 @@ Huginn's Gambit
                     //Stack: Counter, [[Mesh, [Points]]], Mesh, Points, Total # of points
                     Numerical Reflection: -2
                     Fisherman's Gambit II
-                    Incrementation Purification //Needs at least 2 points to draw
                     Undertaker's Gambit
                     Ceiling Purification
                     Retention Distillation
@@ -175,10 +176,10 @@ Huginn's Gambit
                 }
                 Augur's Exaltation
                 Hermes' Gambit
-                Numerical Reflection: 31
+                Numerical Reflection: 32
                 Subtractive Distillation
                 Gemini Decomposition
-                Numerical Reflection: 0
+                Numerical Reflection: 1
                 Minimus Distillation II
                 Acheron's Gambit
             }
@@ -197,7 +198,7 @@ Numerical Reflection: 35
 Rotation Gambit
 Surgeon's Exaltation
 Numerical Reflection: 30
-Numerical Reflection: 2
+Numerical Reflection: 3
 Fisherman's Gambit II
 Surgeon's Exaltation
 Rotation Gambit II
