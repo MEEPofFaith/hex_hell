@@ -1,0 +1,215 @@
+//Starting stack: Pattern, Animation Duration, Sustain Duration
+{
+    Numerical Reflection: 3
+    Multiplicative Distillation
+}
+Geb's Gambit: 3
+Handwriting Distillation
+Nehmetawy's Gambit
+Gemini Decomposition
+Length Purification
+Undertaker's Gambit
+Vacant Reflection
+Rotation Gambit II
+Prospector's Gambit
+//Split the list into segments of up to 31 line segments. Some patterns like SI or Horrible are really long.
+{
+    Gemini Decomposition
+    Numerical Reflection: 32
+    Minimus Distillation II
+    Acheron's Gambit
+    //List split
+    Jester's Gambit
+    Numerical Reflection: 31
+    Undertaker's Gambit
+    //Stack: Animation, Sustain, # of Points, [Accumulator], # of Points, 31, [Points], 31
+    Separation Gambit
+    Speaker's Decomposition //To connect together, the last point needs to connect to the first point.
+    Undertaker's Gambit
+    Speaker's Distillation
+    Rotation Gambit II
+    Integration Distillation
+    //Stack: Animation, Sustain, # of Points, [Accumulator], # of Points, 31, [Points B], [Points A]
+    //Swindle: edcba -> dcbea
+    Numerical Reflection: 32
+    Swindler's Gambit
+    Integration Distillation
+    //Swindle dcba -> abdc
+    Numerical Reflection: 22
+    Swindler's Gambit
+    Subtractive Distillation
+}
+Sisyphus' Gambit
+Bookkeeper's Gambit: v
+Integration Distillation
+//Ravenmind does not count for stack size.
+Huginn's Gambit
+
+//Load cached meshes
+Contemplation
+<Focal Frame Pos>
+Gemini Decomposition
+Chronicler's Purification
+Gemini Decomposition
+Length Purification
+Muninn's Reflection
+Length Purification
+//Stack: Animation, Sustaion, # of Points, Frame Pos, [Meshes list], Mesh #, Stroke group #
+Retention Gambit: Minimus
+{ //Less cached meshes than needed, initalize more
+    Jester's Gambit
+    Subtractive Distillation
+    Vacant Reflection
+    {
+        Hermes' Gambit
+        Contemplation
+        <Display Pos>
+        Conjure Mesh
+        Gemini Decomposition
+        Vector Reflection +Z //Any facing direction. Just my test site faces +Z.
+        Rotate Speck
+        Integration Distillation
+    }
+    Rotation Gambit
+    Gemini Gambit
+    Hermes' Gambit
+    Undertaker's Gambit
+    Chronicler's Gambit
+}
+{ //Split to only the required meshes
+    Bookkeeper's Gambit: v-v-
+    Retention Distillation
+}
+Augur's Exaltation
+Hermes' Gambit
+Muninn's Reflection
+Division Distillation //Pair each mesh with its points.
+//Stack: Animation, Sustaion, # of Points, [[Mesh, [Points]]]
+Huginn's Gambit
+
+//Animation controller wisp
+{ //Starting stack: The wisp itself.
+    //First cast: Initialize counter
+    Gemini Decomposition
+    Identity Reflection
+    Equality Distillation
+    Contemplation
+    Numerical Reflection: 0
+    Helios' Gambit
+    Incrementation Purification
+    //Update Animation
+    Contemplation
+    Introjection
+    Muninn's Reflection //Embed the L I S T
+    Retrojection
+    Numerical Reflection: 2
+    Fisherman's Gambit II
+    Gemini Decomposition
+    //Stack: Counter, [[Mesh, [Points]]], Counter, Counter
+    Contemplation
+    Patience //Embed end time (Animation + Sustain) - Index 13
+    Maximus Distillation
+    { //Reset and clear
+        Bookkeeper's Gambit: v
+        {
+            Numerical Reflection: 0
+            Selection Distillation
+            Vacant Reflection
+            Weave Mesh
+        }
+        Jester's Gambit
+        Nehmetawy's Gambit
+        Identity Reflection
+        Consume Wisp //Eat yoself lmao
+    }
+    { //Update animation
+        Contemplation
+        Patience //Embed animation time - Index 30
+        Retention Gambit: Minimus II
+        { //Update meshes
+            Division Distillation //0-1 of progress
+            Contemplation
+            Patience //Embed point count - Index 35
+            Multiplicative Distillation //# of points to draw.
+            //Stack: Counter, [[Mesh, [Points]]], Total # of points
+            {
+                Jester's Gambit
+                Speaker's Decomposition
+                Flock's Disintegration
+                Gemini Decomposition
+                Length Purification
+                Geb's Gambit: 4
+                Undertaker's Gambit
+                //Stack: Counter, [[Mesh, [Points]]], Mesh, Points, Total # of points, Mesh # of points, Total # of points
+                Minimus Distillation II
+                { //Mesh # <= Total #; Directly draw
+                    Rotation Gambit II
+                    Weave Mesh
+                }
+                { //Apply funny scaling
+                    //Stack: Counter, [[Mesh, [Points]]], Mesh, Points, Total # of points
+                    Numerical Reflection: -2
+                    Fisherman's Gambit II
+                    Incrementation Purification //Needs at least 2 points to draw
+                    Undertaker's Gambit
+                    Ceiling Purification
+                    Retention Distillation
+                    //Stack: Counter, [[Mesh, [Points]]], Total # of points, Mesh, Total # of points, Points (Reduced n)
+                    Derivation Decomposition
+                    Jester's Gambit
+                    Derivation Decomposition
+                    Undertaker's Gambit
+                    Integration Distillation
+                    Reflecting Gambit
+                    //Stack: Counter, [[Mesh, [Points]]], Total # of points, Mesh, Total # of points, Points (Reduced n-1), Point n-1, Point n
+                    Prospector's Gambit
+                    Subtractive Distillation
+                    //Stack: Counter, [[Mesh, [Points]]], Total # of points, Mesh, Total # of points, Points (Reduced n-1), Point n-1, Offset
+                    Geb's Gambit: 3
+                    Numerical Reflection: 1
+                    Modulus Distillation
+                    Multiplicative Distillation
+                    Additive Distillation
+                    Integration Distillation
+                    Weave Mesh
+                }
+                Augur's Exaltation
+                Hermes' Gambit
+                Numerical Reflection: 31
+                Subtractive Distillation
+                Gemini Decomposition
+                Numerical Reflection: 0
+                Minimus Distillation II
+                Acheron's Gambit
+            }
+            Sisyphus' Gambit
+            Bookkeeper's Gambit: vv
+        }
+        Contemplation //Do nothing. I know I could use Wait instead, but whatever
+        Bookkeeper's Gambit: vvv
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Numerical Reflection: 35
+Rotation Gambit
+Surgeon's Exaltation
+Numerical Reflection: 30
+Numerical Reflection: 2
+Fisherman's Gambit II
+Surgeon's Exaltation
+Rotation Gambit II
+Additive Distillation
+Undertaker's Gambit
+Numerical Reflection: 13
+Jester's Gambit
+Surgeon's Exaltation
+//Any position, just using me for testing
+Mind's Reflection
+Compass' Purification
+Rotation Gambit //0.7 dust/tick. Slightly increase for safety.
+Numerical Reflection: 0.75
+Multiplicative Distillation
+Summon Cyclic Wisp
