@@ -1,0 +1,120 @@
+//Starting stack: Pattern, Animation Duration, Sustain Duration
+{
+    Numerical Reflection: 3
+    Multiplicative Distillation
+}
+Geb's Gambit: 3
+Handwriting Distillation
+Nehmetawy's Gambit
+Gemini Decomposition
+Length Purification
+Undertaker's Gambit
+Vacant Reflection
+Rotation Gambit II
+Prospector's Gambit
+//Split the list into segments of up to 31 line segments. Some patterns like SI or Horrible are really long.
+{
+    Gemini Decomposition
+    Numerical Reflection: 32
+    Minimus Distillation II
+    Acheron's Gambit
+    //List split
+    Jester's Gambit
+    Numerical Reflection: 31
+    Undertaker's Gambit
+    //Stack: Animation, Sustain, # of Points, [Accumulator], # of Points, 31, [Points], 31
+    Separation Gambit
+    Speaker's Decomposition //To connect together, the last point needs to connect to the first point.
+    Undertaker's Gambit
+    Speaker's Distillation
+    Rotation Gambit II
+    Integration Distillation
+    //Stack: Animation, Sustain, # of Points, [Accumulator], # of Points, 31, [Points B], [Points A]
+    //Swindle: edcba -> dcbea
+    Numerical Reflection: 32
+    Swindler's Gambit
+    Integration Distillation
+    //Swindle dcba -> abdc
+    Numerical Reflection: 22
+    Swindler's Gambit
+    Subtractive Distillation
+}
+Sisyphus' Gambit
+Bookkeeper's Gambit: v
+Integration Distillation
+//Ravenmind does not count for stack size.
+Huginn's Gambit
+
+//Load cached meshes
+Contemplation
+<Focal Frame Pos>
+Gemini Decomposition
+Chronicler's Purification
+Gemini Decomposition
+Length Purification
+Muninn's Reflection
+Length Purification
+//Stack: Animation, Sustaion, # of Points, Frame Pos, [Meshes list], Mesh #, Stroke group #
+Retention Gambit: Minimus
+{ //Less cached meshes than needed, initalize more
+    Jester's Gambit
+    Subtractive Distillation
+    Vacant Reflection
+    {
+        Hermes' Gambit
+        Contemplation
+        <Display Pos>
+        Vector Reflection +Y/-Y II: -0.25
+        Conjure Mesh
+        Gemini Decomposition
+        Vector Reflection +Z //Any facing direction. Just my test site faces +Z.
+        Rotate Speck
+        Integration Distillation
+    }
+    Rotation Gambit
+    Gemini Gambit
+    Hermes' Gambit
+    Undertaker's Gambit
+    Chronicler's Gambit
+}
+{ //Split to only the required meshes
+    Bookkeeper's Gambit: v-v-
+    Retention Distillation
+}
+Augur's Exaltation
+Hermes' Gambit
+Muninn's Reflection
+Division Distillation //Pair each mesh with its points.
+//Stack: Animation, Sustaion, # of Points, [[Mesh, [Points]]]
+
+Contemplation
+<Verbose paste of animation code>
+
+//Surgeoning shit in
+Numerical Reflection: 1
+Rotation Gambit
+Surgeon's Exaltation
+Numerical Reflection: 33
+Rotation Gambit
+Surgeon's Exaltation
+Numerical Reflection: 28
+Numerical Reflection: 3
+Fisherman's Gambit II
+Surgeon's Exaltation
+Rotation Gambit II
+Additive Distillation
+Numerical Reflection: 11
+Jester's Gambit
+Surgeon's Exaltation
+
+Contemplation
+<Spell imprinter pos>
+Jester's Gambit
+Contemplation
+<Imprinted pattern>
+Bind Macro
+
+Contemplation
+<Time keeper pos>
+Numerical Reflection: 0
+Chronicler's Gambit

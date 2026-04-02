@@ -1,0 +1,98 @@
+Contemplation
+Patience //Embed the mesh-[points] pairs list. - Index 1
+//Get and increment counter
+Contemplation
+<Time keeper pos>
+Gemini Decomposition
+Chronicler's Purification
+Incrementation Purification
+Undertaker's Gambit
+Chronicler's Gambit
+Gemini Decomposition
+
+//Stack: [[Mesh, [Points]]], Counter, Counter
+Contemplation
+Patience //Embed end time - Index 11
+Maximus Distillation
+{ //Reset and clear
+    Bookkeeper's Gambit: v
+    {
+        Numerical Reflection: 0
+        Selection Distillation
+        Vacant Reflection
+        Weave Mesh
+    }
+    Jester's Gambit
+    Nehmetawy's Gambit
+    Sekhmet' Gambit: 0
+    False Reflection //Break out via shepard
+}
+{ //Update animation
+    Contemplation
+    Patience //Embed animation time - Index 28
+    Retention Gambit: Minimus II
+    { //Update meshes
+        Division Distillation //0-1 of progress
+        Contemplation
+        Patience //Embed point count - Index 33
+        Multiplicative Distillation //# of points to draw.
+        Incrementation Purification
+        //Stack: [[Mesh, [Points]]], Total # of points
+        {
+            Jester's Gambit
+            Speaker's Decomposition
+            Flock's Disintegration
+            Gemini Decomposition
+            Length Purification
+            Geb's Gambit: 4
+            Undertaker's Gambit
+            //Stack: [[Mesh, [Points]]], Mesh, Points, Total # of points, Mesh # of points, Total # of points
+            Minimus Distillation
+            { //Mesh # < Total #; Directly draw
+                Incrementation Purification
+                Rotation Gambit II
+                Weave Mesh
+            }
+            { //Apply funny scaling
+                //Stack: [[Mesh, [Points]]], Mesh, Points, Total # of points
+                Numerical Reflection: -2
+                Fisherman's Gambit II
+                Undertaker's Gambit
+                Ceiling Purification
+                Retention Distillation
+                //Stack: [[Mesh, [Points]]], Total # of points, Mesh, Total # of points, Points (Reduced n)
+                Derivation Decomposition
+                Jester's Gambit
+                Derivation Decomposition
+                Undertaker's Gambit
+                Integration Distillation
+                Reflecting Gambit
+                //Stack: [[Mesh, [Points]]], Total # of points, Mesh, Total # of points, Points (Reduced n-1), Point n-1, Point n
+                Prospector's Gambit
+                Subtractive Distillation
+                //Stack: [[Mesh, [Points]]], Total # of points, Mesh, Total # of points, Points (Reduced n-1), Point n-1, Offset
+                Geb's Gambit: 3
+                Numerical Reflection: 1
+                Modulus Distillation
+                Multiplicative Distillation
+                Additive Distillation
+                Integration Distillation
+                Weave Mesh
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+            Numerical Reflection: 32
+            Subtractive Distillation
+            Gemini Decomposition
+            Numerical Reflection: 1
+            Minimus Distillation II
+            Acheron's Gambit
+        }
+        Sisyphus' Gambit
+    }
+    Helios' Gambit
+    Sekhmet' Gambit: 0
+    True Reflection //Continue through shepard
+}
+Augur's Exaltation
+Hermes' Gambit
