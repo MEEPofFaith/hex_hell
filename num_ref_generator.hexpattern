@@ -1,0 +1,113 @@
+//Stack: A number
+// Directions:
+// a - -2 (2x)
+// q - -1 (+5)
+// w -  0 (+1)
+// e -  1 (+10)
+// d -  2 (/2)
+
+//Check for Sign
+Gemini Decomposition
+Axial Purification
+Numerical Reflection: -1
+Equality Purification
+Contemplation
+<Negative Prefix>
+Contemplation
+<Positive Prefix>
+Augur's Exaltation
+Jester's Gambit
+Length Purification
+
+//Check for decimal
+Gemini Decomposition
+Numerical Reflection: 1
+Modulus Distillation
+Soroban Gambit
+{ //Stack: Prefix, Num, Decimal
+    Soroban Reflection
+    Dioscuri Gambit
+    Reflection Purification
+    Numerical Reflection: 2
+    Jester's Gambit
+    Power Distillation
+    Modulus Distillation
+    Augur's Purification
+    Contemplation
+    Bookkeeper's Gambit: v
+    {
+        Bookkeeper's Gambit: vv-
+        Numerical Reflection: 2
+        Erebus' Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Sisyphus' Gambit
+Gemini Decomposition
+//Generate division postfix
+Vacant Reflection
+Jester's Gambit
+{
+    Gemini Decomposition
+    Styx's Gambit
+    Numerical Reflection: 2
+    Bubbling Gambit
+    Integration Distillation
+    Jester's Gambit
+    Decrementation Purification
+}
+Sisyphus' Gambit
+Bookkeeper's Gambit: v
+Rotation Gambit II
+Numerical Reflection: 2
+Jester's Gambit
+Power Distillation
+Multiplicative Distillation
+
+//Generate main number
+Vacant Reflection
+Jester's Gambit
+{
+    Gemini Decomposition
+    Styx's Gambit
+    //Algorithm
+    Gemini Decomposition
+    Numerical Reflection: 2
+    Modulus Distillation
+    Augur's Purification
+    { // Is Odd? Subtract by 5 or 1.
+        Gemini Decomposition
+        Numerical Reflection: 5
+        Maximus Distillation II
+        { //-5
+            Numerical Reflection: 5
+            Subtractive Distillation
+            Numerical Reflection: -1
+        }
+        { //-1
+            Numerical Reflection: 1
+            Subtractive Distillation
+            Numerical Reflection: 0
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    { // Is Even? Divide, and add 2x step to accumulator
+        Numerical Reflection: 2
+        Division Distillation
+        Numerical Reflection: -2
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    Bubbling Gambit
+    Speaker's Distillation
+    Jester's Gambit
+}
+Sisyphus' Gambit
+Bookkeeper's Gambit: v
+Jester's Gambit
+Additive Distillation
+Additive Distillation
+Running Sum Purification
+Calligrapher's Purification
