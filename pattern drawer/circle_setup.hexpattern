@@ -2,6 +2,10 @@
 {
     Numerical Reflection: 3
     Multiplicative Distillation
+    Arc's Reflection
+    Numerical Reflection: 2 //Rotate the points themselves since the cursor draw will use these offsets.
+    Division Distillation
+    Yaw Distillation
 }
 Geb's Gambit: 3
 Handwriting Distillation
@@ -79,9 +83,6 @@ Retention Gambit: Minimus
         <Display Pos>
         Vector Reflection +Y/-Y II: -0.25
         Conjure Mesh
-        Gemini Decomposition
-        Vector Reflection +Z //Any facing direction. Just my test site faces +Z.
-        Rotate Speck
         Integration Distillation
     }
     Rotation Gambit
