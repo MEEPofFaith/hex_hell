@@ -72,31 +72,46 @@ Jester's Gambit
     Gemini Decomposition
     Styx's Gambit
     //Algorithm
+    // 10 <= x <= 20? Subtract by 10
     Gemini Decomposition
-    Numerical Reflection: 2
-    Modulus Distillation
-    Augur's Purification
-    { // Is Odd? Subtract by 5 or 1.
+    Numerical Reflection: 10
+    Numerical Reflection: 20
+    Numerical Reflection: 1
+    Range Exaltation
+    {
+        Numerical Reflection: 10
+        Subtractive Distillation
+        Numerical Reflection: 1
+    }
+    {
         Gemini Decomposition
-        Numerical Reflection: 5
-        Maximus Distillation II
-        { //-5
+        Numerical Reflection: 2
+        Modulus Distillation
+        Augur's Purification
+        { // Is Odd? Subtract by 5 or 1.
+            Gemini Decomposition
             Numerical Reflection: 5
-            Subtractive Distillation
-            Numerical Reflection: -1
+            Maximus Distillation II
+            { //-5
+                Numerical Reflection: 5
+                Subtractive Distillation
+                Numerical Reflection: -1
+            }
+            { //-1
+                Numerical Reflection: 1
+                Subtractive Distillation
+                Numerical Reflection: 0
+            }
+            Augur's Exaltation
+            Hermes' Gambit
         }
-        { //-1
-            Numerical Reflection: 1
-            Subtractive Distillation
-            Numerical Reflection: 0
+        { // Is Even? Divide by 2
+            Numerical Reflection: 2
+            Division Distillation
+            Numerical Reflection: -2
         }
         Augur's Exaltation
         Hermes' Gambit
-    }
-    { // Is Even? Divide, and add 2x step to accumulator
-        Numerical Reflection: 2
-        Division Distillation
-        Numerical Reflection: -2
     }
     Augur's Exaltation
     Hermes' Gambit
