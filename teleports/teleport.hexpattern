@@ -7,10 +7,11 @@ Archer's Distillation
 Rotation Gambit II
 Architect's Distillation
 Additive Distillation
+Vector Reflection: (0, -0.375, 0)
+Additive Distillation
 Mind's Reflection
 Compass' Purification II
-Subtractive Distillation
-Transformation Purification //Offset from Me to Pos
+Subtractive Distillation //Offset from Me to Pos
 {
     Introjection
         Mind's Reflection

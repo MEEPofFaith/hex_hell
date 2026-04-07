@@ -1,0 +1,40 @@
+//Wait a sec I don't even need to use matrices lmao
+Mind's Reflection
+Compass' Purification
+Mind's Reflection
+Alidade's Purification
+Dioscuri Gambit
+Archer's Distillation
+Gemini Decomposition
+Augur's Purification
+{
+    Rotation Gambit II
+    Architect's Distillation
+    Additive Distillation
+    Vector Reflection: (0, -0.375, 0)
+    Additive Distillation
+    Mind's Reflection
+    Compass' Purification II
+    Subtractive Distillation // Offset from Pos to Me
+    Mind's Reflection
+    Alidade's Purification // Current facing angle
+    Polar Decomposition
+    //Stack: Offset, Pitch, Yaw
+    //Apply yaw rotation
+    Bubbling Gambit
+    Yaw Distillation
+    //Stack: Pitch, Rotated Offset
+    //Then pitch, as a second separate multiplcation
+    Jester's Gambit
+    Pitch Distillation
+    Contemplation
+    <(-1, 1, 1)>
+    Hadamard Distillation //Yeah idk why the x is reversed
+}
+{
+    Sekhmet' Gambit // 0
+    Vector Reflection +Z/-Z II // +32
+}
+Augur's Exaltation
+Hermes' Gambit
+Greater Blink
