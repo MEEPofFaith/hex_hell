@@ -1,0 +1,225 @@
+Spatial Reflection
+Contemplation
+<Nether Imprint>
+Equality Distillation
+Contemplation
+<???>
+Ma'at's Gambit
+
+//Get travel directio and starting position
+Mind's Reflection
+Alidade's Purification
+Mind's Reflection
+Compass' Purification
+Vector Reflection +1
+Vector Reflection +Y
+Subtractive Distillation
+Undertaker's Gambit
+Hadamard Distillation
+Vector Reflection: (0, 14.5, 0)
+Additive Distillation
+Rotation Gambit II
+Hadamard Distillation
+Axial Purification
+Gemini Decomposition
+Vector Reflection Zero
+Inequality Distillation
+Contemplation
+<Bad look dir!>
+Ma'at's Gambit
+Undertaker's Gambit
+Vector Reflection +Y
+Division Distillation
+Gemini Decomposition
+Hadamard Distillation
+Dioscuri Gambit
+Vector Reflection +1
+Jester's Gambit
+Subtractive Distillation
+Hadamard Distillation
+Rotation Gambit II
+Hadamard Distillation
+Numerical Reflection: 8
+Division Distillation
+Ceiling Purification
+Numerical Reflection: 8
+Multiplicative Distillation
+Additive Distillation
+//Stack: Direction, Start pos
+
+//Wisp loop
+{
+    Flock's Reflection
+    Numerical Reflection: 1
+    Equality Purification
+    {
+        Contemplation
+        Patience //Start pos: Index 5
+        Numerical Reflection: 4
+        Haste
+    }
+    {
+        Identity Reflection
+        Compass' Purification
+        Contemplation
+        Patience //Move direction: Index 13
+        Dioscuri Gambit
+        Vector Reflection +Y
+        Division Distillation
+        Vector Reflection +Y
+        Additive Distillation
+        Numerical Reflection: 5
+        Multiplicative Distillation
+        Dioscuri Gambit
+        Additive Distillation
+        Rotation Gambit II
+        Subtractive Distillation
+        {
+            Sekhmet' Gambit //1, just need pos
+            Gemini Decomposition
+            Detective's Purification
+            Contemplation
+            <Debris Identifier>
+            Equality Distillation
+            {
+                Gemini Decomposition
+                Break Block
+                Numerical Reflection: 1
+                Zone Distillation: Item
+                {
+                    Mind's Reflection
+                    Hopper
+                }
+                Jester's Gambit
+                Nehmetawy's Gambit
+            }
+            Helios' Gambit
+            Sekhmet' Gambit //0
+        }
+        Rotation Gambit II
+        False Reflection
+        Cubic Exaltation
+        Bookkeeper's Gambit: v
+        //Annihilat tunnel behind
+        Dioscuri Gambit
+        Subtractive Distillation
+        Gemini Decomposition
+        Annihilate Block
+        Vector Reflection -Y
+        Additive Distillation
+        Annihilate Block
+        //Spawn secondary wisps
+        Dioscuri Gambit
+        Jester's Gambit
+        Vector Reflection +1
+        Vector Reflection +Y
+        Subtractive Distillation
+        Hadamard Distillation
+        Floor Purification
+        Vector Reflection: (8, 8, 8)
+        Modulus Distillation
+        Length Purification
+        Gemini Decomposition
+        Numerical Reflection: 1
+        Minimus Distillation II
+        { //Spawn perpendicular wisps
+            Augur's Purification
+            Vector Reflection +Y
+            Vector Reflection -Y
+            Augur's Exaltation
+            Division Distillation
+            {
+                Identity Reflection
+                Compass' Purification
+                Contemplation
+                Patience //Sub direction: Index 3
+                Dioscuri Gambit
+                Vector Reflection +Y
+                Division Distillation
+                Vector Reflection +Y
+                Additive Distillation
+                Numerical Reflection: 5
+                Multiplicative Distillation
+                Dioscuri Gambit
+                Additive Distillation
+                Rotation Gambit II
+                Subtractive Distillation
+                {
+                    Sekhmet' Gambit //1, just need pos
+                    Gemini Decomposition
+                    Detective's Purification
+                    Contemplation
+                    <Debris Identifier>
+                    Equality Distillation
+                    {
+                        Gemini Decomposition
+                        Break Block
+                        Numerical Reflection: 1
+                        Zone Distillation: Item
+                        {
+                            Mind's Reflection
+                            Hopper
+                        }
+                        Jester's Gambit
+                        Nehmetawy's Gambit
+                    }
+                    Helios' Gambit
+                    Sekhmet' Gambit //0
+                }
+                Rotation Gambit II
+                False Reflection
+                Cubic Exaltation
+                Bookkeeper's Gambit: v
+                //Annihilate behind
+                Dioscuri Gambit
+                Subtractive Distillation
+                Gemini Decomposition
+                Annihilate Block
+                Vector Reflection -Y
+                Additive Distillation
+                Annihilate Block
+                //Phase in front
+                Additive Distillation
+                Gemini Decomposition
+                Numerical Reflection: 0.125
+                Phase Block
+                Pathfinder's Gambit
+                Sekhmet' Gambit //0
+            }
+            Numerical Reflection: 3
+            Rotation Gambit
+            Surgeon's Exaltation
+            Identity Reflection
+            Compass' Purification
+            Numerical Reflection: 512
+            Summon Cyclic Wisp
+        }
+        Contemplation
+        Bookkeeper's Gambit: vv
+        Augur's Exaltation
+        Hermes' Gambit
+        //Phase block in front + leave copy for pathfinder's
+        Additive Distillation
+        Gemini Decomposition
+        Numerical Reflection: 0.125
+        Phase Block
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    Pathfinder's Gambit
+    Sekhmet' Gambit //0
+    Wander //Only cast once per block for the secondary wisp spawns.
+}
+
+//Surgeoning
+Numerical Reflection: 5
+Rotation Gambit
+Surgeon's Exaltation
+Numerical Reflection: 13
+Rotation Gambit
+Surgeon's Exaltation
+
+Mind's Reflection
+Compass' Purification
+Numerical Reflection: 256
+Summon Cyclic Wisp
