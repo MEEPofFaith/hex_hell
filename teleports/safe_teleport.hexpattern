@@ -22,10 +22,12 @@ Augur's Purification
     //Stack: Offset, Pitch, Yaw
     //Apply yaw rotation
     Bubbling Gambit
+    Reflection Purification
     Yaw Distillation
     //Stack: Pitch, Rotated Offset
     //Then pitch, as a second separate multiplcation
     Jester's Gambit
+    Reflection Purification
     Pitch Distillation
     Contemplation
     <(-1, 1, 1)>
