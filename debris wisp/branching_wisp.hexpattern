@@ -41,9 +41,13 @@ Rotation Gambit II
 Hadamard Distillation
 Numerical Reflection: 8
 Division Distillation
-Ceiling Purification
+Vector Reflection: (0.5, 0.5, 0.5)
+Floor Purification
 Numerical Reflection: 8
 Multiplicative Distillation
+Additive Distillation
+Floor Purification
+Vector Reflection: (0.5, 0.5, 0.5)
 Additive Distillation
 //Stack: Direction, Start pos
 
