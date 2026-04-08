@@ -1,0 +1,134 @@
+//Get travel directio and starting position
+Mind's Reflection
+Alidade's Purification
+Mind's Reflection
+Compass' Purification
+Vector Reflection +1
+Vector Reflection +Y
+Subtractive Distillation
+Undertaker's Gambit
+Hadamard Distillation
+Vector Reflection: (0, 14.5, 0)
+Additive Distillation
+Rotation Gambit II
+Hadamard Distillation
+Axial Purification
+Gemini Decomposition
+Vector Reflection Zero
+Inequality Distillation
+Contemplation
+<Bad look dir!>
+Ma'at's Gambit
+Undertaker's Gambit
+Vector Reflection +Y
+Division Distillation
+Gemini Decomposition
+Hadamard Distillation
+Dioscuri Gambit
+Vector Reflection +1
+Jester's Gambit
+Subtractive Distillation
+Hadamard Distillation
+Rotation Gambit II
+Hadamard Distillation
+Numerical Reflection: 8
+Division Distillation
+Ceiling Purification
+Numerical Reflection: 8
+Multiplicative Distillation
+Additive Distillation
+//Stack: Direction, Start pos
+
+//Wisp loop
+{
+    Flock's Reflection
+    Numerical Reflection: 1
+    Equality Purification
+    {
+        Contemplation
+        Patience //Start pos: Index 5
+        Wander
+    }
+    {
+        Identity Reflection
+        Compass' Purification
+        Contemplation
+        Patience //Move direction: Index 12
+        Dioscuri Gambit
+        Vector Reflection +Y
+        Division Distillation
+        Vector Reflection +Y
+        Additive Distillation
+        Numerical Reflection: 5
+        Multiplicative Distillation
+        Dioscuri Gambit
+        Additive Distillation
+        Rotation Gambit II
+        Subtractive Distillation
+        {
+            Sekhmet' Gambit //1, just need pos
+            Gemini Decomposition
+            Detective's Purification
+            Contemplation
+            <Debris Identifier>
+            Equality Distillation
+            {
+                Gemini Decomposition
+                Break Block
+                Numerical Reflection: 1
+                Zone Distillation: Item
+                {
+                    Contemplation
+                    <Gate to Me>
+                    Jester's Gambit
+                    Gate's Opening
+                }
+                Jester's Gambit
+                Nehmetawy's Gambit
+            }
+            Helios' Gambit
+            Sekhmet' Gambit //0
+        }
+        Rotation Gambit II
+        False Reflection
+        Cubic Exaltation
+        Bookkeeper's Gambit: v
+        Contemplation
+        <Gate to Me>
+        Gemini Decomposition
+        Contemplation
+        Gate's Closing
+        Contemplation
+        Bookkeeper's Gambit: v
+        Augur's Exaltation
+        Hermes' Gambit
+        Dioscuri Gambit
+        Subtractive Distillation
+        Gemini Decomposition
+        Annihilate Block
+        Vector Reflection -Y
+        Additive Distillation
+        Annihilate Block
+        Additive Distillation
+        Gemini Decomposition
+        Numerical Reflection: 0.125
+        Phase Block
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    Pathfinder's Gambit
+    Sekhmet' Gambit //0
+}
+
+//Surgeoning
+Numerical Reflection: 5
+Rotation Gambit
+Surgeon's Exaltation
+Numerical Reflection: 12
+Rotation Gambit
+Surgeon's Exaltation
+
+Mind's Reflection
+Compass' Purification
+Numerical Reflection: 256
+Summon Cyclic Wisp
