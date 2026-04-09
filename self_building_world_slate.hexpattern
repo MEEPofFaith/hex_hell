@@ -1,19 +1,96 @@
+//Starting point of the circle is to be built at 0, 0
 //Stack starts with a direction.
 Wave Location Rfln.
 Gemini Decomposition
+//Walk Pseudosent
 Single's Purification
 Apply Pseudosentinels
 Prospector's Gambit
-Additive Distillation
+Additive Distillation //Position in front
 Dioscuri Gambit
-Additive Distillation
-Gemini Decomposition
+//Stack: Direction, Front Pos, Direction, Front Pos
+Additive Distillation //2 blocks forwards
+Gemini Decomposition //Break there and the block above for walk space
+//Stack: Direction, Front Pos, Front2 Pos, Front2 Pos
 Annihilate Block
 Vector Reflection +Y
 Additive Distillation
 Annihilate Block
+Gemini Decomposition //Position in front
+//Stack: Direction, Front, Front
+Vector Reflection -Y
+Additive Distillation //1 Block down
 Gemini Decomposition
+//Stack: Direction, Front, Front Down, Front Down
+Detective's Purification
+Contemplation
+<[Air, Lava]>
+Jester's Gambit
+Locator's Distillation
+Numerical Reflection: -1
+Inequality Distillation
+{ //Is air or lava, place block
+    Numerical Reflection: 1
+    Set Slot
+    Place Block
+    Numerical Reflection: 0
+    Set Slot
+}
+Contemplation
+Bookkeeper's Gambit: v
+Augur's Exaltation
+Hermes' Gambit
+Gemini Decomposition
+//Stack: Direction, Front, Front
+//Place slate
 Place Block
 Contemplation
-<imprinted pattern>
+Mind's Reflection //Imprinter pattern
 Chronicler's Gambit
+Wave Location Rfln.
+Prospector's Gambit
+Subtractive Distillation //Block behind
+Gemini Decomposition
+//Stack: Direction, Back, Back
+Numerical Reflection: 0
+Extract Block
+Gemini Decomposition
+Numerical Reflection: 1
+Zone Distillation: Item
+{
+    Lay Item
+}
+Jester's Gambit
+Nehmetawy's Gambit
+Bookkeeper's Gambit: v
+Gemini Decomposition
+Place Block //Break and replace slate to clear
+Dioscuri Gambit
+//Stack: Direction, Back, Direction, Back
+Hadamard Distillation
+Length Purification
+Floor Purification
+Undertaker's Gambit
+Numerical Reflection: 16
+Modulus Distillation
+Numerical Reflection: 0
+Equality Distillation
+Contemplation
+//Safe Blink. The imetpus will be activated by my carpet bot to keep the end point loaded.
+<[Mind's Reflection, Compass' Purification II, Subtractive Distillation, Mind's Reflection, Alidade's Purification, Polar Decomposition, Vector Reflection +Y, Jester's Gambit, Rotation Distillation, Rotation Gambit, Multiplicative Distillation, Vector Reflection +X, Rotation Gambit, Rotation Distillation, Jester's Gambit, Multiplicative Distillation, Restoration Purification, Contemplation, (-1.00, 1.00, 1.00), Hadamard Distillation, Greater Blink]>
+Contemplation
+Bookkeeper's Gambit: v
+Augur's Exaltation
+Hermes' Gambit
+//Limit check
+Numerical Reflection: 50 //Small number for testing and also my test site isn't at 0, 0. Real run will be 10k.
+Minimus Distillation
+Gemini Decomposition
+{
+    Mind's Reflection
+    Banish Creature
+}
+Selene's Gambit
+Contemplation
+<"End reached">
+Ma'at's Gambit
