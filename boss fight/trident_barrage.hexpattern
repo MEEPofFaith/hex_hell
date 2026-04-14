@@ -1,0 +1,123 @@
+Archgenie Reflection: Temporal
+Gemini Decomposition
+Numerical Reflection: 0
+Equality Distillation
+{ //Allocate
+    {
+        Gemini Decomposition
+        Contemplation
+        <"minecraft:trident"> //Actually, use a sword. Trident is offset and I don't want to bother.
+        Summon Item Display
+        Entity Purification: BIT
+    }
+    {
+        Introjection
+            Mind's Reflection
+            Compass' Purification II
+            Gemini Decomposition
+            Contemplation
+            <0, 0.1, 0>
+            Additive Distillation
+            Gemini Decomposition
+            Contemplation
+            <0, 0.1, 0>
+            Additive Distillation
+        Retrojection
+    }
+    Nehmetawy's Gambit
+    Archgenie Gambit
+}
+Helios' Gambit
+
+//Update positions and rotations
+Numerical Reflection: 15
+Division Distillation
+Numerical Reflection: 1
+Minimum Distillation
+Numerical Reflection: 3 //Smoothstep
+Gemini Gambit
+Numerical Reflection: 2
+Multiplicative Distillation
+Numerical Reflection: 3
+Jester's Gambit
+Subtractive Distillation
+Multiplicative Distillation
+Multiplicative Distillation
+{
+    Jester's Gambit
+    Multiplicative Distillation
+    Mind's Reflection
+    Alidade's Purification
+    Polar Decomposition
+    Bookkeeper's Gambit: v-
+    Yaw Distillation
+    Mind's Reflection
+    Compass' Purification II
+    Additive Distillation
+    Contemplation
+    <0, 1.4, 0>
+    Additive Distillation
+}
+Contemplation
+<[Offsets]>
+Thoth's Gambit
+Bookkeeper's Gambit: v-
+Archgenie Reflection: Memory
+Division Distillation
+{
+    Flock's Disintegration
+    Undertaker's Gambit
+    Compass' Purification
+    Subtractive Distillation
+    Prospector's Gambit
+    Contemplation
+    Patience //Index 6
+    Rotate BIT
+    Translate BIT
+}
+Numerical Reflection: 6
+Vector Reflection +Z
+Mind's Reflection
+Alidade's Purification
+Dioscuri Gambit
+Division Distillation
+Norm Purification
+Rotation Gambit II
+Theta Distillation
+Axis Angle Distillation
+Contemplation
+<Align to +Z Quaternion>
+Multiplicative Distillation
+Surgeon's Exaltation
+Jester's Gambit
+Nehmetawy's Gambit
+
+//Attack
+Archgenie Reflection: Memory
+Offensive Reflection
+Numerical Reflection: 6
+Modulus Distillation
+Selection Distillation
+Gemini Decomposition
+{
+    Compass' Purification
+    Conjure Trident
+    Numerical Reflection: 5
+    {
+        Mind's Reflection
+        Alidade's Purification
+        Impulse
+    }
+    Kitkat's Gambit
+}
+Helios' Gambit
+
+Finale Reflection
+{ //Deallocate
+    {
+        Kill BIT
+    }
+    Archgenie Reflection: Memory
+    Nehmetawy's Gambit
+}
+Helios' Gambit
