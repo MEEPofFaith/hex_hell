@@ -1,0 +1,87 @@
+Contemplation
+<Destinations frame>
+Chronicler's Purification
+Length Purification
+Circle's Reflection
+Prospector's Gambit
+Division Distillation
+Gemini Decomposition
+Contemplation
+<Index frame>
+Chronicler's Purification
+Multiplicative Distillation
+//Stack: # of destinations, spacing, target rot
+Contemplation
+<Angle frame>
+Gemini Decomposition
+Chronicler's Purification
+Rotation Gambit
+Dioscuri Gambit
+Theta Distillation
+Numerical Reflection: 8
+Division Distillation
+Turning Exaltation
+Undertaker's Gambit
+Chronicler's Gambit
+//Stack: # of destinations, spacing, current rot
+Contemplation
+<Specks frame>
+Chronicler's Purification
+Geb's Gambit // 3
+Numerical Reflection: 0
+Selection Exaltation
+{ //Inner stack: spacing, current rot, speck, index
+    //Swindle: dcba -> bcda
+    Numerical Reflection: 14
+    Swindler's Gambit
+    Multiplicative Distillation
+    Subtractive Distillation //idk why subtract
+    Gemini Decomposition
+    Yaw Purification
+    Numerical Reflection: 12
+    Multiplicative Distillation
+    Jester's Gambit
+    Numerical Reflection: 0
+    Theta Distillation
+    //Stack: speck, offset, 0-pi
+    //Sine easing
+    Cosine Purification
+    Decrementation Purification
+    Reflection Purification
+    Numerical Reflection: 2
+    Division Distillation
+    //Stack: speck, offset, 0-1
+    Undertaker's Gambit
+    Vector Reflection: (0, -9, 0)
+    Multiplicative Distillation
+    Additive Distillation
+    Vector Reflection: (0, 4, 0)
+    Additive Distillation
+    //-Z is the front
+    Arc's Reflection
+    Yaw Distillation
+    Contemplation
+    <Center pos>
+    //Stack: speck, 0-1, offset, center
+    Numerical Reflection: 4
+    // [0, 1, 2, 3] -> [0, 1, 0, 3, 0, 2, 3]
+    Contemplation
+    <[0, 1, 0, 3, 0, 2, 3]>
+    Mass Rotation Gambit
+    //Stack: speck, 0-1, speck, center, speck, offset, center
+    Additive Distillation
+    Move Speck
+    Prospector's Gambit
+    Compass' Purification
+    Subtractive Distillation
+    Rotate Speck
+    Numerical Reflection: 4
+    Multiplicative Distillation
+    Numerical Reflection: 6
+    Jester's Gambit
+    Subtractive Distillation
+    Resize Speck
+}
+Jester's Gambit
+Djehuty's Gambit
+Sekhmet' Gambit //0
