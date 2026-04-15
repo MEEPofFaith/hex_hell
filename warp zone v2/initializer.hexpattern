@@ -1,0 +1,106 @@
+//Initialize destinations list
+{
+    Gemini Decomposition
+    Detective's Purification
+    Contemplation
+    <hexdebug:focus_holder>
+    Equality Distillation
+    Prospector's Gambit
+    Auditor's Purification
+    Conjunction Distillation
+    {
+        Gemini Decomposition
+        Chest Purification
+        Flock's Disintegration
+        Appellation Purification
+        Jester's Gambit
+        Chronicler's Purification
+        Numerical Reflection: 2
+        Flock's Gambit
+    }
+    Contemplation
+    Sekhmet' Gambit //0
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Contemplation
+<Corner 1>
+Contemplation
+<Corner 2>
+False Reflection
+Cubic Exaltation
+Gemini Decomposition
+Contemplation
+<Destination data focal frame>
+Jester's Gambit
+Chronicler's Gambit
+
+//Set up specks
+//Stack: [[Name, Conduit]]
+Gemini Gambit
+Length Purification
+Contemplation
+<Specks list focal frame>
+Chronicler's Purification
+Undertaker's Gambit
+Length Purification
+Subtractive Distillation //Target specks - current specks
+//Stack: [[Name, Conduit]], [Speck], Missing speck count
+Gemini Decomposition
+Numerical Reflection: 0
+Maximus Distillation
+{ //Make more specks if not enough
+    Vacant Reflection
+    {
+        Hermes' Gambit
+        Nullary Reflection
+        Waystone Reflection
+        Vector Reflection +Z
+        Conjure Speck
+        Integration Distillation
+    }
+    Rotation Gambit
+    Gemini Gambit
+    Hermes' Gambit
+    Contemplation
+    <Specks list focal frame>
+    Prospector's Gambit
+    Chronicler's Gambit
+}
+Contemplation
+Bookkeeper's Gambit: v
+Augur's Exaltation
+Hermes' Gambit
+//Stack: [[Name, Conduit]], [Speck]
+{ //Inner stack: [[Name, Conduit]], Speck, Index
+    Bubbling Gambit
+    Selection Distillation
+    Gemini Decomposition
+    Augur's Purification
+    { //True, set name
+        Numerical Reflection: 0
+        Selection Distillation
+    }
+    { //False, hide away
+        Prospector's Gambit
+        Waystone Reflection
+        Vector Reflection: (0, -5, 0)
+        Additive Distillation
+        Move Speck
+        Prospector's Gambit
+        Numerical Reflection: 0.25
+        Resize Speck
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    Alter Speck
+}
+Jester's Gambit
+Djehuty's Gambit
+Bookkeeper's Gambit: v
+
+//Reset index
+Contemplation
+<Index frame>
+Numerical Reflection: 0
+Chronicler's Gambit
