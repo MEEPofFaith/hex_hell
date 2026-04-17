@@ -1,0 +1,97 @@
+//Stack: A dict
+Vacant Reflection
+Jester's Gambit
+
+//Handle tracking and consume
+{ //Inner stack: List, Dict, Wisp
+    Dioscuri Gambit
+    Locator's Distillation
+    //Stack: List, Dict, Wisp, null/time
+    Gemini Decomposition
+    Augur's Purification
+    {
+        Timekeeper's Reflection
+        Subtractive Distillation
+        Numerical Reflection: 10
+        Minimus Distillation
+        { //Time to consume, remove from dict, add to list
+            Undertaker's Gambit
+            Excisor's Distillation
+            Bookkeeper's Gambit: v
+            Rotation Gambit II
+            Integration Distillation
+            Jester's Gambit
+        }
+        Contemplation //Not yet, remove wisp from stack
+        Bookkeeper's Gambit: v
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    { //Not in dict, add
+        Bookkeeper's Gambit: v
+        Timekeeper's Reflection
+        Numerical Reflection: 299
+        Additive Distillation //When to consume
+        Surgeon's Exaltation
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Contemplation
+<Wisp reactor pos>
+Numerical Reflection: 5
+Zone Distillation: Wisp
+Anubis' Gambit
+
+//If empty, don't bother
+Jester's Gambit
+Gemini Decomposition
+{
+    Bookkeeper's Gambit: v
+    Janus' Gambit
+}
+Selene's Gambit
+
+//Stack: Dict, List
+{
+    Consume Wisp
+}
+Rotation Gambit
+Jester's Gambit
+Bookkeeper's Gambit: v
+
+//Handle filling
+Media Reflection
+Circle Media Rfln.
+Subtractive Distillation
+Reveal
+Numerical Reflection: 0
+Maximum Distillation
+Contemplation
+<1.10> //Compensate for 10% tax
+Division Distillation
+Waystone Reflection
+Jester's Gambit
+Deposit Media
+{
+    Contemplation
+    <7680.00> //Condenser capacity
+    Prospector's Gambit
+    Inner Media Purification
+    Subtractive Distillation
+    Circle Media Rfln.
+    Contemplation
+    <100.00>
+    Subtractive Distillation
+    Minimum Distillation
+    Numerical Reflection: 0
+    Maximum Distillation
+    Contemplation
+    <1.10> //Compensate for 10% tax
+    Division Distillation
+    Deposit Media
+}
+Contemplation
+<[Condenser Positions]>
+Nehmetawy's Gambit
+Bookkeeper's Gambit: v
