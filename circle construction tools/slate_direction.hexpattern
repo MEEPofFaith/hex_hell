@@ -7,42 +7,38 @@ Contemplation
 <Slate Utils Property>
 Patchwork Exaltation
 Detective's Purification //Metamethod for slate type
-{
-    Introjection
-        { // Not Slate
-            Bookkeeper's Gambit: v
-            Nullary Reflection
-        }
-        { // Is Slate
-            Gemini Decomposition
-            Contemplation
-            <Face Facet>
-            Facet Distillation
-            {
-                Introjection
-                { //Floor
-                    Bookkeeper's Gambit: v
-                    Vector Reflection +Y
-                }
-                { //Wall
-                    Contemplation
-                    <Facing Facet>
-                    Facet Distillation
-                }
-                { //Ceiling
-                    Bookkeeper's Gambit: v
-                    Vector Reflection -Y
-                }
-                Retrojection
-            }
-            Jester's Gambit
-            Selection Distillation
-            Hermes' Gambit
-        }
-        Contemplation // Is Impetus
-        Orientation Purification
-    Retrojection
+{ // Not Slate
+    Bookkeeper's Gambit: v
+    Nullary Reflection
 }
+{ // Is Slate
+    Gemini Decomposition
+    Contemplation
+    <Face Facet>
+    Facet Distillation
+    { //Floor
+        Bookkeeper's Gambit: v
+        Vector Reflection +Y
+    }
+    { //Wall
+        Contemplation
+        <Facing Facet>
+        Facet Distillation
+    }
+    { //Ceiling
+        Bookkeeper's Gambit: v
+        Vector Reflection -Y
+    }
+    Numerical Reflection: 3
+    Flock's Gambit
+    Jester's Gambit
+    Selection Distillation
+    Hermes' Gambit
+}
+Contemplation // Is Impetus
+Orientation Purification
+Numerical Reflection: 3
+Flock's Gambit
 Jester's Gambit
 Selection Distillation
 Hermes' Gambit
