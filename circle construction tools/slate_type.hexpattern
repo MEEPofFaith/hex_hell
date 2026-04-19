@@ -1,0 +1,24 @@
+//Stack: A vector
+Detective's Purification
+Gemini Decomposition
+Contemplation
+<[Impetus types]>
+Jester's Gambit
+Locator's Distillation
+Incrementation Purification
+Augur's Purification
+{ //Is impetus
+    Bookkeeper's Gambit: v
+    Numerical Reflection: 2
+}
+{
+    Contemplation
+    <Slate>
+    Equality Distillation
+    Length Purification
+}
+Augur's Exaltation
+Hermes' Gambit
+//Return: 0 - Not Slate, 1 - Slate, 2 - Impetus
+
+//Save this to a patchwork property under Detective's Purification
