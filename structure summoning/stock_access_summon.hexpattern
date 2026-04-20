@@ -59,21 +59,46 @@ Augur's Purification
     Numerical Reflection: 2
     Flock's Gambit
     Charmed Gambit II
-    //Stack: Position, Position, Structure, Structure Rot
+    //Stack: Position, Structure, Structure Rot
     //Offset based on rotation
+    Undertaker's Gambit
     Contemplation
     <[(-1, 0, -1), (-1, 0, 0), (0, 0, -1), (-1, 0, -1)]>
     Jester's Gambit
     Selection Distillation
-    Rotation Gambit
+    //Stack: Position, Structure Rot, Structure, Offset
+    Numerical Reflection: 3
+    Fisherman's Gambit II
     Additive Distillation
     Undertaker's Gambit
     Jester's Gambit
     Actualize Structure
     Spatial Reflection
+    Undertaker's Gambit
     Numerical Reflection: 2
     Flock's Gambit
     Charmed Gambit
+    //Stack: Position, Structure Rot, Imprint
+    Rotation Gambit II
+    Numerical Reflection: 2
+    Additive Distillation
+    Arc's Reflection
+    Numerical Reflection: 2
+    Division Distillation
+    Multiplicative Distillation
+    Yaw Purification
+    Vector Reflection +Y
+    Additive Distillation
+    Additive Distillation
+    Numerical Reflection: 2
+    Flock's Gambit
+    Jester's Gambit
+    Numerical Reflection: 2
+    Flock's Gambit
+    Contemplation
+    <Position Property>
+    Jester's Gambit
+    Schrödinger's Gambit
 }
 { //Structure is empty, try to pick up.
     Charmed Reflection
@@ -121,6 +146,10 @@ Augur's Purification
     Rotation Gambit
     Surgeon's Exaltation
     Charmed Gambit II
+    Contemplation
+    <Position Property>
+    Nullary Reflection
+    Schrödinger's Gambit
 }
 Augur's Exaltation
 Hermes' Gambit
