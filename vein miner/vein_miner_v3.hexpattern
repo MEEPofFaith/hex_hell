@@ -1,0 +1,53 @@
+Mind's Reflection
+Compass' Purification
+//Check if I'm in the world. Archer's will mishap otherwise
+Gemini Decomposition
+Ambit Purification
+Contemplation
+<"You're outside the world!">
+Ma'at's Gambit
+Mind's Reflection
+Archer's Distillation
+Gemini Decomposition
+Detective's Purification
+{ //Main loop - Inner stack: Type, Pos
+    {
+        Gemini Decomposition
+        Ambit Purification //Ambit Check
+        Styx's Gambit
+        Gemini Decomposition
+        Detective's Purification
+        Rotation Gambit
+        Equality Distillation
+        Styx's Gambit //Type Check
+        
+        //Break + Vacuum
+        Gemini Decomposition
+        Break Block
+        Gemini Decomposition
+        Numerical Reflection: 1
+        Zone Distillation: Item
+        {
+            Mind's Reflection
+            Hopper
+        }
+        Jester's Gambit
+        Nehmetawy's Gambit
+        Bookkeeper's Gambit: v
+        
+        //Add adjacents to queue
+        {
+            Prospector's Gambit
+            Additive Distillation
+            Pollux's Gambit
+        }
+        Contemplation
+        <[Offsets List]>
+        Anubis' Gambit
+    }
+    Hermes' Gambit
+    Sekhmet' Gambit
+}
+Rotation Gambit
+Single's Purification
+Thoth's Gambit
