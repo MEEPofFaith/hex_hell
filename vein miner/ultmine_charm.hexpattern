@@ -1,0 +1,131 @@
+//THE ULTIMATE VEIN MINE CHARM
+//Initialize Data
+Charmed Reflection
+Nullary Reflection
+Equality Distillation
+{
+    Numerical Reflection: 0
+    Contemplation
+    <[["6 Adjacent", "12 Edges", "8 Corners"], [[Offsets], [Offsets], [Offsets]]]>
+    Numerical Reflection: 2
+    Flock's Gambit
+    Charmed Gambit
+}
+Helios' Gambit
+Gemini Decomposition
+Numerical Reflection: 0
+Equality Distillation
+{ //Cycle on left click
+    Bookkeeper's Gambit: v
+    Charmed Reflection
+    Speaker's Decomposition
+    Stealthy Reflection
+    Numerical Reflection: -1
+    Equality Distillation
+    Contemplation //Not shift: +1
+    Incrementation Purification
+    Contemplation //Shift: -1
+    Decrementation Purification
+    Augur's Exaltation
+    Hermes' Gambit
+    Numerical Reflection: 3
+    Modulus Distillation II
+    Speaker's Distillation
+    Gemini Decomposition
+    Charmed Gambit
+    Flock's Disintegration
+    Numerical Reflection: 0
+    Selection Distillation
+    Jester's Gambit
+    Incrementation Purification
+    Retention Distillation
+    {
+        Contemplation
+        <" + ">
+        Jester's Gambit
+        Additive Distillation
+        Additive Distillation
+    }
+    Jester's Gambit
+    Apep's Gambit
+    Send Thought
+    Hallucinate Click
+    Janus' Gambit
+}
+Helios' Gambit
+//Pick vein mine type
+//Right click: Break (1)
+//Shift right click: Silk (1 + 2)
+//Middle click: Fortune (2)
+//Shift middle click: Annihilate (2 + 2)
+Decrementation Purification
+Stealthy Reflection
+Numerical Reflection: -1
+Inequality Distillation
+{
+    Numerical Reflection: 2
+    Additive Distillation
+}
+Helios' Gambit
+Contemplation
+<[Break], [Fortune], [Silk], [Annihilate]>
+Jester's Gambit
+Selection Distillation
+//Get offsets
+Charmed Reflection
+Flock's Disintegration
+Numerical Reflection: 1
+Selection Distillation
+Jester's Gambit
+Incrementation Purification
+Retention Distillation
+Contemplation
+Additive Distillation
+Jester's Gambit
+Apep's Gambit
+Jester's Gambit
+//Execute vein mine v3 (With some modifications)
+Mind's Reflection
+Compass' Purification
+//Check if I'm in the world. Archer's will mishap otherwise
+Gemini Decomposition
+Ambit Purification
+Contemplation
+<"You're outside the world!">
+Ma'at's Gambit
+Mind's Reflection
+Contemplation
+Archer's Distillation
+Lani's Greater Gambit
+Gemini Decomposition
+Detective's Purification
+{ //Main loop - Inner stack: [Offsets], [Break], Type, Pos
+    {
+        Gemini Decomposition
+        Ambit Purification //Ambit Check
+        Styx's Gambit
+        Undertaker's Gambit
+        Detective's Purification
+        Equality Distillation
+        Styx's Gambit //Type Check
+        
+        //Break
+        Gemini Decomposition
+        Rotation Gambit
+        Lani's Greater Gambit
+        
+        //Add adjacents to queue
+        {
+            Prospector's Gambit
+            Additive Distillation
+            Pollux's Gambit
+        }
+        Rotation Gambit
+        Anubis' Gambit
+    }
+    Hermes' Gambit
+    Sekhmet' Gambit
+}
+Rotation Gambit
+Single's Purification
+Thoth's Gambit
