@@ -1,0 +1,136 @@
+Contemplation
+<Empty Text>
+Single's Purification
+{ //Stack: [text]
+    Vacant Reflection
+    Prospector's Gambit
+    Numerical Reflection: 0
+    Excisor's Distillation
+    Reading Purification (text)
+    Intent Section
+    Integration Distillation
+    Prospector's Gambit
+    Contemplation
+    Additive Distillation
+    Jester's Gambit
+    Apep's Gambit
+    Reading Purification (text)
+    Intent Section
+    Integration Distillation
+    Contemplation
+    <"Text">
+    Intent Input
+    Integration Distillation
+    {
+        Numerical Reflection: 0
+        Numerical Reflection: 255
+        Numerical Reflection: 255
+        Geb's Gambit //3
+        Intent Slider
+    }
+    Contemplation
+    <[R, G, B]>
+    Nehmetawy's Gambit
+    Additive Distillation
+    Jester's Gambit
+    //Stack: [Intents], [Text]
+    Gemini Decomposition
+    Contemplation
+    Patience // Index: 33
+    Dioscuri Gambit
+    //Stack: [Intents], [Text], [Text], [Quine], [Text], [Quine]
+    {
+        Nut's Gambit // 4
+        Vector Exaltation
+        Numerical Reflection: 255
+        Division Distillation
+        Jester's Gambit
+        Reading Purification (text)
+        Reading Purification (text)
+        Gemini Decomposition
+        Length Purification
+        Decrementation Purification
+        Numerical Reflection: 1
+        Selection Distillation
+        Jester's Gambit
+        Lumiere's Gambit
+        Jester's Gambit
+        Length Purification
+        Numerical Reflection: 2
+        Division Distillation
+        Numerical Reflection: 0
+        Selection Distillation
+        Integration Distillation
+        Contemplation
+        Patience //Inner index: 22
+        Numerical Reflection: 33
+        Build Nested
+        Hermes' Gambit
+    }
+    Numerical Reflection: 22
+    Rotation Gambit
+    Surgeon's Exaltation]
+    Jester's Gambit
+    Bubbles' Purification
+    Speaker's Distillation
+    Contemplation
+    <"Next">
+    Intent Button
+    Single's Purification
+    //Stack: [Intents], [Text], [Text], [Quine], [Next]
+    Reflecting Gambit
+    Gemini Decomposition
+    Length Purification
+    Numerical Reflection: 1
+    Maximus Distillation
+    {
+        Derivation Decomposition
+        Bookkeeper's Gambit: v
+        Bubbles' Purification
+        Single's Purification
+        Contemplation
+        Contemplation
+        Integration Distillation
+        Jester's Gambit
+        Integration Distillation
+        {
+            Numerical Reflection: 33
+            Build Nested
+            Hermes' Gambit
+        }
+        Additive Distillation
+        Contemplation
+        <"Undo">
+        Intent Button
+        Integration Distillation
+    }
+    Contemplation
+    Bookkeeper's Gambit: vv
+    Augur's Exaltation
+    Hermes' Gambit
+    Jester's Gambit
+    Bubbles' Purification
+    Single's Purification
+    { //Confirm
+        Mind's Reflection
+        Compass' Purification II
+        Contemplation
+        Additive Distillation
+        Rotation Gambit
+        Apep's Gambit
+        Conjure Hexburst
+        Sekhmet's Gambit //0
+    }
+    Additive Distillation
+    Contemplation
+    <"Confirm">
+    Intent Button
+    Integration Distillation
+    Additive Distillation
+    Contemplation
+    <"Text Builder">
+    Manefest List
+}
+Numerical Reflection: 33
+Build Nested
+Hermes' Gambit
