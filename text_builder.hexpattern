@@ -1,3 +1,4 @@
+//If used in a charm, add bookkeeper's here to remote the input button number.
 Contemplation
 <Empty Text>
 Single's Purification
@@ -32,19 +33,25 @@ Single's Purification
     <[R, G, B]>
     Nehmetawy's Gambit
     Additive Distillation
-    Jester's Gambit
-    //Stack: [Intents], [Text]
-    Gemini Decomposition
+    //Stack: [Text], [Intents]
     Contemplation
-    Patience // Index: 33
-    Dioscuri Gambit
-    //Stack: [Intents], [Text], [Text], [Quine], [Text], [Quine]
+    Patience // Index: 31
     {
+        Contemplation
+        Patience
+        Numerical Reflection: 30
+        Build Nested
+        Hermes' Gambit
+    }
+    Numerical Reflection: 1
+    Rotation Gambit
+    Surgeon's Exaltation
+    //Stack: [Text], [Intents], [Quine]
+    { //Append - Inner stack: [Text], Text?, R, G, B
         Flock's Reflection
         Numerical Reflection: 5
         Equality Distillation
         {
-            Nut's Gambit // 4
             Vector Exaltation
             Numerical Reflection: 255
             Division Distillation
@@ -67,46 +74,33 @@ Single's Purification
             Integration Distillation
         }
         Contemplation
-        Bookkeeper's Gambit: vvv-
+        Bookkeeper's Gambit: vvv
         Augur's Exaltation
         Hermes' Gambit
-        Contemplation
-        Patience //Inner index: 31
-        Numerical Reflection: 33
-        Build Nested
-        Hermes' Gambit
     }
-    Numerical Reflection: 31
-    Rotation Gambit
-    Surgeon's Exaltation]
-    Jester's Gambit
-    Bubbles' Purification
-    Speaker's Distillation
+    Prospector's Gambit
+    Additive Distillation
     Contemplation
     <"Append">
     Intent Button
     Single's Purification
-    //Stack: [Intents], [Text], [Text], [Quine], [Next]
-    Reflecting Gambit
-    Gemini Decomposition
+    //Stack: [Text], [Intents], [Quine], [Button]
+    Numerical Reflection: 3
+    Fisherman's Gambit II
     Length Purification
     Numerical Reflection: 1
     Maximus Distillation
     {
-        Derivation Decomposition
-        Bookkeeper's Gambit: v
-        Bubbles' Purification
-        Single's Purification
-        Contemplation
-        Contemplation
-        Integration Distillation
-        Jester's Gambit
-        Integration Distillation
-        {
-            Numerical Reflection: 33
-            Build Nested
-            Hermes' Gambit
+        { //Undo - Inner stack: [Text], Text?, R, G, B
+            Flock's Reflection
+            Decrementation Purification
+            Fisherman's Gambit
+            Sekhmet's Gambit // 1
+            Derivation Decomposition
+            Bookkeeper's Gambit: v
+            Contemplation
         }
+        Rotation Gambit
         Additive Distillation
         Contemplation
         <"Undo">
@@ -114,18 +108,18 @@ Single's Purification
         Integration Distillation
     }
     Contemplation
-    Bookkeeper's Gambit: vv
+    Bookkeeper's Gambit: v-
     Augur's Exaltation
     Hermes' Gambit
-    Jester's Gambit
-    Bubbles' Purification
-    Single's Purification
-    { //Confirm
+    Additive Distillation
+    { //Confirm - Inner Stack: [Text], Text?, R, G, B
         Mind's Reflection
         Compass' Purification II
         Contemplation
         Additive Distillation
-        Rotation Gambit
+        Flock's Reflection
+        Decrementation Purification
+        Fisherman's Gambit
         Apep's Gambit
         {
             Conjure Hexburst
@@ -133,16 +127,14 @@ Single's Purification
         Lani's Greater Gambit
         Sekhmet's Gambit //0
     }
-    Additive Distillation
     Contemplation
     <"Confirm">
     Intent Button
     Integration Distillation
-    Additive Distillation
     Contemplation
     <"Text Builder">
     Manefest List
 }
-Numerical Reflection: 33
+Numerical Reflection: 30
 Build Nested
 Hermes' Gambit
