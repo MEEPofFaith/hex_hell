@@ -1,0 +1,31 @@
+//Stack: dests property, dests dict, [string, [pos, dim]]
+Contemplation
+<"Name">
+Intent Input
+{
+    Flock's Reflection
+    Numerical Reflection: 4
+    Equality Distillation
+    Contemplation
+    <"No name input!">
+    Ma'at's Gambit
+    //Inner stack: dests prop, dests dict, [string, [pos, dim]], name
+    Rotation Gambit II
+    Flock's Disintegration
+    //Inner stack: dests prop, name, dests dict, string, [pos, dim]
+    Rotation Gambit II
+    Excisor's Distillation
+    Bookkeeper's Gambit: v
+    //Inner stack: dests prop, name, [pos, dim], dests dict
+    Rotation Gambit II
+    Surgeon's Exaltation
+    Schrödinger's Gambit
+}
+Contemplation
+<"Submit">
+Intent Button
+Numerical Reflection: 2
+Flock's Gambit
+Contemplation
+<"Rename Destination">
+Manifest List Menu

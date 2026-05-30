@@ -1,0 +1,50 @@
+Sekhmet' Gambit //0 - Execute with clear stack
+Contemplation
+<Warp Destinations Property> // Format: Dict - String to [Position, Dimension]
+Gemini Decomposition
+Observation Purification
+Contemplation
+<Destinations List Button>
+Contemplation
+<"Destinations">
+Intent Buutton
+Contemplation
+<Add Button>
+Contemplation
+<"Add Destination">
+Intent Button
+{
+    Sekhmet' Gambit // 0
+    {
+        Mind's Reflection
+        Compass' Purification II
+        Planar Marking
+        Planar Reflection
+        Mind's Reflection
+        Planar Intrusion
+    }
+    Contemplation
+    <"Yes">
+    Intent Button
+    {
+        Planar Reflection
+        Mind's Reflection
+        Planar Intrusion
+    }
+    Contemplation
+    <"No">
+    Intent Button
+    Numerical Reflection: 2
+    Flock's Gambit
+    Contemplation
+    <"Set Return Point?">
+    Manifest List Menu
+}
+Contemplation
+<"Enter Hexplane">
+Intent Button
+Numerical Reflection: 3
+Flock's Gambit
+Contemplation
+<"Warp Menu">
+Manefest List Menu

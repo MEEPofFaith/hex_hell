@@ -1,0 +1,62 @@
+//Stack: dests property, dests dict, [[string, [pos, dim]]]
+Contemplation
+<Teleport Button>
+Contemplation
+<"Teleport">
+Intent Button
+Contemplation
+<Rename Button>
+Contemplation
+<"Rename">
+Intent Button
+{
+    {
+        Flock's Disintegration
+        Bookkeeper's Gambit: v
+        //Current position and dimension
+        Mind's Reflection
+        Compass' Purification II
+        Floor Purification
+        Vector Reflection +1/-1 II: (0.5, 0.5, 0.5)
+        Additive Distillation
+        Spatial Reflection
+        Numerical Reflection: 2
+        Flock's Gambit
+        //Insert and update
+        Surgeon's Exaltation
+        Schrödinger's Gambit
+    }
+    Contemplation
+    <"Confirm Move">
+    Single's Purification
+    Contemplation
+    <"Are you sure?">
+    Manifest List Menu
+}
+Contemplation
+<"Move to Current Position">
+Intent Button
+{
+    {
+        Numerical Reflection: 0
+        Selection Distillation
+        Excisor's Distillation
+        Bookkeeper's Gambit: v
+        Schrödinger's Gambit
+    }
+    Contemplation
+    <"Confirm Deletion">
+    Single's Purification
+    Contemplation
+    <"Are you sure?">
+    Manifest List Menu
+}
+Contemplation
+<"Delete">
+Intent Button
+Numerical Reflection: 4
+Flock's Gambit
+Prospector's Gambit
+Numerical Reflection: 0
+Selection Distillation
+Manifest List Menu

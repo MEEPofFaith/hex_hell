@@ -1,0 +1,92 @@
+//Stack: dests property, dests dict, [string, [pos, dim]]
+Sekhmet' Gambit //1
+Numerical Reflection: 1
+Selection Distillation
+Flock's Disintegration
+//Stack: pos, dim
+// Noetic if not in same dimension
+Gemini Decomposition
+Spatial Reflection
+Inequality Distillation
+{
+    Mind's Reflection
+    Jester's Gambit
+    Noetic Gateway
+    Mind's Reflection
+    Contemplation
+    <Slow Falling>
+    Cleanse Status
+    { //Delay teleport until after I load into the new dimension
+        Flock's Reflection
+        Flock's Gambit
+        Bubbles' Purification
+        Single's Purification
+        {
+            Flock's Disintegration
+            Hermes' Gambit
+        }
+        Additive Distillation
+        Numerical Reflection: 1
+        Enqueue
+        Bookkeeper's Gambit: v
+        Janus' Gambit
+    }
+    Iris' Gambit
+}
+Contemplation
+Bookkeeper's Gambit: v
+Augur's Exaltation
+Hermes' Gambit
+//Stack: pos
+// gBlink or gTele depending on distance
+Mind's Reflection
+Compass' Purification II
+Subtractive Distillation
+Gemini Decomposition
+Length Purification
+Contemplation
+<6400>
+Maximus Distillation
+{
+    Mind's Reflection
+    Jester's Gambit
+    Greater Teleport
+}
+{ //Repeated gblinks.
+    //Stack: Total Offset
+    Gemini Decomposition
+    Length Purification
+    Numerical Reflection: 128
+    Division Distillation
+    Ceiling Purification
+    Undertaker's Gambit
+    Division Distillation
+    
+    //Get gBlink Offset
+    Mind's Reflection
+    Alidade's Purification // Current facing angle
+    Polar Decomposition
+    //Stack: Count, Offset, Pitch, Yaw
+    //Apply yaw rotation
+    Bubbling Gambit
+    Reflection Purification
+    Yaw Distillation
+    //Stack: Pitch, Rotated Offset
+    //Then pitch, as a second separate multiplcation
+    Jester's Gambit
+    Reflection Purification
+    Pitch Distillation
+    Contemplation
+    <(-1, 1, 1)>
+    Hadamard Distillation //Yeah idk why the x is reversed
+
+    Jester's Gambit
+    { //Sentinel walks when player walks walks in
+        Greater Blink
+    }
+    Kitkat's Gambit
+}
+Augur's Exaltation
+Hermes' Gambit
+Sekhmet' Gambit // 0
+//Maybe throw some particles and sounds after the teleport
