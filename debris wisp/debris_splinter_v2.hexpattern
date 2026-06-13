@@ -1,0 +1,148 @@
+Spatial Reflection
+Contemplation
+<minecraft:the_nether>
+Equality Distillation
+Contemplation
+<"Why are you using this outside the nether???"">
+Ma'at's Gambit
+Mind's Reflection
+Alidade's Purification
+Axial Purification
+Polar Decomposition
+Bookkeeper's Gambit: v-
+Yaw Purification
+// Stack: Direction
+Mind's Reflection
+Compass' Purification
+Prospector's Gambit
+Gemini Decomposition
+Hadamard Distillation
+Dioscuri Gambit
+Hadamard Distillation
+Rotation Gambit II
+Numerical Reflection: 1
+Subtractive Distillation
+Gemini Decomposition
+Hadamard Distillation
+Hadamard Distillation
+Numerical Reflection: 16
+Division Distillation
+Numerical Reflection: 0.5
+Additive Distillation
+Floor Purification
+Numerical Reflection: 16
+Multiplicative Distillation
+Additive Distillation
+Floor Purification
+Numerical Reflection: 0.5
+Additive Distillation
+Contemplation
+<(1, 0, 1)>
+Hadamard Distillation
+Vector Reflection: (0, 14.5, 0)
+Additive Distillation
+// Stack: Direction, Origin
+Prospector's Gambit
+Vector Reflection: (0, 2, 0)
+Division Distillation
+Vector Reflection: (0, 2, 0)
+Additive Distillation
+Gemini Decomposition
+Reflection Purification
+{
+    Sekhmet's Gambit: 2
+    Numerical Reflection: 3
+    Multiplicative Distillation
+    Additive Distillation
+}
+Rotation Gambit II
+False Reflection
+Cubic Exaltation
+Bookkeeper's Gambit: v-
+//Stack: Direction, [Origins]
+Jester's Gambit
+Vector Reflection +Y
+Prospector's Gambit
+Division Distillation
+Vector Reflection +Y
+Additive Distillation
+Numerical Reflection: 1
+Multiplicative Distillation
+// The splinter code
+{
+    {
+        Gemini Decomposition
+        Gemini Decomposition
+        Detective's Purification
+        Contemplation
+        <minecraft:ancient_debris>
+        Equality Distillation
+        {
+            Gemini Decomposition
+            Break Block
+            Numerical Reflection: 1
+            Zone Distillation: Item
+            {
+                Mind's Reflection
+                Hopper
+            }
+            Jester's Gambit
+            Nehmetawy's Gambit
+            Bookkeeper's Gambit: v
+        }
+        Helios' Gambit
+        Gemini Decomposition
+        Floor Purification
+        Vector Disintegration
+        Numerical Reflection: 16
+        Modulus Distillation II
+        Augur's Purification
+        Negation Purification
+        Rotation Gambit
+        Numerical Reflection: 16
+        Modulus Distillation II
+        Augur's Purification
+        Negation Purification
+        Disjunction Distillation
+        Jester's Gambit
+        Numerical Reflection: 14
+        Numerical Reflection: 15
+        Numerical Reflection: 3
+        Range Exaltation
+        Conjunction Distillation
+        Contemplation
+        Annihilate Block
+        Helios' Gambit
+        Sekhmet's Gambit // 0
+    }
+    Get Spinter Location
+    Contemplation
+    Patience // Index: 47
+    Dioscuri Gambit
+    Additive Distillation
+    Rotation Gambit II
+    Subtractive Distillation
+    False Reflection
+    Cubic Exaltation
+    Bookkeeper's Gambit: v
+    Get Spinter Location
+    Contemplation
+    Patience // Index: 57
+    Additive Distillation
+    Numerical Reflection: 0
+    Renew Splinter
+}
+Numerical Reflection: 47
+Rotation Gambit
+Surgeon's Exaltation
+Numerical Reflection: 57
+Rotation Gambit
+Surgeon's Exaltation
+//Stack: [Origins], [Splinter code]
+{ //Inner stack: [Code], Origin, Delay
+    Numerical Reflection: 0
+    Rotation Gambit
+    Manifest Splinter
+}
+Rotation Gambit
+Thoth's Gambit
