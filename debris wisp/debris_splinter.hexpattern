@@ -1,0 +1,100 @@
+Spatial Reflection
+Contemplation
+<minecraft:the_nether>
+Equality Distillation
+Contemplation
+<"Why are you using this outside the nether???"">
+Ma'at's Gambit
+Mind's Reflection
+Alidade's Purification
+Mind's Reflection
+Compass' Purification
+Vector Reflection +1
+Vector Reflection +Y
+Subtractive Distillation
+Undertaker's Gambit
+Hadamard Distillation
+Numerical Reflection: 16
+Division Distillation
+Numerical Reflection: 0.5
+Additive Distillation
+Floor Purification
+Numerical Reflection: 16
+Multiplicative Distillation
+Vector Reflection: (0, 14.5, 0)
+Additive Distillation
+Rotation Gambit II
+Hadamard Distillation
+Axial Purification
+Polar Decomposition
+Bookkeeper's Gambit: v-
+Yaw Purification
+//Stack: Origin, Spacing
+Vector Reflection +Y
+Prospector's Gambit
+Division Distillation
+Vector Reflection +Y
+Additive Distillation
+Numerical Reflection: 8
+Multiplicative Distillation
+//Stack: Origin, Spacing, Slice
+Numerical Reflection: 0
+{
+    {
+        Gemini Decomposition
+        Gemini Decomposition
+        Detective's Purification
+        Contemplation
+        <ancient debris>
+        Equality Distillation
+        {
+            Gemini Decomposition
+            Break Block
+            Numerical Reflection: 1
+            Zone Distillation: Item
+            {
+                Mind's Reflection
+                Hopper
+            }
+            Jester's Gambit
+            Nehmetawy's Gambit
+            Bookkeeper's Gambit: v
+        }
+        Helios' Gambit
+        Gemini Decomposition
+        Vector Disintegration
+        Bookkeeper's Gambit: v-v
+        Numerical Reflection: 14
+        Numerical Reflection: 16
+        Numerical Reflection: 3
+        Range Exaltation
+        {
+            Annihilate Block
+        }
+        Helios' Gambit
+        Sekhmet' Gambit //0
+    }
+    Get Spinter Location
+    Contemplation
+    Patience // Index: 36
+    Dioscuri Gambit
+    Additive Distillation
+    Rotation Gambit II
+    Subtractive Distillation
+    False Reflection
+    Cubic Exaltation
+    Bookkeeper's Gambit: v
+    Get Spinter Location
+    Contemplation
+    Patience // Index: 46
+    Additive Distillation
+    Numerical Reflection: 0
+    Renew Splinter
+}
+Numerical Reflection: 36
+Geb's Gambit // 3
+Surgeon's Exaltation
+Numerical Reflection: 46
+Geb's Gambit // 3
+Surgeon's Exaltation
+Manifest Splinter
