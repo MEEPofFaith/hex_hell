@@ -1,31 +1,53 @@
 Muninn's Reflection
-Gemini Decomposition
 Nullary Reflection
 Equality Distillation
 {
     Bookkeeper's Gambit: v
+    Get Splinter Location
     Contemplation
-    Patience // [Origin, Bounds, [Initial stack]] - Index: 7
+    Patience // [Bounds, [Initial stack]] - Index: 7
     Flock's Disintegration
     Numerical Reflection: 2
     Fisherman's Gambit II
     Jester's Gambit
     Inscribe Idea
     Vector Reflection Zero
+    Vector Reflection +Z
+    Numerical Reflection: 4
+    Huginn's Gambit // Ravenmind: [Origin, Bounds, Offset, Direction]
 }
-Contemplation
-Flock's Disintegration
-Augur's Exaltation
-Hermes' Gambit
-// Stack: Origin, Bounds, Offset
+Helios' Gambit
 {
-    Numerical Reflection: 2
-    Fisherman's Gambit II
-    Prospector's Gambit
-    Additive Distillation
+    Muninn's Reflection
+    Numerical Reflection: 0
+    Selection Distillation
+    Gemini Decomposition
+    Retrieve Idea
     Contemplation
-    Patience // Operation - Index: 24
+    Patience // Operation - Index: 26
     Hermes' Gambit
-    // Walk until finish or out of ambit.
+    Flock's Reflection
+    Decrementation Purification
+    Flock's Gambit
+    Inscribe Idea
+    /* Walk Pseudocode:
+        if(bounds.x > 1){
+            turn = (offet.x % bounds.x == 0) + (offset.x == bounds.x)
+            if(turn > 0){
+                turn--
+                turn = (turn + offset.y % 2) % 2
+
+                if(turn == 0){
+                    turn left
+                }else{
+                    turn right
+                }
+            }
+        }
+        next pos
+        if(nextPos.z < 0 || nextPos.z > bounds.z){
+            move up, step back, flip direction
+        }
+    */
 }
 Sisyphus' Gambit
