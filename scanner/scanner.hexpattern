@@ -27,12 +27,11 @@ Prospector's Gambit
 Jester's Gambit
 Dioscuri Gambit
 //Stack: Origin, Origin, Bounds, Origin, Bounds
+Vacant Reflection
 Long Reflection //0
-Single's Purification
-Long Reflection //1
 Numerical Reflection: 3
 Flock's Gambit
-Inscribe Idea // Data: [Bounds, [0L], 1L]
+Inscribe Idea // Data: [Bounds, [], 0L]
 // Stack: Origin, Origin, Bounds
 Contemplation
 <Splinter Walk>
