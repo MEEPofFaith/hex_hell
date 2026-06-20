@@ -1,115 +1,64 @@
+Get Splinter Location // Location Visual
+Numerical Reflection: 1
+Confetti
 Muninn's Reflection
 Nullary Reflection
 Equality Distillation
 {
-    Bookkeeper's Gambit: v
     Get Splinter Location
+    Gemini Decomposition
     Contemplation
-    Patience // [Bounds, [Initial stack]] - Index: 7
-    Flock's Disintegration
-    Numerical Reflection: 2
-    Fisherman's Gambit II
-    Jester's Gambit
-    Inscribe Idea
-    Vector Reflection Zero
-    Vector Reflection +Z
+    Patience // Bounds - Index: 10
+    Numerical Reflection: 0
     Numerical Reflection: 4
-    Huginn's Gambit // Ravenmind: [Origin, Bounds, Offset, Direction]
+    Huginn's Gambit // Ravenmind: [LastPos, Origin, Bounds, Index]
 }
 Helios' Gambit
 {
-    Muninn's Reflection
-    Numerical Reflection: 0
-    Selection Distillation
-    Gemini Decomposition
-    Retrieve Idea
-    Contemplation
-    Patience // Operation - Index: 26
-    Hermes' Gambit
-    Flock's Reflection
-    Decrementation Purification
-    Flock's Gambit
-    Inscribe Idea
-    /* Walk Pseudocode:
-        if(bounds.x > 0){
-            turn = (offet.x % bounds.x == 0) + (offset.x == bounds.x)
-            if(turn > 0){
-                turn--
-                turn = (turn + offset.y) % 2
-
-                if(turn == 0){
-                    turn left
-                }else{
-                    turn right
-                }
-            }
-        }
-        next pos
-        if(nextPos.z < 0 || nextPos.z > bounds.z){
-            move up, step back, flip direction
-        }
-    */
-    Muninn's Reflection
+    Muninn's Reflection // Ravenmind: [LastPos, Origin, Bounds, Index]
     Flock's Disintegration
-    // Stack: Origin, Bounds, Offset, Direction
-    Numerical Reflection: 2
-    Fisherman's Gambit II
-    Vector Disintegration
-    // Stack: Origin, Bounds, Offset, Direction, Bx, By, Bz
-    Rotation Gambit
-    Gemini Decomposition
-    Numerical Reflection: 0
-    Maximus Distillation
-    { // Stack: Origin, Bounds, Offset, Direction, By, Bz, Bx
-        Numerical Reflection: 4
-        Fisherman's Gambit II
-        Vector Disintegration
-        Bookkeeper's Gambit: v
-        // Stack: Origin, Bounds, Offset, Direction, By, Bz, Bx, Ox, Oy
-        Rotation Gambit II
-        Dioscuri Gambit
-        Equality Distillation
-        Length Purification
-        Rotation Gambit II
-        Jester's Gambit
-        Modulus Distillation
-        Numerical Reflection: 0
-        Equality Distillation
-        Length Purification
-        Additive Distillation
-        // Stack: Origin, Bounds, Offset, Direction, By, Bz, Oy, turn
-        Gemini Decomposition
-        Numerical Reflection: 0
-        Maximus Distillation
-        {
-            Decrementation Purification
-            Additive Distillation
-            Numerical Reflection: 2
-            Modulus Distillation
-            Numerical Reflection: 0
-            Equality Distillation
-            { //Turn left
-                Rotation Gambit
-                Vector Reflection -Y
-                Division Distillation
-            }
-            { //Turn right
-                Rotation Gambit
-                Vector Reflection +Y
-                Division Distillation
-            }
-            Augur's Exaltation
-            Hermes' Gambit
-        }
-        Contemplation
-        Bookkeeper's Gambit: vv
-        Augur's Exaltation
-        Hermes' Gambit
-    }
     Contemplation
-    Bookkeeper's Gambit: v
+    <Walk Crawler>
+    Hermes' Gambit
+    // Stack: LostPos, Origin, Offset
+    Prospector's Gambit
+    Additive Distillation
+    // Stack: LostPos, Origin, Pos
+    Gemini Decomposition
+    Ambit Purification
+    { // Pos in ambit, update LastPos
+        Bookkeeper's Gambit: v--
+        Undertaker's Gambit
+    }
+    { // Pos not in ambit, move
+        Bookkeeper's Gambit: vv
+        Numerical Reflection: 0
+        Renew Splinter
+        Janus' Gambit
+    }
     Augur's Exaltation
     Hermes' Gambit
-    // Stack: Origin, Bounds, Offset, Direction, By, Bz
+    // Stack: Pos, Origin, Pos
+    Prospector's Gambit
+    Retrieve Idea
+    Flock's Disintegration
+    Contemplation
+    Patience // Splinter Operation - Index: 43
+    Hermes' Gambit
+    Flock's Reflection
+    Numerical Reflection: 2
+    Subtractive Distillation
+    Flock's Gambit
+    Inscribe Idea
+    // Stack: Pos
+    // Update data
+    Muninn's Reflection
+    Numerical Reflection: 0
+    Rotation Gambit
+    Surgeon's Exaltation
+    Derivation Decomposition
+    Incrementation Purification
+    Integration Distillation
+    Huginn's Gambit
 }
 Sisyphus' Gambit

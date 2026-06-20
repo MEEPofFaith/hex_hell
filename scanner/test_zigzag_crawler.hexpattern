@@ -15,66 +15,42 @@
     Vector Disintegration
     Soroban Reflection
     // Stack: [], Bounds, Bx, By, Bz, i
-    Geb's Gambit // 3
-    Dioscuri Gambit
-    // Stack: [], Bounds, By, Bz, i, Bx, i, Bx
-    Numerical Reflection: 2
-    Multiplicative Distillation
-    // Stack: [], Bounds, By, Bz, i, Bx, i, 2Bx
-    Undertaker's Gambit
-    Numerical Reflection: 2
-    Additive Distillation
-    // Stack: [], Bounds, By, Bz, i, Bx, 2Bx, i, 2Bx+2
-    Modulus Distillation
-    // Stack: [], Bounds, By, Bz, i, Bx, 2Bx, i % 2Bx+2
-    Numerical Reflection: 2
-    Fisherman's Gambit II
-    // Stack: [], Bounds, By, Bz, i, Bx, 2Bx, i % 2Bx+2, Bx
-    Retention Gambit: Maximus
+    Vacant Reflection
     {
-        Bookkeeper's Gambit: v
-        Subtractive Distillation
+        Hermes' Gambit
+        Geb's Gambit // 3
+        Dioscuri Gambit
+        // Stack: [], Bounds, By, Bz, i, Bx, i, Bx
+        Numerical Reflection: 2
+        Multiplicative Distillation
+        // Stack: [], Bounds, By, Bz, i, Bx, i, 2Bx
+        Undertaker's Gambit
+        Numerical Reflection: 2
+        Additive Distillation
+        // Stack: [], Bounds, By, Bz, i, Bx, 2Bx, i, 2Bx+2
+        Modulus Distillation
+        // Stack: [], Bounds, By, Bz, i, Bx, 2Bx, i % 2Bx+2
+        Numerical Reflection: 2
+        Fisherman's Gambit II
+        // Stack: [], Bounds, By, Bz, i, Bx, 2Bx, i % 2Bx+2, Bx
+        Retention Gambit: Maximus
+        {
+            Bookkeeper's Gambit: v
+            Subtractive Distillation
+            Incrementation Purification
+        }
+        Contemplation
+        Bookkeeper's Gambit: v-v
+        Augur's Exaltation
+        Hermes' Gambit
+        // Stack: [], Bounds, By, Bz, i, Bx, Ox
+        Rotation Gambit II
         Incrementation Purification
+        Division Distillation
+        Floor Purification
     }
-    Contemplation
-    Bookkeeper's Gambit: v-v
-    Augur's Exaltation
+    Gemini Decomposition
     Hermes' Gambit
-    // Stack: [], Bounds, By, Bz, i, Bx, Ox
-    Rotation Gambit II
-    Incrementation Purification
-    Division Distillation
-    Floor Purification
-    // Stack: [], Bounds, By, Bz, Ox, ix
-    Geb's Gambit // 3
-    Dioscuri Gambit
-    // Stack: [], Bounds, Bz, Ox, ix, By, ix, By
-    Numerical Reflection: 2
-    Multiplicative Distillation
-    // Stack: [], Bounds, Bz, Ox, ix, By, i, 2By
-    Undertaker's Gambit
-    Numerical Reflection: 2
-    Additive Distillation
-    // Stack: [], Bounds, Bz, Ox, ix, By, 2By, ix, 2By+2
-    Modulus Distillation
-    // Stack: [], Bounds, Bz, Ox, ix, By, 2By, ix % 2By+2
-    Numerical Reflection: 2
-    Fisherman's Gambit II
-    // Stack: [], Bounds, Bz, Ox, ix, By, 2By, ix % 2By+2, By
-    Retention Gambit: Maximus
-    {
-        Bookkeeper's Gambit: v
-        Subtractive Distillation
-        Incrementation Purification
-    }
-    Contemplation
-    Bookkeeper's Gambit: v-v
-    Augur's Exaltation
-    Hermes' Gambit
-    Rotation Gambit II
-    Incrementation Purification
-    Division Distillation
-    Floor Purification
     // Stack: [], Bounds, Bz, Ox, OY, ixy
     Geb's Gambit // 3
     // Stack: [], Bounds, Ox, OY, ixy, Bz
