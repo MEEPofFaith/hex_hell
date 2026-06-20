@@ -1,0 +1,99 @@
+// Stack: Bounds (INCLUSIVE)
+/* Pseudocode
+    x = i % (2 * bounds.x + 2)
+    if(x > bounds.x) x = (2 * bounds.x) - x + 1
+    y = floor(i / (bounds.x + 1)) % (2 * bounds.y + 2)
+    if(y > bounds.y) x = (2 * bounds.y) - y + 1
+    z = floor(i / (bounds.x + 1) / (bounds.y + 1)) % bounds.z
+    if(z > bounds.z) break
+ */
+ Vacant Reflection
+ Jester's Gambit
+ Soroban Gambit
+{
+    Gemini Decomposition
+    Vector Disintegration
+    Soroban Reflection
+    // Stack: [], Bounds, Bx, By, Bz, i
+    Geb's Gambit // 3
+    Dioscuri Gambit
+    // Stack: [], Bounds, By, Bz, i, Bx, i, Bx
+    Numerical Reflection: 2
+    Multiplicative Distillation
+    // Stack: [], Bounds, By, Bz, i, Bx, i, 2Bx
+    Undertaker's Gambit
+    Numerical Reflection: 2
+    Additive Distillation
+    // Stack: [], Bounds, By, Bz, i, Bx, 2Bx, i, 2Bx+2
+    Modulus Distillation
+    // Stack: [], Bounds, By, Bz, i, Bx, 2Bx, i % 2Bx+2
+    Numerical Reflection: 2
+    Fisherman's Gambit II
+    // Stack: [], Bounds, By, Bz, i, Bx, 2Bx, i % 2Bx+2, Bx
+    Retention Gambit: Maximus
+    {
+        Bookkeeper's Gambit: v
+        Subtractive Distillation
+        Incrementation Purification
+    }
+    Contemplation
+    Bookkeeper's Gambit: v-v
+    Augur's Exaltation
+    Hermes' Gambit
+    // Stack: [], Bounds, By, Bz, i, Bx, Ox
+    Rotation Gambit II
+    Incrementation Purification
+    Division Distillation
+    Floor Purification
+    // Stack: [], Bounds, By, Bz, Ox, ix
+    Geb's Gambit // 3
+    Dioscuri Gambit
+    // Stack: [], Bounds, Bz, Ox, ix, By, ix, By
+    Numerical Reflection: 2
+    Multiplicative Distillation
+    // Stack: [], Bounds, Bz, Ox, ix, By, i, 2By
+    Undertaker's Gambit
+    Numerical Reflection: 2
+    Additive Distillation
+    // Stack: [], Bounds, Bz, Ox, ix, By, 2By, ix, 2By+2
+    Modulus Distillation
+    // Stack: [], Bounds, Bz, Ox, ix, By, 2By, ix % 2By+2
+    Numerical Reflection: 2
+    Fisherman's Gambit II
+    // Stack: [], Bounds, Bz, Ox, ix, By, 2By, ix % 2By+2, By
+    Retention Gambit: Maximus
+    {
+        Bookkeeper's Gambit: v
+        Subtractive Distillation
+        Incrementation Purification
+    }
+    Contemplation
+    Bookkeeper's Gambit: v-v
+    Augur's Exaltation
+    Hermes' Gambit
+    Rotation Gambit II
+    Incrementation Purification
+    Division Distillation
+    Floor Purification
+    // Stack: [], Bounds, Bz, Ox, OY, ixy
+    Geb's Gambit // 3
+    // Stack: [], Bounds, Ox, OY, ixy, Bz
+    Undertaker's Gambit
+    Incrementation Purification
+    // Stack: [], Bounds, Ox, OY, Bz, ixy, Bz+1
+    Modulus Distillation
+    // Stack: [], Bounds, Ox, OY, Bz, Oz
+    Undertaker's Gambit
+    // Stack: [], Bounds, Ox, OY, Oz, Bz, Oz
+    Minimus Distillation II
+    Acheron's Gambit
+    Vector Exaltation
+    //Stack: [], Bounds, Offset
+    Reveal
+    Bubbling Gambit
+    Integration Distillation
+    Jester's Gambit
+}
+Sisyphus' Gambit
+Bookkeeper's Gambit: vvv
+// Output: [Offsets], Bounds
