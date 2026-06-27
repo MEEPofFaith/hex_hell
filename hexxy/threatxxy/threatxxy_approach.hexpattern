@@ -1,0 +1,58 @@
+// Stack: A player
+Contemplation
+<Threatxxy>
+// Stack: Player, Threatxxy
+// Approcah menacingly
+Prospector's Gambit
+Gemini Decomposition
+Compass' Purification // Player eyes
+Jester's Gambit
+Alidade's Purification
+Additive Distillation
+Prospector's Gambit
+Compass' Purification // Threatxxy pos
+Numerical Reflection: 3
+Dioscuri Gambit II
+// Stack: Player, Threatxxy, Player Eyes, Threatxxy Pos, Threatxxy, Player Eyes, Threatxxy Pos
+Undertaker's Gambit
+Undertaker's Gambit
+Prospector's Gambit
+Subtractive Distillation
+Norm Purification
+Numerical Reflection: 1.5
+Multiplicative Distillation
+Additive Distillation
+// Stack: Player, Threatxxy, Player Eyes, Threatxxy Pos, Threatxxy, Threatxxy pos, Threatxxy, Target pos
+Dioscuri Gambit
+Distance Distillation
+Numerical Reflection: 16
+Division Distillation
+Approach Exaltation
+Jester's Gambit
+Subtractive Distillation
+Gemini Decomposition
+Length Purification
+Contemplation
+<0.01>
+Maximus Distillation
+Contemplation
+Translate BIT
+Contemplation
+Bookkeeper's Gambit: vv
+Augur's Exaltation
+Hermes' Gambit
+// Stack: Player, Threatxxy, Player Eyes, Threatxxy Pos
+// Face player
+Jester's Gambit
+Subtractive Distillation
+Norm Purification // Not sure why this is necessary
+Polar Decomposition
+// Stack: Player, Threatxxy, Pitch, Yaw
+Vector Reflection -Y // Minecraft is left-handed
+Jester's Gambit
+Axis Angle Distillation // Yaw
+Vector Reflection -X
+Rotation Gambit
+Axis Angle Distillation // Pitch
+Multiplicative Distillation
+Rotate BIT
