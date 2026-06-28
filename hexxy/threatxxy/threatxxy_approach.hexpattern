@@ -26,94 +26,87 @@ Dioscuri Gambit
 Distance Distillation
 Numerical Reflection: 16
 Division Distillation
+Contemplation
+<0.025>
+Maximum Distillation
 Approach Exaltation
 Jester's Gambit
 Subtractive Distillation
 Gemini Decomposition
 Length Purification
 Contemplation
-<0.01>
+<0.001>
 Maximus Distillation
 {
     Prospector's Gambit
     Jester's Gambit
     Translate BIT
+
+    // Stack: Player, Player eyes, Threatxxy
+    // Face player (Default orientation: -Z)
+    Dioscuri Gambit
+    // Stack: Player, Player eyes, Threatxxy, Player eyes, Threatxxy
+    Compass' Purification
+    // Stack: Player, Player eyes, Threatxxy, Player eyes, Threatxxy Pos
+    Numerical Reflection: -2
+    Fisherman's Gambit II
+    // Stack: Player, Player eyes, Threatxxy Pos, Threatxxy, Player eyes, Threatxxy Pos
+    Jester's Gambit
+    Subtractive Distillation
+    Norm Purification // Not sure why this is necessary
+    Polar Decomposition
+    // Stack: Player, Player eyes, Threatxxy Pos, Threatxxy, Pitch, Yaw
+    Numerical Reflection: -2
+    Fisherman's Gambit II
+    Vector Reflection -Y // Minecraft is left-handed
+    Jester's Gambit
+    Axis Angle Distillation // Yaw
+    Vector Reflection -X
+    Rotation Gambit
+    Axis Angle Distillation // Pitch
+    Multiplicative Distillation
+    Rotate BIT
+
+    // Stack: Player, Player eyes, Threatxxy Pos, Yaw
+    // Move gun
+    Vector Reflection: (-0.75, 0, 0)
+    Jester's Gambit
+    Yaw Distillation
+    Additive Distillation
+    // Stack: Player, Player eyes, Gun Pos
+    Gemini Decomposition
+    Contemplation
+    <Gun>
+    // Stack: Player, Player eyes, Gun Pos, Gun Pos, Gun
+    Undertaker's Gambit
+    Jester's Gambit
+    Prospector's Gambit
+    Compass' Purification
+    Subtractive Distillation
+    Translate BIT
+
+    // Stack: Player, Player eyes, Gun Pos, Gun
+    // Aim gun at player (Default orientation: +Z)
+    Jester's Gambit
+    Contemplation
+    <(0, -0.125, 0)>
+    Additive Distillation
+    Rotation Gambit
+    Subtractive Distillation
+    Norm Purification // Not sure why this is necessary
+    Polar Decomposition
+    Arc's Reflection
+    Additive Distillation
+    Vector Reflection -Y
+    Jester's Gambit
+    Axis Angle Distillation // Yaw
+    Vector Reflection +X
+    Rotation Gambit
+    Axis Angle Distillation // Pitch
+    Multiplicative Distillation
+    Rotate BIT
 }
 Contemplation
-Bookkeeper's Gambit: v
+Bookkeeper's Gambit: vvv
 Augur's Exaltation
 Hermes' Gambit
-
-// Stack: Player, Player eyes, Threatxxy
-// Face player (Default orientation: -Z)
-Dioscuri Gambit
-// Stack: Player, Player eyes, Threatxxy, Player eyes, Threatxxy
-Compass' Purification
-// Stack: Player, Player eyes, Threatxxy, Player eyes, Threatxxy Pos
-Numerical Reflection: -2
-Fisherman's Gambit II
-// Stack: Player, Player eyes, Threatxxy Pos, Threatxxy, Player eyes, Threatxxy Pos
-Jester's Gambit
-Subtractive Distillation
-Norm Purification // Not sure why this is necessary
-Polar Decomposition
-// Stack: Player, Player eyes, Threatxxy Pos, Threatxxy, Pitch, Yaw
-Numerical Reflection: -2
-Fisherman's Gambit II
-Vector Reflection -Y // Minecraft is left-handed
-Jester's Gambit
-Axis Angle Distillation // Yaw
-Vector Reflection -X
-Rotation Gambit
-Axis Angle Distillation // Pitch
-Multiplicative Distillation
-Rotate BIT
-
-// Stack: Player, Player eyes, Threatxxy Pos, Yaw
-// Move gun
-Vector Reflection: (-0.75, 0, 0)
-Jester's Gambit
-Yaw Distillation
-Additive Distillation
-// Stack: Player, Player eyes, Gun Pos
-Gemini Decomposition
-Contemplation
-<Gun>
-// Stack: Player, Player eyes, Gun Pos, Gun Pos, Gun
-Undertaker's Gambit
-Jester's Gambit
-Prospector's Gambit
-Compass' Purification
-Subtractive Distillation
-Gemini Decomposition
-Length Purification
-Contemplation
-<0.01>
-Maximus Distillation
-Contemplation
-Translate BIT
-Contemplation
-Bookkeeper's Gambit: vv
-Augur's Exaltation
-Hermes' Gambit
-
-// Stack: Player, Player eyes, Gun Pos, Gun
-// Aim gun at player (Default orientation: +Z)
-Jester's Gambit
-Contemplation
-<(0, -0.125, 0)>
-Additive Distillation
-Rotation Gambit
-Subtractive Distillation
-Norm Purification // Not sure why this is necessary
-Polar Decomposition
-Arc's Reflection
-Additive Distillation
-Vector Reflection -Y
-Jester's Gambit
-Axis Angle Distillation // Yaw
-Vector Reflection +X
-Rotation Gambit
-Axis Angle Distillation // Pitch
-Multiplicative Distillation
-Rotate BIT
