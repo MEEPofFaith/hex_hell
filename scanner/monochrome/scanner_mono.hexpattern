@@ -1,0 +1,105 @@
+// Stack: Corner1, Corner2
+Dioscuri Gambit
+Vector Disintegration
+Geb's Gambit // 3
+Vector Disintegration
+Numerical Reflection: 50 // FEDCBA -> FCEBDA
+Swindler's Gambit
+Minimum Distillation
+Nut's Gambit // 4
+Minimum Distillation
+Nut's Gambit // 3
+Minimum Distillation
+Rotation Gambit II
+Vector Exaltation
+Rotation Gambit II
+Subtractive Distillation
+Vector Disintegration
+Length Purification
+Rotation Gambit II
+Length Purification
+Rotation Gambit II
+Length Purification
+Rotation Gambit II
+Vector Exaltation
+//Stack: Origin, Bounds
+Prospector's Gambit
+Jester's Gambit
+Dioscuri Gambit
+//Stack: Origin, Origin, Bounds, Origin, Bounds
+Vacant Reflection
+Long Reflection //0
+Numerical Reflection: 3
+Flock's Gambit
+Inscribe Idea // Data: [Bounds, [], 0L]
+// Stack: Origin, Origin, Bounds
+Contemplation
+<Splinter Walk>
+Numerical Reflection: 10
+Rotation Gambit
+Surgeon's Exaltation
+Numerical Reflection: 54
+// Splinter Operation
+{ // Stack: Pos, Origin, Pos, Bounds, [Longs], BitL
+    Gemini Decomposition
+    Long Reflection // 0
+    Equality Distillation
+    {
+        Integration Distillation // It's already 0
+        Long Reflection //1
+    }
+    Helios' Gambit
+    Geb's Gambit // 3
+    Detective's Purification
+    // Stack: ..., id
+    Gemini Decomposition
+    { // Inner stack: String
+        Contemplation
+        Patience // ID - Index 1
+        Jester's Gambit
+        Locator's Distillation
+        Gemini Decomposition
+        Incrementation Purification // -1 -> 0, thus not found is false
+        Acheron's Gambit
+        Bookkeeper's Gambit: v
+    }
+    Numerical Reflection: 1
+    Rotation Gambit
+    Scrivener's Purification
+    Surgeon's Exaltation
+    Contemplation
+    <[Various strings considered transparent]>
+    Nehmetawy's Gambit
+    Length Purification
+    Numerical Reflection: 0
+    Equality Distillation // No matches
+    // Stack: ..., id, string match
+    Jester's Gambit
+    Contemplation
+    <[Various ids considered transparent]>
+    Jester's Gambit
+    Locator's Distillation
+    Numerical Reflection: -1
+    Equality Distillation
+    // Stack: ..., string match, id match
+    Conjunction Distillation
+    { // Stack: ..., [Longs], BitL
+        Undertaker's Gambit
+        Jester's Gambit
+        // Stack: ..., BitL, BitL, [Longs]
+        Derivation Decomposition
+        Rotation Gambit
+        Disjunction Distillation
+        Integration Distillation
+        Jester's Gambit
+    }
+    Helios' Gambit
+    // Stack: ..., [Longs], BitL
+    Numerical Reflection: 1
+    Left Shift Distillation
+}
+Surgeon's Exaltation
+Numerical Reflection: 0
+Jester's Gambit
+Manifest Splinter
+// Stack: Origin

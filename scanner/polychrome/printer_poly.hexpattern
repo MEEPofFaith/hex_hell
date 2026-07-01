@@ -1,0 +1,63 @@
+// Stack: Origin, Bounds, [Longs]
+Rotation Gambit
+Floor Purification
+Vector Reflection: (0.5, 0.5, 0.5)
+Additive Distillation
+Rotation Gambit II
+Retrograde Purification
+Numerical Reflection: 0
+Numerical Reflection: 2
+Flock's Gambit
+Numerical Reflection: 2
+Fisherman's Gambit II
+Jester's Gambit
+Inscribe Idea // Data: [[sgnoL], Shift]
+// Stack: Origin, Bounds
+Contemplation
+<Splinter Walk>
+Numerical Reflection: 10
+Rotation Gambit
+Surgeon's Exaltation
+Numerical Reflection: 54
+// Splinter Operation
+{ // Stack: ..., Pos, [sgnoL], 0
+    Gemini Decomposition
+    Numerical Reflection: 64
+    Maximus Distillation II
+    {
+        Bookkeeper's Gambit: v
+        Derivation Decomposition
+        Bookkeeper's Gambit: v
+        Numerical Reflection: 0
+    }
+    Helios' Gambit
+    Undertaker's Gambit
+    Jester's Gambit
+    Derivation Decomposition II
+    // Stack: ..., Pos, Shift, Shift, [sgnoL], Long
+    Rotation Gambit
+    Logical Right Shift Dstl.
+    Long Reflection // 15
+    Conjunction Distillation
+    Gemini Decomposition
+    Augur's Purification
+    { // Place
+        // Inner Stack: ... Pos, Shift, [sgnoL], Color
+        Long Purification
+        Numerical Reflection: 8 // DCBA -> CBDA
+        Swindler's Gambit
+        Conjure Solid Color
+    }
+    Contemplation
+    Bookkeeper's Gambit: v--v
+    Augur's Exaltation
+    Hermes' Gambit
+    // Stack: ... Shift, [sgnoL]
+    Jester's Gambit
+    Numerical Reflection: 4
+    Left Shift Distillation
+}
+Surgeon's Exaltation
+Numerical Reflection: 0
+Jester's Gambit
+Manifest Splinter
