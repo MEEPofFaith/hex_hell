@@ -2,7 +2,7 @@
 Rotation Gambit
 Floor Purification
 Vector Reflection: (0.5, 0.5, 0.5)
-Additive Distillation
+Additive Distillation // Coerce origin to center of block
 Rotation Gambit II
 Numerical Reflection: 0
 Numerical Reflection: 2
@@ -21,18 +21,64 @@ Numerical Reflection: 54
 // Splinter Operation
 { // Stack: ..., Pos, Mat, Shift
     Gemini Decomposition
-    Numerical Reflection: 156 // 52 * 3
+    Numerical Reflection: 150 // 52 * 3
     Maximus Distillation II
     {
         Bookkeeper's Gambit: v
-        Derivation Decomposition
-        Bookkeeper's Gambit: v
+        Numerical Reflection: 1
+        Mitosis Gambit
+        Bookkeeper's Gambit: v-
         Numerical Reflection: 0
     }
     Helios' Gambit
     Undertaker's Gambit
     Jester's Gambit
-    
+    // Stack: ..., Pos, Shift, Shift, Mat
+    Numerical Reflection: 1
+    Mitosis Gambit
+    Prospector's Gambit
+    Restoration Purification
+    Vector Disintegration
+    // Stack: ..., Pos, Shift, Shift, Data, Mat, d1, d2, d3
+    {
+        Bookkeeper's Gambit: -vv
+        Bookkeeper's Gambit: v-v
+        Bookkeeper's Gambit: vv-
+    }
+    Numerical Reflection: 6
+    Fisherman's Gambit II
+    Numerical Reflection: 50
+    Division Distillation
+    Floor Purification
+    Selection Distillation
+    Hermes' Gambit
+    // Stack: ..., Pos, Shift, Shift, Data, Mat, d
+    Geb's Gambit // 3
+    Numerical Reflection: 50
+    Modulus Distillation
+    Logical Right Shift Dstl.
+    Long Reflection //31
+    Conjunction Distillation
+    // Stack: ..., Pos, Shift, Data, Mat, d
+    Gemini Decomposition
+    Augur's Purification
+    {
+        Long Purification //15
+        Conjunction Distillation
+        Long Purification
+        Numerical Reflection: 32 // EDCBA -> DCBEA
+        Swindler's Gambit
+        Conjure Solid Color
+    }
+    Contemplation
+    Bookkeeper's Gambit: v---v
+    Augur's Exaltation
+    Hermes' Gambit
+    // Stack: ..., Shift, Data, Mat
+    Sprawling Distillation
+    Jester's Gambit
+    Numerical Reflection: 5
+    Additive Distillation
 }
 Surgeon's Exaltation
 Numerical Reflection: 0
