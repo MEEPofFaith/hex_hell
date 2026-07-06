@@ -1,4 +1,6 @@
 // Cleric impetus faces upwards
+Stocktake Reflection // Failsafe: Mishap if not bound. Bind nexus currently fails silently iirc.
+Bookkeeper's Gambit: v
 Waystone Reflection
 Vector Reflection: (0, 3, 0)
 Additive Distillation
@@ -101,7 +103,7 @@ Zone Exaltation: Type
     Numerical Reflection: 24
     Maximus Distillation II
     {
-        Vector Reflection: (0, -0.5, 0)
+        Vector Reflection -Y
         Impulse
     }
     Helios' Gambit
@@ -148,26 +150,26 @@ Bookkeeper's Gambit: v-v
 // Target 4000 I suppose.
 Numerical Reflection: 10000
 Circle Media Rfln.
-Retention Gambit: Minimus
+Retention Gambit: Maximus II
 {
-    Sekhmet' Gambit // 0
-    Janus' Gambit
+    Subtractive Distillation
+    Numerical Reflection: 30
+    Division Distillation
+    Ceiling Purification
+    Prospector's Gambit
+    Length Purification
+    Decrementation Purification
+    Minimum Distillation
+    Muninn's Reflection
+    // Stack: Quenched Shard, Amount, Pos
+    Jester's Gambit
+    Return Item // I know this is just above the lava, however this means it'll mix with the dust from gbreed.
 }
-Helios' Gambit
-Subtractive Distillation
-Numerical Reflection: 30
-Division Distillation
-Ceiling Purification
-Prospector's Gambit
-Length Purification
-Decrementation Purification
-Minimum Distillation
+Contemplation
+Bookkeeper's Gambit: vvv
+Augur's Exaltation
+Hermes' Gambit
 Muninn's Reflection
-// Stack: Quenched Shard, Amount, Pos
-Numerical Reflection: -2
-Fisherman's Gambit II
-Jester's Gambit
-Return Item // I know this is just above the lava, however this means it'll mix with the dust from gbreed.
 Numerical Reflection: 1
 Zone Distillation: Item
 {
