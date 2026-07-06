@@ -1,0 +1,179 @@
+// Cleric impetus faces upwards
+Waystone Reflection
+Vector Reflection: (0, 3, 0)
+Additive Distillation
+Chronicler's Purification // Motes: [Quenched, Quenched Shard, Block, Shard]
+Flock's Disintegration
+Waystone Reflection
+Vector Reflection +Y
+Vector Reflection -X
+Additive Distillation
+Additive Distillation
+Huginn's Gambit
+Contemplation
+<Allay Type>
+Muninn's Reflection
+Numerical Reflection: 1
+Zone Exaltation: Type
+{
+    Greater Breed
+}
+Jester's Gambit
+Nehmetawy's Gambit // First loop: GBreed All
+Bookkeeper's Gambit: v
+Contemplation
+<Allay Type>
+Muninn's Reflection
+Numerical Reflection: 1
+Zone Exaltation: Type
+{ // Inner stack: Quenched, Quenched Shard, Block, Shard, Allay
+    Sekhmet' Gambit //2
+    Use Item On
+}
+Jester's Gambit
+Thoth's Gambit // Second loop: Dupe All
+Bookkeeper's Gambit: v
+Contemplation
+<Allay Type>
+Muninn's Reflection
+Numerical Reflection: 1
+Zone Exaltation: Type
+{ // Inner stack: Quenched Block, Quenched Shard, Block, Shard, Allay, Index
+    Bookkeeper's Gambit: v--
+    Prospector's Gambit
+    // Stack: Quenched Block, Quenched Shard, Block, Allay, Index, Allay
+    Waystone Reflection
+    Vector Reflection: (0, 2, 0)
+    Vector Reflection -X
+    Vector Reflection +Z
+    Additive Distillation
+    Additive Distillation
+    Additive Distillation
+    // Stack: Quenched Block, Quenched Shard, Block, Allay, Index, Allay, Pos
+    Numerical Reflection: 4
+    Gemini Gambit
+    // Stack: Quenched Block, Quenched Shard, Block, Allay, Index, Allay, Pos, Pos, Pos, Pos
+    Numerical Reflection: 8
+    Fisherman's Gambit II
+    Length Purification
+    Contemplation
+    <4096>
+    Maximus Distillation
+    { // Silk break
+        Collect Block
+        Numerical Reflection: 8
+    }
+    { // Fortune break
+        Numerical Reflection: 2
+        Extract Block
+        Numerical Reflection: 7 // Thought it would be 9 and 8, but something is missing from the stack and I don't know what
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    // Stack: Quenched Block, Quenched Shard, Block, Allay, Index, Allay, Pos, Pos, Pos, FishIndex
+    Rotation Gambit II
+    // Stack: Quenched Block, Quenched Shard, Block, Allay, Index, Allay, Pos, FishIndex, Pos, Pos
+    Numerical Reflection: 7
+    Fisherman's Gambit
+    // Stack: Quenched Block, Quenched Shard, Allay, Index, Allay, Pos, FishIndex, Pos, Pos, Block
+    Jester's Gambit
+    Place Block II
+    // Stack: Quenched Block, Quenched Shard, Allay, Index, Allay, Pos, FishIndex, Pos
+    Numerical Reflection: 1
+    Zone Distillation: Item
+    // Stack: Quenched Block, Quenched Shard, Allay, Index, Allay, Pos, FishIndex, [Items]
+    {
+        Contemplation
+        Bookkeeper's Gambit: -
+        Mediafy Item
+    }
+    Numerical Reflection: 1
+    // Stack: Quenched Block, Quenched Shard, Allay, Index, Allay, Pos, FishIndex, [Items], [Op], 1
+    Geb's Gambit // 3
+    // Stack: Quenched Block, Quenched Shard, Allay, Index, Allay, Pos, [Items], [Op], 1, FishIndex
+    Fisherman's Gambit
+    Surgeon's Exaltation
+    Jester's Gambit
+    Nehmetawy's Gambit
+    Bookkeeper's Gambit: v
+    Flay Mind
+    // Stack: Quenched Block, Quenched Shard, Block, Allay, Index
+    Numerical Reflection: 24
+    Maximus Distillation II
+    {
+        Vector Reflection: (0, -0.5, 0)
+        Impulse
+    }
+    Helios' Gambit
+    Sekhmet' Gambit // 0
+}
+Jester's Gambit
+Djehuty's Gambit // Third loop: Flay all and dispose of extras
+Bookkeeper's Gambit: v
+// Typical operation: 24 * 2 * 2 allays = 96
+// 96 blocks * 4 = 384 shards
+// Need another 48 to dupe
+// (48 + 384) shards / 6 = 72 quenched shards
+// Stack: Quenched, Quenched Shard, Block, Shard
+Numerical Reflection: 72
+Splitting Gambit
+// Stack: Quenched, Quenched Shard, Block, Shard, Shard x72
+Numerical Reflection: 3
+Fisherman's Gambit II
+Numerical Reflection: 2
+Flock's Gambit
+Craft
+Flock's Disintegration
+Additive Distillation
+Numerical Reflection: 288
+Splitting Gambit
+Numerical Reflection: 192
+Splitting Gambit
+Numerical Reflection: 96
+Splitting Gambit
+Numerical Reflection: 2
+Flock's Gambit
+Rotation Gambit II
+Numerical Reflection: 2
+Flock's Gambit
+Numerical Reflection: 2
+Flock's Gambit
+Craft
+Flock's Disintegration
+Additive Distillation
+// Stack: Quenched Block, Quenched Shard, Block
+Bookkeeper's Gambit: v-v
+// Handle inserting shards into the impetus
+// GBreed is 150 dust, so 150*24 = 3600 is a good baseline, plus some more for other stuff.
+// Target 4000 I suppose.
+Numerical Reflection: 4000
+Circle Media Rfln.
+Retention Gambit: Minimus
+{
+    Sekhmet' Gambit // 0
+    Janus' Gambit
+}
+Helios' Gambit
+Subtractive Distillation
+Numerical Reflection: 30
+Division Distillation
+Ceiling Purification
+Prospector's Gambit
+Length Purification
+Decrementation Purification
+Minimum Distillation
+Muninn's Reflection
+// Stack: Quenched Shard, Amount, Pos
+Numerical Reflection: -2
+Fisherman's Gambit II
+Jester's Gambit
+Return Item // I know this is just above the lava, however this means it'll mix with the dust from gbreed.
+Numerical Reflection: 1
+Zone Distillation: Item
+{
+    Waystone Reflection
+    Hopper
+}
+Jester's Gambit
+Nehmetawy's Gambit
+Bookkeeper's Gambit: v
