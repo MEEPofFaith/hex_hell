@@ -146,7 +146,7 @@ Bookkeeper's Gambit: v-v
 // Handle inserting shards into the impetus
 // GBreed is 150 dust, so 150*24 = 3600 is a good baseline, plus some more for other stuff.
 // Target 4000 I suppose.
-Numerical Reflection: 4000
+Numerical Reflection: 10000
 Circle Media Rfln.
 Retention Gambit: Minimus
 {
