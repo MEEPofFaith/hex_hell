@@ -6,32 +6,24 @@ Vector Reflection: (0, 3, 0)
 Additive Distillation
 Chronicler's Purification // Motes: [Quenched, Quenched Shard, Block, Shard]
 Flock's Disintegration
-Waystone Reflection
-Vector Reflection +Y
-Vector Reflection -X
-Additive Distillation
-Additive Distillation
-Huginn's Gambit
 // First loop: GBreed All
+{
+    Greater Breed
+}
 Contemplation
 <Allay Type>
 Muninn's Reflection
 Numerical Reflection: 1
 Zone Exaltation: Type
-{
-    Greater Breed
-}
-Jester's Gambit
 Nehmetawy's Gambit
 Bookkeeper's Gambit: v
 // Suck the dust dropped from gbreed into the impetus. Minor refund of media.
-Muninn's Reflection
-Numerical Reflection: 1
-Zone Distillation: Item
 {
     Waystone Reflection
     Hopper
 }
-Jester's Gambit
+Muninn's Reflection
+Numerical Reflection: 1
+Zone Distillation: Item
 Nehmetawy's Gambit
 Bookkeeper's Gambit: v

@@ -2,24 +2,18 @@
 // Allay needs a 20 tick delay before it starts dancing.
 
 // Second loop: Dupe All
-Contemplation
-<Allay Type>
-Muninn's Reflection
-Numerical Reflection: 1
-Zone Exaltation: Type
 { // Inner stack: Quenched, Quenched Shard, Block, Shard, Allay
     Sekhmet' Gambit //2
     Use Item On
 }
-Jester's Gambit
-Thoth's Gambit
-Bookkeeper's Gambit: v
-// Third loop: Flay all and dispose of extras
 Contemplation
 <Allay Type>
 Muninn's Reflection
 Numerical Reflection: 1
 Zone Exaltation: Type
+Thoth's Gambit
+Bookkeeper's Gambit: v
+// Third loop: Flay all and dispose of extras
 { // Inner stack: Quenched Block, Quenched Shard, Block, Shard, Allay, Index
     Bookkeeper's Gambit: v--
     Prospector's Gambit
@@ -89,7 +83,11 @@ Zone Exaltation: Type
     Helios' Gambit
     Sekhmet' Gambit // 0
 }
-Jester's Gambit
+Contemplation
+<Allay Type>
+Muninn's Reflection
+Numerical Reflection: 1
+Zone Exaltation: Type
 Djehuty's Gambit
 Bookkeeper's Gambit: v
 // Typical operation: 24 * 2 * 2 allays = 96
@@ -144,18 +142,14 @@ Retention Gambit: Maximus II
     // Stack: Quenched Shard, Amount, Pos
     Jester's Gambit
     Return Item
-}
-Contemplation
-Bookkeeper's Gambit: vvv
-Augur's Exaltation
-Hermes' Gambit
-Waystone Reflection
-Numerical Reflection: 1
-Zone Distillation: Item
-{
+    {
+        Waystone Reflection
+        Hopper
+    }
     Waystone Reflection
-    Hopper
+    Numerical Reflection: 1
+    Zone Distillation: Item
+    Nehmetawy's Gambit
 }
-Jester's Gambit
-Nehmetawy's Gambit
-Bookkeeper's Gambit: v
+Helios' Gambit
+Sekhmet' Gambit // 0
