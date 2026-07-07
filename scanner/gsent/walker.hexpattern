@@ -1,0 +1,113 @@
+// Made to not require surgeoning the op in, allowing for this to be optimized by my hex compiler.
+// Stack: Op, Origin, Bounds
+Numerical Reflection: 18
+Division Distillation
+Ceiling Purification
+Numerical Reflection: 1
+Subtractive Distillation
+Vector Disintegration
+// Stack: Op, Origin, bx, by, bz
+Numerical Reflection: -1
+Nullary Reflection
+Ranger's Exaltation
+{
+    // Stack: Op, Origin, bx, by, z
+    Jester's Gambit
+    Numerical Reflection: -1
+    Nullary Reflection
+    Ranger's Exaltation
+    {
+        // Stack: Op, Origin, bx, z, y
+        Rotation Gambit
+        Numerical Reflection: -1
+        Nullary Reflection
+        Ranger's Exaltation
+        {
+            // Stack: Op, Origin, z, y, x
+            Reflecting Gambit
+            Vector Exaltation
+            Numerical Reflection: 18
+            Multiplicative Distillation
+            Numerical Reflection: 9
+            Additive Distillation
+            // Stack: Op, Origin, Offset
+            Undertaker's Gambit
+            Jester's Gambit
+            Additive Distillation
+            // Stack: Op, Origin, Target pos
+            // Walk sent
+            Gemini Decomposition
+            Locate Sentinel
+            // Stack: Op, Origin, Target, Target, Sent
+            Subtractive Distillation
+            Gemini Decomposition
+            Numerical Reflection: 16
+            Division Distillation
+            Ceiling Purification
+            Undertaker's Gambit
+            Division Distillation
+            // Stack: Op, Origin, Target, Count, Offset
+            Jester's Gambit
+            {
+                Locate Sentinel
+                Additive Distillation
+                Summon Greater Sentinel
+            }
+            Kitkat's Gambit
+            Bookkeeper's Gambit: v
+            // Stack: Op, Origin, Target
+            { // Inner stack: Op, Origin, Pos
+                Thanatos' Reflection
+                Numerical Reflection: 50000 // Can be adjusted to set max ops/tick limit. Lower value means people suffer more.
+                Minimus Distillation II
+                { // Low on ops, enqueue
+                    {
+                        Flock's Reflection
+                        Flock's Gambit
+                        Bubbles' Purification
+                        Single's Purification
+                        {
+                            Flock's Disintegration
+                            Hermes' Gambit
+                        }
+                        Additive Distillation
+                        Numerical Reflection: 1
+                        Enqueue
+                        Janus' Gambit
+                    }
+                    Iris' Gambit
+                }
+                Helios' Gambit
+                // Stack: Op, Origin, Pos
+                Prospector's Gambit
+                Retrieve Idea
+                Flock's Disintegration
+                // Stack: Op, Origin, Pos, ...
+                Flock's Reflection
+                Decrementation Purification
+                Fisherman's Gambit
+                Hermes' Gambit
+                // Stack: Origin, ...
+                Flock's Reflection
+                Decrementation Purification
+                Flock's Gambit
+                Inscribe Idea
+            }
+            Jester's Gambit
+            Numerical Reflection: 8.5
+            Dioscuri Gambit
+            Subtractive Distillation
+            Rotation Gambit II
+            Additive Distillation
+            False Reflection
+            Cubic Exaltation
+            Bookkeeper's Gambit: v
+        }
+        Jester's Gambit
+        Thoth's Gambit
+    }
+    Jester's Gambit
+    Thoth's Gambit
+}
+Jester's Gambit
+Thoth's Gambit
