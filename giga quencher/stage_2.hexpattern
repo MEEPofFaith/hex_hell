@@ -1,5 +1,5 @@
 // Quenching moved to second part.
-// Need some time delay so that the allays start dancing.
+// Allay needs a 20 tick delay before it starts dancing.
 Contemplation
 <Allay Type>
 Muninn's Reflection
