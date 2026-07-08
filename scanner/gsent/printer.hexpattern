@@ -1,7 +1,7 @@
 // Stack: Origin, Bounds, Mat
 Rotation Gambit
 Floor Purification
-Vector Reflection: (0.5, 0.5, 0.5)
+Numerical Reflection: 0.5
 Additive Distillation // Coerce origin to center of block
 Rotation Gambit II
 Numerical Reflection: 0
