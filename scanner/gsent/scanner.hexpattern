@@ -40,8 +40,8 @@ Inscribe Idea // Data: [Bounds, Mat, 0, 0]
 // Stack: Origin, Origin, Bounds
 Mind's Reflection
 Compass' Purification II
-Summon Greater Sentinel
-{ // Stack: Origin, Pos, Bounds, Mat, Index, Shift
+Summon Greater Sentinel // GSent is needed. Spawn nearby.
+{ // Inner Stack: Origin, Pos, Bounds, Mat, Index, Shift
     Gemini Decomposition
     Numerical Reflection: 150 // 50 * 3
     Maximus Distillation II
@@ -129,6 +129,7 @@ Summon Greater Sentinel
             Rotation Gambit II
             Left Shift Distillation
             Disjunction Distillation
+            Long Purification
             Rotation Gambit II
         }
         { // Inner Stack: ..., Index, Shift, Col L, Mat, d1, d2, d3, Shift
@@ -139,6 +140,7 @@ Summon Greater Sentinel
             Rotation Gambit II
             Left Shift Distillation
             Disjunction Distillation
+            Long Purification
             Jester's Gambit
         }
         { // Inner Stack: ..., Index, Shift, Col L, Mat, d1, d2, d3, Shift
@@ -149,6 +151,7 @@ Summon Greater Sentinel
             Rotation Gambit II
             Left Shift Distillation
             Disjunction Distillation
+            Long Purification
         }
         Numerical Reflection: 3
         Flock's Gambit
@@ -186,11 +189,17 @@ Rotation Gambit II
 // Stack: Origin, Op, Origin, Bounds
 Numerical Reflection: 3
 Flock's Gambit
-Bubbles' Purification
-Single's Purification
-Contemplation
-<Walker>
-Additive Distillation
+{
+    Contemplation
+    Bookkeeper's Gambit: -
+    Flock's Disintegration
+    Contemplation
+    <Walker>
+    Hermes' Gambit
+}
+Numerical Reflection: 1
+Rotation Gambit
+Surgeon's Exaltation
 Numerical Reflection: 1
 Contemplation
 <"Scanner">

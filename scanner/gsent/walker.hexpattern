@@ -43,7 +43,9 @@ Ranger's Exaltation
             Locate Sentinel
             // Stack: Op, Origin, Max, Target, Target, Sent
             Subtractive Distillation
+            // Stack: Op, Origin, Max, Target, Offset
             Gemini Decomposition
+            Length Purification
             Numerical Reflection: 16
             Division Distillation
             Ceiling Purification
@@ -107,7 +109,7 @@ Ranger's Exaltation
             Vector Disintegration
             Numerical Reflection: 3
             Flock's Gambit
-            Rotation Gambit II
+            Rotation Gambit
             Vector Disintegration
             Numerical Reflection: 3
             Flock's Gambit
