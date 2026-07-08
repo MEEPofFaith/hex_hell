@@ -1,4 +1,4 @@
-// Stack: Origin, Bounds, Mat
+// Stack: Origin, Bounds, [Mats]
 Rotation Gambit
 Floor Purification
 Numerical Reflection: 0.5
@@ -10,32 +10,46 @@ Flock's Gambit
 Numerical Reflection: 2
 Fisherman's Gambit II
 Jester's Gambit
-Inscribe Idea // Data: [Mat, Shift]
+Inscribe Idea // Data: [[Mats], Shift]
 // Stack: Origin, Bounds
 Mind's Reflection
 Compass' Purification II
 Summon Greater Sentinel // GSent is needed. Spawn nearby.
-{ // Stack: ..., Pos, Mat, Shift
+{ // Stack: ..., Pos, [Mats], Shift
     Gemini Decomposition
     Numerical Reflection: 150 // 52 * 3
     Maximus Distillation II
     {
         Bookkeeper's Gambit: v
-        Numerical Reflection: 1
-        Mitosis Gambit
-        Bookkeeper's Gambit: v-
+        Derivation Decomposition
+        // Stack: ..., Pos, [Mats], Mat
+        Restoration Purification II // I hope this doesn't overrun stack size limit.
+        Derivation Decomposition
+        // Stack: ..., Pos, [Mats], [Vecs], ToRemove
+        Nullary Reflection
+        Equality Distillation
+        Contemplation
+        Bookkeeper's Gambit: v
+        {
+            Transformation Purification
+            Integration Distillation
+        }
+        Augur's Exaltation
+        Hermes' Gambit
         Numerical Reflection: 0
     }
     Helios' Gambit
     Undertaker's Gambit
     Jester's Gambit
-    // Stack: ..., Pos, Shift, Shift, Mat
+    // Stack: ..., Pos, Shift, Shift, [Mats]
+    Derivation Decomposition
+    // Stack: ..., Pos, Shift, Shift, [Mats], Mat
     Numerical Reflection: 1
     Mitosis Gambit
     Prospector's Gambit
     Restoration Purification
     Vector Disintegration
-    // Stack: ..., Pos, Shift, Shift, Data, Mat, d1, d2, d3
+    // Stack: ..., Pos, Shift, Shift, [Mats], Data, Mat, d1, d2, d3
     {
         Bookkeeper's Gambit: -vv
         Bookkeeper's Gambit: v-v
@@ -49,30 +63,32 @@ Summon Greater Sentinel // GSent is needed. Spawn nearby.
     Selection Distillation
     Hermes' Gambit
     Long Purification
-    // Stack: ..., Pos, Shift, Shift, Data, Mat, d
-    Geb's Gambit // 3
+    // Stack: ..., Pos, Shift, Shift, [Mats], Data, Mat, d
+    Geb's Gambit // 4
     Numerical Reflection: 50
     Modulus Distillation
     Logical Right Shift Dstl.
     Long Reflection //31
     Conjunction Distillation
-    // Stack: ..., Pos, Shift, Data, Mat, d
+    // Stack: ..., Pos, Shift, [Mats], Data, Mat, d
     Gemini Decomposition
     Augur's Purification
     {
-        Long Reflection//15
+        Long Reflection //15
         Conjunction Distillation
         Long Purification
-        Numerical Reflection: 32 // EDCBA -> DCBEA
+        Numerical Reflection: 152 // FEDCBA -> EDCBFA
         Swindler's Gambit
+        // Stack: ..., Shift, [Mats], Data, Mat, Pos, Col
         Conjure Solid Color
     }
     Contemplation
-    Bookkeeper's Gambit: v---v
+    Bookkeeper's Gambit: v----v
     Augur's Exaltation
     Hermes' Gambit
-    // Stack: ..., Shift, Data, Mat
+    // Stack: ..., Shift, Data, [Mats], Data, Mat
     Sprawling Distillation
+    Integration Distillation
     Jester's Gambit
     Numerical Reflection: 5
     Additive Distillation
