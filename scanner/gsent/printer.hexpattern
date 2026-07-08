@@ -21,10 +21,10 @@ Summon Greater Sentinel // GSent is needed. Spawn nearby.
     Maximus Distillation II
     {
         Bookkeeper's Gambit: v
-        Derivation Decomposition
+        Speaker's Decomposition
         // Stack: ..., Pos, [Mats], Mat
         Restoration Purification II // I hope this doesn't overrun stack size limit.
-        Derivation Decomposition
+        Speaker's Decomposition
         // Stack: ..., Pos, [Mats], [Vecs], ToRemove
         Nullary Reflection
         Equality Distillation
@@ -32,7 +32,7 @@ Summon Greater Sentinel // GSent is needed. Spawn nearby.
         Bookkeeper's Gambit: v
         {
             Transformation Purification
-            Integration Distillation
+            Speaker's Distillation
         }
         Augur's Exaltation
         Hermes' Gambit
@@ -42,7 +42,7 @@ Summon Greater Sentinel // GSent is needed. Spawn nearby.
     Undertaker's Gambit
     Jester's Gambit
     // Stack: ..., Pos, Shift, Shift, [Mats]
-    Derivation Decomposition
+    Speaker's Decomposition
     // Stack: ..., Pos, Shift, Shift, [Mats], Mat
     Numerical Reflection: 1
     Mitosis Gambit
@@ -55,7 +55,7 @@ Summon Greater Sentinel // GSent is needed. Spawn nearby.
         Bookkeeper's Gambit: v-v
         Bookkeeper's Gambit: vv-
     }
-    Numerical Reflection: 6
+    Numerical Reflection: 7
     Fisherman's Gambit II
     Numerical Reflection: 50
     Division Distillation
@@ -88,7 +88,7 @@ Summon Greater Sentinel // GSent is needed. Spawn nearby.
     Hermes' Gambit
     // Stack: ..., Shift, Data, [Mats], Data, Mat
     Sprawling Distillation
-    Integration Distillation
+    Speaker's Distillation
     Jester's Gambit
     Numerical Reflection: 5
     Additive Distillation

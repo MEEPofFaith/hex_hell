@@ -5,7 +5,7 @@ Additive Distillation
 Jester's Gambit
 Numerical Reflection: 8 // The datum list of the 18x18x18 cube will overrun stack size limit when stored in a jump. Shrink down to smaller volumes.
 Division Distillation
-Ceiling Purification
+Floor Purification
 // Stack: Op, Origin, Max, Bounds
 Vector Reflection Zero
 {
