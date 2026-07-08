@@ -3,7 +3,7 @@
 Dioscuri Gambit
 Additive Distillation
 Jester's Gambit
-Numerical Reflection: 10 // The datum list of the 18x18x18 cube will overrun stack size limit when stored in a jump. Shrink down to smaller volumes.
+Numerical Reflection: 8 // The datum list of the 18x18x18 cube will overrun stack size limit when stored in a jump. Shrink down to smaller volumes.
 Division Distillation
 Ceiling Purification
 Numerical Reflection: 1
@@ -29,10 +29,8 @@ Ranger's Exaltation
             // Stack: Op, Origin, Max, z, y, x
             Reflecting Gambit
             Vector Exaltation
-            Numerical Reflection: 10
-            Multiplicative Distillation
             Numerical Reflection: 8
-            Additive Distillation
+            Multiplicative Distillation
             // Stack: Op, Origin, Max, Offset
             Numerical Reflection: 2
             Fisherman's Gambit II
@@ -102,7 +100,7 @@ Ranger's Exaltation
             }
             Rotation Gambit II
             // Stack: Op, Origin, [CubicOp], Max, Target
-            Numerical Reflection: 4.5
+            Numerical Reflection: 3.5
             Dioscuri Gambit
             Subtractive Distillation
             Rotation Gambit II

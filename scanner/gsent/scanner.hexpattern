@@ -33,26 +33,44 @@ Dioscuri Gambit
 Vector Reflection Zero
 Transformation Purification
 Numerical Reflection: 0
+Single's Purification
 Numerical Reflection: 0
 Numerical Reflection: 4
 Flock's Gambit
-Inscribe Idea // Data: [Bounds, Mat, 0, 0]
+Inscribe Idea // Data: [Bounds, [Mat], 0, 0]
 // Stack: Origin, Origin, Bounds
 Mind's Reflection
 Compass' Purification II
 Summon Greater Sentinel // GSent is needed. Spawn nearby.
-{ // Inner Stack: Origin, Pos, Bounds, Mat, Index, Shift
+{ // Inner Stack: Origin, Pos, Bounds, [Mat], Index, Shift
     Gemini Decomposition
     Numerical Reflection: 150 // 50 * 3
     Maximus Distillation II
     {
         Bookkeeper's Gambit: v
         Incrementation Purification
-        Jester's Gambit
-        Vector Reflection Zero
-        Transformation Purification
-        Sprawling Distillation
-        Jester's Gambit
+        // Inner Stack: Origin, Pos, Bounds, [Mat], Index
+        Gemini Decomposition
+        Numerical Reflection: 144 // Maximum matrix size
+        Maximus Distillation II
+        {
+            Bookkeeper's Gambit: v
+            Vector Reflection Zero
+            Transformation Purification
+            Integration Distillation
+            Numerical Reflection: 0
+        }
+        {
+            Jester's Gambit
+            Derivation Decomposition
+            Vector Reflection Zero
+            Transformation Purification
+            Sprawling Distillation
+            Integration Distillation
+            Jester's Gambit
+        }
+        Augur's Exaltation
+        Hermes' Gambit
         Numerical Reflection: 0
     }
     Helios' Gambit
@@ -89,13 +107,13 @@ Summon Greater Sentinel // GSent is needed. Spawn nearby.
     Equality Distillation
     // Stack: ..., id, string match, id match
     Conjunction Distillation
-    { // Stack: ..., Mat, Index, Shift, id
+    { // Stack: ..., [Mat], Index, Shift, id
         // Not considered air, add to data
         Cartographer's Purification
         Contemplation
         <Color vector list>
         Undertaker's Gambit
-        // Stack: ..., Mat, Index, Shift, [Cols], map col, [Cols]
+        // Stack: ..., [Mat], Index, Shift, [Cols], map col, [Cols]
         {
             Contemplation
             Bookkeeper's Gambit: -
@@ -110,21 +128,23 @@ Summon Greater Sentinel // GSent is needed. Spawn nearby.
         Selection Exaltation
         Locator's Distillation
         Long Purification
-        // Stack: ..., Mat, Index, Shift, Col L
         Long Reflection // 16
         Disjunction Distillation
+        // Stack: ..., [Mat], Index, Shift, Col L
         Geb's Gambit // 3
-        Numerical Reflection: 3
+        Derivation Decomposition
+        // Stack: ..., Index, Shift, Col L, [Mat], LastMat
+        Numerical Reflection: 4
         Fisherman's Gambit II
         Mitosis Gambit
-        // Stack: ..., Index, Shift, Col L, Mat, Last
+        // Stack: ..., Index, Shift, Col L, [Mat], LastMat, LastVec
         Restoration Purification
         Vector Disintegration
-        // Stack: ..., Index, Shift, Col L, Mat, d1, d2, d3
-        { // Inner Stack: ..., Index, Shift, Col L, Mat, d1, d2, d3, Shift
-            Numerical Reflection: 181 // FEDCBA -> ECBFAD
+        // Stack: ..., Index, Shift, Col L, [Mat], LastMat, d1, d2, d3
+        { // Inner Stack: ..., Index, Shift, Col L, [Mat], LastMat, d1, d2, d3, Shift
+            Numerical Reflection: 901 // GFEDCBA -> FECBGAD
             Swindler's Gambit
-            // Inner Stack: ..., Index, Shift, Mat, d2, d3, Col L, Shift, d1
+            // Inner Stack: ..., Index, Shift, [Mat], LastMat, d2, d3, Col L, Shift, d1
             Long Purification
             Rotation Gambit II
             Left Shift Distillation
@@ -132,10 +152,10 @@ Summon Greater Sentinel // GSent is needed. Spawn nearby.
             Long Purification
             Rotation Gambit II
         }
-        { // Inner Stack: ..., Index, Shift, Col L, Mat, d1, d2, d3, Shift
-            Numerical Reflection: 157 // FEDCBA -> EDBFAC
+        { // Inner Stack: ..., Index, Shift, Col L, [Mat], LastMat, d1, d2, d3, Shift
+            Numerical Reflection: 877 // GFEDCBA -> FEDBGAC
             Swindler's Gambit
-            // Inner Stack: ..., Index, Shift, Mat, d1, d3, Col L, Shift, d2
+            // Inner Stack: ..., Index, Shift, [Mat], LastMat, d1, d3, Col L, Shift, d2
             Long Purification
             Rotation Gambit II
             Left Shift Distillation
@@ -143,10 +163,10 @@ Summon Greater Sentinel // GSent is needed. Spawn nearby.
             Long Purification
             Jester's Gambit
         }
-        { // Inner Stack: ..., Index, Shift, Col L, Mat, d1, d2, d3, Shift
-            Numerical Reflection: 151 // FEDCBA -> EDCFAB
+        { // Inner Stack: ..., Index, Shift, Col L, [Mat], LastMat, d1, d2, d3, Shift
+            Numerical Reflection: 871 // GFEDCBA -> FEDCGAB
             Swindler's Gambit
-            // Inner Stack: ..., Index, Shift, Mat, d1, d2, Col L, Shift, d3
+            // Inner Stack: ..., Index, Shift, [Mat], LastMat, d1, d2, Col L, Shift, d3
             Long Purification
             Rotation Gambit II
             Left Shift Distillation
@@ -155,9 +175,9 @@ Summon Greater Sentinel // GSent is needed. Spawn nearby.
         }
         Numerical Reflection: 3
         Flock's Gambit
-        Numerical Reflection: 6
+        Numerical Reflection: 7
         Fisherman's Gambit II
-        // Stack: ..., Index, Shift, Col L, Mat, d1, d2, d3, [Ops], Shift
+        // Stack: ..., Index, Shift, Col L, [Mat], LastMat, d1, d2, d3, [Ops], Shift
         Gemini Decomposition
         Numerical Reflection: 50
         Modulus Distillation
@@ -167,10 +187,11 @@ Summon Greater Sentinel // GSent is needed. Spawn nearby.
         Floor Purification
         Selection Distillation
         Hermes' Gambit
-        // Stack: ..., Index, Shift, Mat, d1, d2, d3
+        // Stack: ..., Index, Shift, [Mat], LastMat, d1, d2, d3
         Vector Exaltation
         Transformation Purification
         Sprawling Distillation
+        Integration Distillation
         // Storage format: 5 bits per block.
         // 00000: Air
         // 1xxxx: Block
@@ -181,7 +202,7 @@ Summon Greater Sentinel // GSent is needed. Spawn nearby.
     Bookkeeper's Gambit: v
     Augur's Exaltation
     Hermes' Gambit
-    // Stack: ..., Mat, Index, Shift
+    // Stack: ..., [Mat], Index, Shift
     Numerical Reflection: 5
     Additive Distillation
 }
