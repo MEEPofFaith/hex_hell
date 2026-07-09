@@ -17,17 +17,30 @@ Rotation Gambit II
 False Reflection
 Cubic Exaltation
 // Stack: ..., Op, Origin, Max, [TargetPos]
-{ // Stack: ..., Origin, Max, Pos
-    Numerical Reflection: 2
+Rotation Gambit II
+Vacant Reflection
+{
+    Hermes' Gambit
+    Flock's Reflection
+    Decrementation Purification
+    Reflection Purification
+    Fisherman's Gambit
+}
+Gemini Decomposition
+Hermes' Gambit
+// Stack: Origin, Max, ..., Op, [TargetPos]
+{ // Stack: Origin, Max, ..., Pos
+    Flock's Reflection
+    Decrementation Purification
     Fisherman's Gambit II
     Additive Distillation
-    // Stack: ..., Origin, Max, Target pos
+    // Stack: Origin, Max, ..., Target pos
     // Walk sent
     Gemini Decomposition
     Locate Sentinel
-    // Stack: ..., Origin, Max, Target, Target, Sent
+    // Stack: Origin, Max, ..., Target, Target, Sent
     Subtractive Distillation
-    // Stack: ..., Origin, Max, Target, Offset
+    // Stack: Origin, Max, ..., Target, Offset
     Gemini Decomposition
     Length Purification
     Numerical Reflection: 16
@@ -35,7 +48,7 @@ Cubic Exaltation
     Ceiling Purification
     Undertaker's Gambit
     Division Distillation
-    // Stack: ..., Origin, Max, Target, Count, Offset
+    // Stack: Origin, Max, ..., Target, Count, Offset
     Jester's Gambit
     {
         Locate Sentinel
@@ -44,17 +57,19 @@ Cubic Exaltation
     }
     Kitkat's Gambit
     Bookkeeper's Gambit: v
-    // Stack: ..., Origin, Max, Pos
+    // Stack: Origin, Max, ..., Pos
     Numerical Reflection: 3.5
     Dioscuri Gambit
     Subtractive Distillation
     Rotation Gambit II
     Additive Distillation
-    // Stack: ..., Origin, Max, MinCorner, MaxCorner
+    // Stack: Origin, Max, ..., MinCorner, MaxCorner
     Vector Disintegration
     Numerical Reflection: 3
     Flock's Gambit
+    Flock's Reflection
     Numerical Reflection: 2
+    Subtractive Distillation
     Fisherman's Gambit II
     Vector Disintegration
     Numerical Reflection: 3
@@ -73,19 +88,13 @@ Cubic Exaltation
     }
     Rotation Gambit II
     Rubik's Gambit
-    // Stack: ..., Origin, Max, [OpPos]
-    { // Inner stack: ..., Origin, Max, Pos
-        Vacant Reflection
-        {
-            Hermes' Gambit
-            Flock's Reflection
-            Decrementation Purification
-            Reflection Purification
-            Fisherman's Gambit
-        }
+    // Stack: Origin, Max, ..., [OpPos]
+    { // Inner stack: Origin, Max, ..., Pos
+        Flock's Reflection
         Numerical Reflection: 3
-        Gemini Gambit
-        Hermes' Gambit
+        Subtractive Distillation
+        Reflection Purification
+        Fisherman's Gambit
         // Stack: Origin, Max, Pos, ...
         {
             Thanatos' Reflection
@@ -115,21 +124,8 @@ Cubic Exaltation
         Contemplation
         Patience // Unique pattern 1
         Additive Distillation
-        Flock's Reflection
-        Numerical Reflection: 3
-        Subtractive Distillation
-        Hanoi's Gambit
-        // Stack: Origin, Max, ...
-        Vacant Reflection
-        {
-            Hermes' Gambit
-            Flock's Reflection
-            Decrementation Purification
-            Fisherman's Gambit
-        }
-        Gemini Decomposition
         Hermes' Gambit
-        // Stack: ..., Origin, Max
+        // Stack: Origin, Max, ...
     }
     Gemini Decomposition
     Contemplation
@@ -140,26 +136,23 @@ Cubic Exaltation
     Surgeon's Exaltation
     Jester's Gambit
     Anubis' Gambit
-    // Stack: ..., Origin, Max ---- Retain for next iteration
+    // Stack: Origin, Max, ... ---- Retain for next iteration
 }
 Gemini Decomposition
 Contemplation
 Patience // Unique pattern 2
 Locator's Distillation
-// Stack: ..., Op, Origin, Max, [TargetPos], [TargetOp], Index
-Geb's Gambit // 5
+// Stack: Origin, Max, ..., Op, [TargetPos], [TargetOp], Index
+Geb's Gambit // 3
 Surgeon's Exaltation
 Jester's Gambit
 Anubis' Gambit
-// Stack: ..., Origin, Max
-Bookkeeper's Gambit: v
+// Stack: Origin, Max, ...
 Flock's Reflection
-Decrementation Purification
-Reflection Purification
-Fisherman's Gambit
-Flock's Reflection
-Decrementation Purification
+Numerical Reflection: 2
+Subtractive Distillation
 Flock's Gambit
+Bookkeeper's Gambit: v-
 Inscribe Idea
 Contemplation
 <"Done">
