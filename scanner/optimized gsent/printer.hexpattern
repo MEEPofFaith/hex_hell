@@ -17,11 +17,15 @@ Geb's Gambit // 3
         Restoration Purification II // I hope this doesn't overrun stack size limit.
         Speaker's Decomposition
         // Stack: ..., Pos, [Mats], [Vecs], ToRemove
+        Bookkeeper's Gambit: v
+        Speaker's Decomposition
+        Gemini Decomposition
         Nullary Reflection
         Equality Distillation
         Contemplation
-        Bookkeeper's Gambit: v
+        Bookkeeper's Gambit: vv
         {
+            Speaker's Distillation
             Transformation Purification
             Speaker's Distillation
         }
