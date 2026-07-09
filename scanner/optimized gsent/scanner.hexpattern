@@ -26,16 +26,14 @@ Vector Exaltation
 Nut's Gambit // 3
 Vector Exaltation
 // Stack: Origin, Bounds
-Prospector's Gambit
-Jester's Gambit
 Gemini Decomposition
-// Stack: Origin, Origin, Bounds, Bounds
+// Stack: Origin, Bounds, Bounds
 Vector Reflection Zero
 Transformation Purification
 Single's Purification
 Numerical Reflection: 0
 Numerical Reflection: 0
-// Stack: Origin, Origin, Bounds, Bounds, [Mat], 0, 0
+// Stack: Origin, Bounds, Bounds, [Mat], 0, 0
 Vacant Reflection
 {
     Hermes' Gambit
@@ -46,7 +44,7 @@ Vacant Reflection
 }
 Gemini Decomposition
 Hermes' Gambit
-// Stack: Origin, Bounds, [Mat], 0, 0, Origin, Bounds
+// Stack: Bounds, [Mat], 0, 0, Origin, Bounds
 { // Inner Stack: Pos, Bounds, [Mat], Index, Shift
     Gemini Decomposition
     Numerical Reflection: 150 // 50 * 3
@@ -212,7 +210,7 @@ Hermes' Gambit
     Additive Distillation
 }
 Rotation Gambit II
-// Stack: Origin, Bounds, [Mat], 0, 0, [Op], Origin, Bounds
+// Stack: Bounds, [Mat], 0, 0, [Op], Origin, Bounds
 Flock's Reflection
 Decrementation Purification
 Flock's Gambit
@@ -231,4 +229,3 @@ Additive Distillation
 Contemplation
 <"Scanner">
 Enqueue
-// Stack: Origin
