@@ -1,0 +1,41 @@
+Gearbox Reflection
+Vector Reflection -Y
+Additive Distillation
+Gemini Decomposition
+Vector Reflection -X // Or some other offset
+Vector Reflection -X
+Additive Distillation
+Additive Distillation
+Gemini Decomposition
+Detective's Purification
+Contemplation
+<hierophantics:flay_bed>
+Equality Distillation
+{
+    {
+        Gemini Decomposition
+        Peripheral Purification
+        Augur's Purification
+        {
+            Contemplation
+            <Player detected. Executing flay.>
+            Send Thought
+            Numerical Reflection: 2
+            Erebus' Gambit
+        }
+        {
+            Contemplation
+            <Imbuement bed detected. Awaiting player.>
+            Send Thought
+            Numerical Reflection: 1
+            Numerical Reflection: 20
+            Division Distillation
+            Engineer's Distraction
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Sisyphus' Gambit
+}
+Helios' Gambit
+Flay Mind
