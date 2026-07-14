@@ -1,49 +1,44 @@
-// Stack: ..., Op, Origin, Bounds ---- Rest of stack sits behind primary data.
 Mind's Reflection
 Compass' Purification
 Summon Greater Sentinel // Summon now, will be needed.
+// Stack: ..., Op, Origin, Bounds
 Dioscuri Gambit
 Additive Distillation
-Jester's Gambit
-Numerical Reflection: 8 // The datum list of the 18x18x18 cube will overrun stack size limit when stored in a jump. Shrink down to smaller volumes.
+// Stack: ..., Op, Origin, Bounds, Max
+Rotation Gambit II
+Numerical Reflection: 9 // The datum list of the 18x18x18 cube will overrun stack size limit when stored in a jump. Shrink down to smaller volumes.
 Division Distillation
 Floor Purification
+// Stack: ..., Op, Max, Origin, SBounds
 Vector Reflection Zero
 {
-    Sekhmet' Gambit // 1
-    Numerical Reflection: 8
+    Sekhmet' Gambit // 2
+    Numerical Reflection: 9
     Multiplicative Distillation
-    Numerical Reflection: 3
+    Numerical Reflection: 4
+    Additive Distillation
+    Jester's Gambit
     Additive Distillation
 }
 Rotation Gambit II
 False Reflection
 Cubic Exaltation
-// Stack: ..., Op, Origin, Max, [TargetPos]
-Rotation Gambit II
-Vacant Reflection
-{
-    Hermes' Gambit
-    Flock's Reflection
-    Decrementation Purification
-    Reflection Purification
-    Fisherman's Gambit
-}
-Gemini Decomposition
-Hermes' Gambit
-// Stack: Origin, Max, ..., Op, [TargetPos]
-{ // Stack: Origin, Max, ..., Pos
-    Flock's Reflection
-    Decrementation Purification
-    Fisherman's Gambit II
-    Additive Distillation
-    // Stack: Origin, Max, ..., Target pos
+// Stack: ..., Op, Max, Origin, [TargetPos]
+Bookkeeper's Gambit: v-
+Jester's Gambit
+// Stack: ..., Op, [TargetPos], Max
+Flock's Reflection
+Decrementation Purification
+Reflection Purification
+Fisherman's Gambit
+// Stack: Max, ..., Op, [TargetPos]
+{ // Stack: Max, ..., Target
     // Walk sent
     Gemini Decomposition
     Locate Sentinel
-    // Stack: Origin, Max, ..., Target, Target, Sent
+    // Stack: Max, ..., Target, Target, Sent
     Subtractive Distillation
-    // Stack: Origin, Max, ..., Target, Offset
+    // Stack: Max, ..., Target, Offset
     Gemini Decomposition
     Length Purification
     Numerical Reflection: 16
@@ -51,7 +46,7 @@ Hermes' Gambit
     Ceiling Purification
     Undertaker's Gambit
     Division Distillation
-    // Stack: Origin, Max, ..., Target, Count, Offset
+    // Stack: Max, ..., Target, Count, Offset
     Jester's Gambit
     {
         Locate Sentinel
@@ -60,19 +55,18 @@ Hermes' Gambit
     }
     Kitkat's Gambit
     Bookkeeper's Gambit: v
-    // Stack: Origin, Max, ..., Pos
-    Numerical Reflection: 3.5
+    // Stack: Max, ..., Pos
+    Numerical Reflection: 4
     Dioscuri Gambit
     Subtractive Distillation
     Rotation Gambit II
     Additive Distillation
-    // Stack: Origin, Max, ..., MinCorner, MaxCorner
+    // Stack: Max, ..., MinCorner, MaxCorner
     Vector Disintegration
     Numerical Reflection: 3
     Flock's Gambit
     Flock's Reflection
-    Numerical Reflection: 2
-    Subtractive Distillation
+    Decrementation Purification
     Fisherman's Gambit II
     Vector Disintegration
     Numerical Reflection: 3
@@ -91,14 +85,14 @@ Hermes' Gambit
     }
     Rotation Gambit II
     Rubik's Gambit
-    // Stack: Origin, Max, ..., [OpPos]
-    { // Inner stack: Origin, Max, ..., Pos
+    // Stack: Max, ..., [OpPos]
+    { // Inner stack: Max, ..., Pos
         Flock's Reflection
-        Numerical Reflection: 3
+        Numerical Reflection: 2
         Subtractive Distillation
         Reflection Purification
         Fisherman's Gambit
-        // Stack: Origin, Max, Pos, ...
+        // Stack: Max, Pos, ...
         {
             Thanatos' Reflection
             Numerical Reflection: 50000 // Can be adjusted to set max ops/tick limit. Lower value means people suffer more.
@@ -123,22 +117,22 @@ Hermes' Gambit
                 Iris' Gambit
             }
             Helios' Gambit
+            Contemplation
+            Patience // Unique pattern 1
+            Hermes' Gambit
         }
-        Contemplation
-        Patience // Unique pattern 1
-        Additive Distillation
         Hermes' Gambit
-        // Stack: Origin, Max, ...
+        // Stack: Max, ...
     }
     Jester's Gambit
     Anubis' Gambit
-    // Stack: Origin, Max, ... ---- Retain for next iteration
+    // Stack: Max, ... ---- Retain for next iteration
 }
 Gemini Decomposition
 Contemplation
 Patience // Unique pattern 1
 Locator's Distillation
-// Stack: Origin, Max, ..., Op, [TargetPos], [TargetOp], Index
+// Stack: Max, ..., Op, [TargetPos], [TargetOp], Index
 Geb's Gambit // 3
 Surgeon's Exaltation
 Contemplation
@@ -146,10 +140,9 @@ Contemplation
 Hermes' Gambit
 Jester's Gambit
 Anubis' Gambit
-// Stack: Origin, Max, ...
+// Stack: Max, ...
 Flock's Reflection
-Numerical Reflection: 2
-Subtractive Distillation
+Decrementation Purification
 Flock's Gambit
 Mind's Reflection
 Compass' Purification
