@@ -1,4 +1,4 @@
-// Stack: Origin, Bounds, [Mats]
+// Stack: Origin, Bounds, [[Vecs], Mats...]
 Numerical Reflection: 0
 Geb's Gambit // 3
 Floor Purification
@@ -6,51 +6,49 @@ Numerical Reflection: 0.5
 Additive Distillation // Coerce origin to center of block
 Geb's Gambit // 3
 // Stack: [Mats], 0, Origin, Bounds
-{ // Stack: ..., Pos, [Mats], Shift
+{ // Stack: ..., Pos, [[Vecs], Mats...], Shift
     Gemini Decomposition
     Numerical Reflection: 150 // 50 * 3
     Maximus Distillation II
     {
         Bookkeeper's Gambit: v
         Speaker's Decomposition
-        // Stack: ..., Pos, [Mats], Mat
-        Restoration Purification II // I hope this doesn't overrun stack size limit.
         Speaker's Decomposition
-        // Stack: ..., Pos, [Mats], [Vecs], ToRemove
+        // Stack: ..., Pos, [Mats...], [Vecs], ToRemove
         Bookkeeper's Gambit: v
-        Speaker's Decomposition
-        Gemini Decomposition
+        Speaker's Decomposition II
         Nullary Reflection
         Equality Distillation
-        Contemplation
-        Bookkeeper's Gambit: vv
         {
-            Speaker's Distillation
-            Transformation Purification
-            Speaker's Distillation
+            Bookkeeper's Gambit: v
+            Speaker's Decomposition
+            Restoration Purification II // A 3x3 matrix will do rows instead of columns. Manually turn columns into vectors.
+            {
+                Flock's Disintegration
+                Vector Exaltation
+            }
+            Jester's Gambit
+            Nehmetawy's Gambit
         }
-        Augur's Exaltation
-        Hermes' Gambit
+        Helios' Gambit
+        Speaker's Distillation
         Numerical Reflection: 0
     }
     Helios' Gambit
     Undertaker's Gambit
     Jester's Gambit
-    // Stack: ..., Pos, Shift, Shift, [Mats]
+    // Stack: ..., Pos, Shift, Shift, [[Vecs], Mats...]
     Speaker's Decomposition
-    // Stack: ..., Pos, Shift, Shift, [Mats], Mat
-    Numerical Reflection: 1
-    Mitosis Gambit
-    Prospector's Gambit
-    Restoration Purification
+    // Stack: ..., Pos, Shift, Shift, [Mats...], [Vecs]
+    Speaker's Decomposition II
     Vector Disintegration
-    // Stack: ..., Pos, Shift, Shift, [Mats], Data, Mat, d1, d2, d3
+    // Stack: ..., Pos, Shift, Shift, [Mats...], [Vecs], d1, d2, d3
     {
         Bookkeeper's Gambit: -vv
         Bookkeeper's Gambit: v-v
         Bookkeeper's Gambit: vv-
     }
-    Numerical Reflection: 7
+    Numerical Reflection: 6
     Fisherman's Gambit II
     Numerical Reflection: 50
     Division Distillation
@@ -58,31 +56,31 @@ Geb's Gambit // 3
     Selection Distillation
     Hermes' Gambit
     Long Purification
-    // Stack: ..., Pos, Shift, Shift, [Mats], Data, Mat, d
-    Geb's Gambit // 4
+    // Stack: ..., Pos, Shift, Shift, [Mats...], [Vecs], d
+    Geb's Gambit // 3
     Numerical Reflection: 50
     Modulus Distillation
     Logical Right Shift Dstl.
     Long Reflection //31
     Conjunction Distillation
-    // Stack: ..., Pos, Shift, [Mats], Data, Mat, d
+    // Stack: ..., Pos, Shift, [Mats...], [Vecs], d
     Gemini Decomposition
     Augur's Purification
     {
         Long Reflection //15
         Conjunction Distillation
         Long Purification
-        Numerical Reflection: 152 // FEDCBA -> EDCBFA
+        // Stack: ..., Pos, Shift, [Mats...], [Vecs], Col
+        Numerical Reflection: 32 // EDCBA -> DCBEA
         Swindler's Gambit
-        // Stack: ..., Shift, [Mats], Data, Mat, Pos, Col
+        // Stack: ..., Shift, [Mats...], [Vecs], Pos, Col
         Conjure Solid Color
     }
     Contemplation
     Bookkeeper's Gambit: v----v
     Augur's Exaltation
     Hermes' Gambit
-    // Stack: ..., Shift, [Mats], Data, Mat
-    Sprawling Distillation
+    // Stack: ..., Shift, [Mats...], [Vecs]
     Speaker's Distillation
     Jester's Gambit
     Numerical Reflection: 5
