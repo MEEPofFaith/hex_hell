@@ -127,24 +127,20 @@ Hermes' Gambit
         Hermes' Gambit
         // Stack: Origin, Max, ...
     }
-    Gemini Decomposition
-    Contemplation
-    Patience // Unique pattern 1
-    Locator's Distillation
-    Contemplation
-    Patience // Unique pattern 2
-    Surgeon's Exaltation
     Jester's Gambit
     Anubis' Gambit
     // Stack: Origin, Max, ... ---- Retain for next iteration
 }
 Gemini Decomposition
 Contemplation
-Patience // Unique pattern 2
+Patience // Unique pattern 1
 Locator's Distillation
 // Stack: Origin, Max, ..., Op, [TargetPos], [TargetOp], Index
 Geb's Gambit // 3
 Surgeon's Exaltation
+Contemplation
+<Compile Hex>
+Hermes' Gambit
 Jester's Gambit
 Anubis' Gambit
 // Stack: Origin, Max, ...

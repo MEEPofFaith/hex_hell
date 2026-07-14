@@ -29,11 +29,10 @@ Vector Exaltation
 Gemini Decomposition
 // Stack: Origin, Bounds, Bounds
 Vector Reflection Zero
-Transformation Purification
 Single's Purification
 Numerical Reflection: 0
 Numerical Reflection: 0
-// Stack: Origin, Bounds, Bounds, [Mat], 0, 0
+// Stack: Origin, Bounds, Bounds, [Vec], 0, 0
 Vacant Reflection
 {
     Hermes' Gambit
@@ -45,31 +44,34 @@ Vacant Reflection
 Gemini Decomposition
 Hermes' Gambit
 // Stack: Bounds, [Mat], 0, 0, Origin, Bounds
-{ // Inner Stack: Pos, Bounds, [Mat], Index, Shift
+{ // Inner Stack: Pos, Bounds, [Vec, Mat...], Index, Shift
     Gemini Decomposition
     Numerical Reflection: 150 // 50 * 3
     Maximus Distillation II
     {
         Bookkeeper's Gambit: v
         Incrementation Purification
-        // Inner Stack: Pos, Bounds, [Mat], Index
+        // Inner Stack: Pos, Bounds, [Vec, Mat...], Index
         Gemini Decomposition
         Numerical Reflection: 144 // Maximum matrix size
         Maximus Distillation II
         {
             Bookkeeper's Gambit: v
-            Vector Reflection Zero
+            Speaker's Decomposition
+            Retrograde Purification
             Transformation Purification
-            Integration Distillation
+            Speaker's Distillation
+            Vector Reflection Zero
+            Single's Purification
+            Speaker's Distillation
             Numerical Reflection: 0
         }
         {
             Jester's Gambit
-            Derivation Decomposition
+            Speaker's Decomposition
             Vector Reflection Zero
-            Transformation Purification
-            Sprawling Distillation
-            Integration Distillation
+            Speaker's Distillation
+            Speaker's Distillation
             Jester's Gambit
         }
         Augur's Exaltation
@@ -110,13 +112,13 @@ Hermes' Gambit
     Equality Distillation
     // Stack: ..., id, string match, id match
     Conjunction Distillation
-    { // Stack: ..., [Mat], Index, Shift, id
+    { // Stack: ..., [Vec, Mat...], Index, Shift, id
         // Not considered air, add to data
         Cartographer's Purification
         Contemplation
         <Color vector list>
         Undertaker's Gambit
-        // Stack: ..., [Mat], Index, Shift, [Cols], map col, [Cols]
+        // Stack: ..., [Vec, Mat...], Index, Shift, [Cols], map col, [Cols]
         {
             Contemplation
             Bookkeeper's Gambit: -
@@ -133,15 +135,12 @@ Hermes' Gambit
         Long Purification
         Long Reflection // 16
         Disjunction Distillation
-        // Stack: ..., [Mat], Index, Shift, Col L
+        // Stack: ..., [Vec, Mat...], Index, Shift, Col L
         Geb's Gambit // 3
-        Derivation Decomposition
-        // Stack: ..., Index, Shift, Col L, [Mat], LastMat
-        Numerical Reflection: 4
-        Fisherman's Gambit II
-        Mitosis Gambit
-        // Stack: ..., Index, Shift, Col L, [Mat], LastMat, LastVec
-        Restoration Purification
+        Speaker's Decomposition
+        // Stack: ..., Index, Shift, Col L, [Vec, Mat...], [LastVecs]
+        Speaker's Decomposition
+        // Stack: ..., Index, Shift, Col L, [Mat], [LastVecs], LastVec
         Vector Disintegration
         // Stack: ..., Index, Shift, Col L, [Mat], LastMat, d1, d2, d3
         { // Inner Stack: ..., Index, Shift, Col L, [Mat], LastMat, d1, d2, d3, Shift
@@ -192,9 +191,8 @@ Hermes' Gambit
         Hermes' Gambit
         // Stack: ..., Index, Shift, [Mat], LastMat, d1, d2, d3
         Vector Exaltation
-        Transformation Purification
-        Sprawling Distillation
-        Integration Distillation
+        Speaker's Distillation
+        Speaker's Distillation
         // Storage format: 5 bits per block.
         // 00000: Air
         // 1xxxx: Block
@@ -210,7 +208,7 @@ Hermes' Gambit
     Additive Distillation
 }
 Rotation Gambit II
-// Stack: Bounds, [Mat], 0, 0, [Op], Origin, Bounds
+// Stack: Bounds, [Vec, Mat...], 0, 0, [Op], Origin, Bounds
 Flock's Reflection
 Flock's Gambit
 Bubbles' Purification
