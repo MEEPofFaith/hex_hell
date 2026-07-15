@@ -166,7 +166,7 @@ Hermes' Gambit
         { // Inner Stack: ..., Index, Shift, Col L, [Mat], [Vecs], d1, d2, d3, Shift
             Numerical Reflection: 901 // GFEDCBA -> FECBGAD
             Swindler's Gambit
-            // Inner Stack: ..., Index, Shift, [Mat], [Vecs], d2, d3, Col L, Shift, d1
+            // Stack: ..., Index, Shift, [Mat], [Vecs], d2, d3, Col L, Shift, d1
             Long Purification
             Rotation Gambit II
             Left Shift Distillation
@@ -177,7 +177,7 @@ Hermes' Gambit
         { // Inner Stack: ..., Index, Shift, Col L, [Mat], [Vecs], d1, d2, d3, Shift
             Numerical Reflection: 877 // GFEDCBA -> FEDBGAC
             Swindler's Gambit
-            // Inner Stack: ..., Index, Shift, [Mat], [Vecs], d1, d3, Col L, Shift, d2
+            // Stack: ..., Index, Shift, [Mat], [Vecs], d1, d3, Col L, Shift, d2
             Long Purification
             Rotation Gambit II
             Left Shift Distillation
@@ -185,10 +185,10 @@ Hermes' Gambit
             Long Purification
             Jester's Gambit
         }
-        { // Inner Stack: ..., Index, Shift, Col L, [Mat], [Vecs], d1, d2, d3, Shift
+        { // Stack: ..., Index, Shift, Col L, [Mat], [Vecs], d1, d2, d3, Shift
             Numerical Reflection: 871 // GFEDCBA -> FEDCGAB
             Swindler's Gambit
-            // Inner Stack: ..., Index, Shift, [Mat], [Vecs], d1, d2, Col L, Shift, d3
+            // Stack: ..., Index, Shift, [Mat], [Vecs], d1, d2, Col L, Shift, d3
             Long Purification
             Rotation Gambit II
             Left Shift Distillation
