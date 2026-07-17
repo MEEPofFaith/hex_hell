@@ -11,6 +11,8 @@ Intent Input
     Nullary Reflection
     Inequality Distillation
     { // Search is not null, apply filter
+        False Reflection
+        Case Distillation
         {
             Numerical Reflection: 0
             Selection Distillation
@@ -24,43 +26,43 @@ Intent Input
         Rotation Gambit
         Surgeon's Exaltation
         Refinement Distillation
-        {
-            Bubbles' Purification
-            Single's Purification
-            {
-                Mind's Reflection
-                Compass' Purification
-                Jester's Gambit
-                Conjure Hexburst
-            }
-            Additive Distillation
-            Lani's Gambit
-        }
-        {
-            Gemini Decomposition
-            Numerical Reflection: 1
-            Selection Distillation
-            Bubbles' Purification
-            Single's Purification
-            {
-                Jester's Gambit
-                Hermes' Gambit
-            }
-            Additive Distillation
-            Jester's Gambit
-            Reading Purification (text)
-            Intent Button
-        }
-        Rotation Gambit
-        Nehmetawy's Gambit
-        Contemplation
-        <"Search Results">
-        Manifest Radial Menu
     }
     Contemplation
     Bookkeeper's Gambit: v
     Augur's Exaltation
     Hermes' Gambit
+    {
+        Bubbles' Purification
+        Single's Purification
+        {
+            Mind's Reflection
+            Compass' Purification
+            Jester's Gambit
+            Conjure Hexburst
+        }
+        Additive Distillation
+        Lani's Gambit
+    }
+    {
+        Gemini Decomposition
+        Numerical Reflection: 1
+        Selection Distillation
+        Bubbles' Purification
+        Single's Purification
+        {
+            Jester's Gambit
+            Hermes' Gambit
+        }
+        Additive Distillation
+        Jester's Gambit
+        Reading Purification (text)
+        Intent Button
+    }
+    Rotation Gambit
+    Nehmetawy's Gambit
+    Contemplation
+    <"Search Results">
+    Manifest Radial Menu
 }
 Contemplation
 <"Search">
