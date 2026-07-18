@@ -1,7 +1,23 @@
 // Stack: [Hex]
+False Reflection
 Vacant Reflection
 {
     {
+        // Check if last pattern was consid/contem
+        Rotation Gambit
+        { // Was, immediately embed whatever this iota is
+            Speaker's Distillation
+            False Reflection
+            Jester's Gambit
+            Numerical Reflection: 2
+            Erebus' Gambit
+        }
+        { // Was not, continue
+            False Reflection
+            Rotation Gambit II
+        }
+        Augur's Exaltation
+        Hermes' Gambit
         // Check if the iota is a pattern.
         Gemini Decomposition
         Classifier's Purification
@@ -14,6 +30,26 @@ Vacant Reflection
             Erebus' Gambit // Could probably stack manip a jump instead, but whatever
         }
         Selene's Gambit
+        // Is consideration or contemplation
+        Gemini Decomposition
+        Contemplation
+        Contemplation
+        Equality Distillation
+        Prospector's Gambit
+        <{Consideration}>
+        Equality Distillation
+        Disjunction Distillation
+        {
+            Bookkeeper's Gambit: v
+            <{Consideration}> // Lists inside of lists. Don't need contemplation. Probably removes some overhead since contem is a normal pattern while consid is a special case.
+            Speaker's Distillation
+            Bookkeeper's Gambit: v-
+            True Reflection
+            Jester's Gambit
+            Numerical Reflection: 2
+            Erebus' Gambit
+        }
+        Helios' Gambit
         // Is left bracket: Start a new list.
         Gemini Decomposition
         Contemplation
@@ -21,8 +57,9 @@ Vacant Reflection
         Equality Distillation
         {
             Bookkeeper's Gambit: v
-            <{Consideration}> // Lists inside of lists. Don't need contemplation.
+            <{Consideration}>
             Speaker's Distillation
+            Jester's Gambit
             Vacant Reflection
             Numerical Reflection: 2
             Erebus' Gambit
@@ -36,6 +73,7 @@ Vacant Reflection
         {
             Bookkeeper's Gambit: v
             Retrograde Purification
+            Bubbling Gambit
             Speaker's Distillation
             Numerical Reflection: 2
             Erebus' Gambit
@@ -62,9 +100,29 @@ Vacant Reflection
                 // Stack: swindler's, lehmer, [hex], consid
                 Bookkeeper's Gambit: v--v
                 Jester's Gambit
-                Contemplation
-                <Lehmer to jumble>
-                Hermes' Gambit
+                // Lehmer to jumble
+                Gemini Decomposition
+                Numerical Reflection: 1
+                Jester's Gambit
+                Numerical Reflection: 1
+                {
+                    Retention Gambit: Minimus
+                    Acheron's Gambit
+                    Rotation Gambit
+                    Incrementation Purification
+                    Undertaker's Gambit
+                    Multiplicative Distillation
+                    Bubbling Gambit
+                }
+                Sisyphus' Gambit
+                Bookkeeper's Gambit: vv
+                Numerical Reflection: 0
+                Prospector's Gambit
+                Nullary Reflection
+                Ranger's Exaltation
+                Rotation Gambit
+                Swindler's Distillation
+                Jumbling Gambit
             }
             { // Last thing was not a number.
                 Speaker's Distillation
@@ -118,6 +176,7 @@ Vacant Reflection
     }
     Hermes' Gambit
 }
-Rotation Gambit
+Geb's Gambit // 3
 Anubis' Gambit
 Retrograde Purification
+Bookkeeper's Gambit: v-
