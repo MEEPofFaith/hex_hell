@@ -143,14 +143,45 @@ Vacant Reflection
         Augur's Exaltation
         Hermes' Gambit
 
-        // Check for constant reflections
-        Gemini Decomposition
+        // Name-based checks
+        Gemini Decomposition    
         Patternmaster's Purification
-        Gemini Decomposition
         Nullary Reflection
         Inequality Distillation
-        {
-            // Stack: Jump, [Hex], Pattern, Name
+        { // Stack: Jump, [Hex], Pattern, Name
+            // Check for special patterns
+            Contemplation
+            <Dict of special pattern names>
+            Entry Purification
+            {
+                Flock's Disintegration
+                // Stack: Jump, [Hex], Pattern, Full Name, Handler name, Op
+                Rotation Gambit II
+                Separation Distillation // Matches: ["", "suffix"]. A non-match will only be one element.
+                Gemini Decomposition
+                Length Purification
+                Numerical Reflection: 2
+                Equality Distillation
+                {
+                    // Stack: Jump, [Hex], Pattern, Op, ["", suffix]
+                    Bookkeeper's Gambit: v--
+                    Numerical Reflection: 1
+                    Selection Distillation
+                    Jester's Gambit
+                    Hermes' Gambit
+                    Speaker's Distillation
+                    False Reflection
+                    Reflecting Gambit
+                    Hermes' Gambit
+                }
+                Helios' Gambit
+                Sekhmet' Gambit // 0
+            }
+            Jester's Gambit
+            Thoth's Gambit
+            Bookkeeper's Gambit: v
+
+            // Check for constant reflections.
             {
                 Sekhmet' Gambit // 2
                 Locator's Distillation
@@ -170,6 +201,7 @@ Vacant Reflection
                 Bubbling Gambit
                 Speaker's Distillation
                 Jester's Gambit
+                // Is the last check. Just let the finale handle this insertion.
             }
             Helios' Gambit
         }
