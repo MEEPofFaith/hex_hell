@@ -1,4 +1,2 @@
 // Stack: ..., Jump, [Hex]
-<{Consideration}> // List inside list. Only need consideration. Probably faster since it's a special case and doesn't need to go through the registry.
-Speaker's Distillation
 True Reflection

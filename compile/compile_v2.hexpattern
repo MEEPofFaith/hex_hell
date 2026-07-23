@@ -3,9 +3,17 @@ False Reflection
 Vacant Reflection
 {
     Rotation Gambit
-    { // Last pattern was consid/contem. Directly embed.
+    { // Last pattern was consid/contem. Bubble if necessary, then directly embed.
         // Stack: ..., [Hex], Iota, Jump
         Rotation Gambit II
+        Contemplation
+        <[Intro, Retro]> // Things that shouldn't be bubbled.
+        Prospector's Gambit
+        Locator's Distillation
+        Incrementation Purification // -1 -> 0 to be false if not found.
+        Contemplation // Does not match with anything in the exclusion list
+        Bubbles' Purification
+        Selene's Gambit
         Speaker's Distillation
         False Reflection
         // Stack: ..., Jump, [Hex], False
@@ -84,18 +92,15 @@ Vacant Reflection
                 Gemini Decomposition
                 Classifier's Purification
                 Contemplation
-                <Number>
+                <Bubble>
                 Equality Distillation
-                { // Last thing was a number. Run op.
-                    Jester's Gambit
-                    Speaker's Decomposition
-                    // Stack: ..., Jump, Op, Pattern, #, [Hex], Consid
-                    Bookkeeper's Gambit: v--v // Assume there's a consid before the number. After all, it was likely just processed by this compiler hex.
+                { // Last thing was a bubble. Run op.
+                    Hermes' Gambit // Assume the bubble contains a number, as why would you have anything else before a numeric stack manip operation.
                     // Stack: ..., Jump, Op, #, [Hex]
                     Reflecting Gambit
                     Hermes' Gambit
                 }
-                { // Last thing wasn't a number. Just embed.
+                { // Last thing wasn't a bubble. Just embed.
                     Speaker's Distillation
                     Jester's Gambit
                     Bookkeeper's Gambit: v--
@@ -162,6 +167,7 @@ Vacant Reflection
                 Incrementation Purification // -1 is not found. Increment to 0 to count as false.
                 {
                     Hermes' Gambit
+                    Bubbles' Purification
                     Speaker's Distillation
                     False Reflection
                     Reflecting Gambit
