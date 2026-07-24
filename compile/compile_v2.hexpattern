@@ -83,10 +83,11 @@ Vacant Reflection
             Flock's Disintegration
             // Stack: ..., Jump, [Hex], Pattern, Key, Op
             Rotation Gambit II
+            Prospector's Gambit
             Equality Distillation
             {
-                // Stack: ..., Jump, [Hex], Pattern, Op
-                Reflecting Gambit
+                // Stack: ..., Jump, [Hex], Op, Pattern
+                Rotation Gambit
                 Speaker's Decomposition
                 // Stack: ..., Jump, Op, Pattern, [Hex], Last
                 Gemini Decomposition
@@ -96,12 +97,21 @@ Vacant Reflection
                 Equality Distillation
                 { // Last thing was a bubble. Run op.
                     Hermes' Gambit // Assume the bubble contains a number, as why would you have anything else before a numeric stack manip operation.
-                    // Stack: ..., Jump, Op, #, [Hex]
-                    Reflecting Gambit
+                    // Stack: ..., Jump, Op, Pattern, [Hex], #
+                    Bookkeeper's Gambit: v--
+                    Rotation Gambit
                     Hermes' Gambit
                 }
                 { // Last thing wasn't a bubble. Just embed.
+                    Gemini Decomposition
+                    Nullary Reflection // Idk why you'd have a stack manip at the start of a list, but just in case.
+                    Inequality Distillation
+                    Contemplation
                     Speaker's Distillation
+                    Contemplation
+                    Bookkeeper's Gambit: v
+                    Augur's Exaltation
+                    Hermes' Gambit
                     Jester's Gambit
                     Bookkeeper's Gambit: v--
                 }
