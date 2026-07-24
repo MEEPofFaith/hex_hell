@@ -93,8 +93,6 @@ Hermes' Gambit
     { // ID is not air. Attempt string match.
         Gemini Decomposition
         { // Inner stack: String
-            Contemplation
-            Patience // ID - Index 1
             Jester's Gambit
             Locator's Distillation
             Gemini Decomposition
@@ -102,10 +100,10 @@ Hermes' Gambit
             Acheron's Gambit
             Bookkeeper's Gambit: v
         }
-        Numerical Reflection: 1
-        Rotation Gambit
+        Jester's Gambit
         Scrivener's Purification
-        Surgeon's Exaltation
+        Bubbles' Purification
+        Speaker's Distillation
         Contemplation
         <[Various strings considered transparent]>
         Nehmetawy's Gambit
@@ -127,8 +125,6 @@ Hermes' Gambit
         <Color vector list>
         // Stack: ..., [[Vecs], Mat...], Index, Shift, map col, 0, 10, [cols]
         { // Inner stack: ..., [[Vecs], Mat...], Index, Shift, cIn, min, col, index
-            Contemplation
-            Bookkeeper's Gambit: -
             Rotation Gambit
             Distance Distillation
             // Stack: ..., [[Vecs], Mat...], Index, Shift, cIn, min, index, dst
@@ -144,10 +140,10 @@ Hermes' Gambit
             Augur's Exaltation
             Hermes' Gambit
         }
-        Numerical Reflection: 1
-        // Stack: ..., [[Vecs], Mat...], Index, Shift, map col, 0, 10, [cols], [check], 1
-        Geb's Gambit // 5
-        Surgeon's Exaltation
+        // Stack: ..., [[Vecs], Mat...], Index, Shift, map col, 0, 10, [cols], [check]
+        Geb's Gambit // 4
+        Bubbles' Purification
+        Speaker's Distillation
         Jester's Gambit
         Ra's Gambit
         // Stack: ..., [[Vecs], Mat...], Index, Shift, cIn, min

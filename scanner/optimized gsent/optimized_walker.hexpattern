@@ -117,8 +117,9 @@ Fisherman's Gambit
                 Iris' Gambit
             }
             Helios' Gambit
-            Contemplation
-            Patience // Unique pattern 1
+            {
+                Patience // Unique pattern 1
+            }
             Hermes' Gambit
         }
         Hermes' Gambit
@@ -134,7 +135,7 @@ Patience // Unique pattern 1
 Locator's Distillation
 // Stack: Max, ..., Op, [TargetPos], [TargetOp], Index
 Geb's Gambit // 3
-Surgeon's Exaltation
+Flattening Exaltation // Flatten the op so that the compile also optimizes the op.
 Contemplation
 <Compile Hex>
 Hermes' Gambit
